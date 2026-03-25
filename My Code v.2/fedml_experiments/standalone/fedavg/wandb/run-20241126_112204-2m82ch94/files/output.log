@@ -1,0 +1,23 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+tensor([7, 2, 2, 5, 0, 6, 6, 6, 6, 9])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: CL_SIA_Bho
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502631545622}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314467787352}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 8)
+Traceback (most recent call last):
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 365, in <module>
+    fedavgAPI.train()
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_api/standalone/fedavg/fedavg_api_CL_SIA_Bho.py", line 144, in train
+    self._local_test_on_all_clients(round_idx, nonZerosOfAggregate, self.args.client_num_per_round, commCost, data_trans_norm)                          #Check test accuracy, etc parameters for the training accuracy at a given global iterations
+                                               ^^^^^^^^^^^^^^^^^^^
+NameError: name 'nonZerosOfAggregate' is not defined

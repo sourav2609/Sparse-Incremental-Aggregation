@@ -1,0 +1,22 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3']
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.07881822402016049, 'training_loss': 2.328486735557196}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314364563243}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 4)
+tensor([0, 4, 2, 0, 2])
+%%% pytorch_total_params = 7850
+p value = 0.1
+in algo 0
+data_trans_norm = 7.4127388535031855
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.6680814377611247, 'training_loss': 1.7923521918523644}
+INFO:root:{'test_acc': 0.6642236699239956, 'test_loss': 1.7940007996352048}

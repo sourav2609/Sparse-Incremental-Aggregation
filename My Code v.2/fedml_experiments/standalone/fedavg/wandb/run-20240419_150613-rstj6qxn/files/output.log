@@ -1,0 +1,145 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.07882345138612548, 'training_loss': 2.32848492750582}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314047124825}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 12)
+tensor([7, 7, 5, 9, 6, 6, 6, 9, 7, 9, 8, 8, 6, 5, 7, 8, 5, 6, 6, 9, 7, 7, 6, 7,
+        8, 8, 5, 9, 7, 7, 6, 8, 9, 7, 6, 5, 9, 9, 7, 9, 5, 5, 5, 6, 8, 6, 5, 9,
+        8, 6, 5, 7, 8, 8, 5, 8, 5, 9, 5, 5, 9, 5, 8, 7, 6, 8, 9, 7, 8, 5, 6, 8,
+        5, 8, 8, 6, 7, 6, 7, 8])
+%%% pytorch_total_params = 7850
+p in args = 0.01
+In Algo 3
+p value = 0.01
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.3064066852367688, 'training_loss': 2.2194812734716214}
+INFO:root:{'test_acc': 0.30401737242128124, 'test_loss': 2.219900873144856}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 17.74358974358974
+INFO:root:################local_test_on_all_clients : 2
+INFO:root:{'training_acc': 0.5182716540655259, 'training_loss': 2.0905048302384044}
+INFO:root:{'test_acc': 0.509500542888165, 'test_loss': 2.0904325008651203}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 50.61538461538461
+INFO:root:################local_test_on_all_clients : 3
+INFO:root:{'training_acc': 0.6558230534553654, 'training_loss': 1.9932337085943606}
+INFO:root:{'test_acc': 0.6471226927252985, 'test_loss': 1.9925935435372766}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 90.67948717948718
+data_trans_norm = 135.29487179487182
+INFO:root:################local_test_on_all_clients : 4
+INFO:root:{'training_acc': 0.7411792014856081, 'training_loss': 1.9270661594396814}
+INFO:root:{'test_acc': 0.7368349619978285, 'test_loss': 1.9261623528764769}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 5
+INFO:root:{'training_acc': 0.7808893752487067, 'training_loss': 1.8866394207480415}
+INFO:root:{'test_acc': 0.7749728555917481, 'test_loss': 1.885112456888381}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 185.92307692307702
+INFO:root:################local_test_on_all_clients : 6
+INFO:root:{'training_acc': 0.7967237034089402, 'training_loss': 1.8577520161657628}
+INFO:root:{'test_acc': 0.7926167209554832, 'test_loss': 1.8559137560775045}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 239.14102564102575
+INFO:root:################local_test_on_all_clients : 7
+INFO:root:{'training_acc': 0.8052128929566256, 'training_loss': 1.8405927046214352}
+INFO:root:{'test_acc': 0.8027958740499457, 'test_loss': 1.8385663838585864}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 294.2051282051283
+INFO:root:################local_test_on_all_clients : 8
+INFO:root:{'training_acc': 0.8078823451386126, 'training_loss': 1.8281150384304425}
+INFO:root:{'test_acc': 0.8070032573289903, 'test_loss': 1.826292789137713}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 349.7051282051283
+INFO:root:################local_test_on_all_clients : 9
+INFO:root:{'training_acc': 0.8124585488791617, 'training_loss': 1.8158000639593717}
+INFO:root:{'test_acc': 0.8099891422366993, 'test_loss': 1.814174449858008}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 405.974358974359
+INFO:root:################local_test_on_all_clients : 10
+INFO:root:{'training_acc': 0.8159901843745855, 'training_loss': 1.8063187451573863}
+INFO:root:{'test_acc': 0.8133821932681867, 'test_loss': 1.804542683105386}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 463.84615384615387
+INFO:root:################local_test_on_all_clients : 11
+INFO:root:{'training_acc': 0.8179300968298183, 'training_loss': 1.7989697852459174}
+INFO:root:{'test_acc': 0.8175895765472313, 'test_loss': 1.7971351535001874}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 521.7564102564103
+INFO:root:################local_test_on_all_clients : 12
+INFO:root:{'training_acc': 0.8229705531237564, 'training_loss': 1.7922635764923252}
+INFO:root:{'test_acc': 0.8204397394136808, 'test_loss': 1.7903710373643944}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 579.9358974358975
+INFO:root:################local_test_on_all_clients : 13
+INFO:root:{'training_acc': 0.824230667197241, 'training_loss': 1.7847517223561502}
+INFO:root:{'test_acc': 0.8215255157437568, 'test_loss': 1.7827763941207746}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 14
+INFO:root:{'training_acc': 0.8247778219923066, 'training_loss': 1.7805178706099491}
+INFO:root:{'test_acc': 0.8216612377850163, 'test_loss': 1.778606397838986}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 639.4871794871797
+data_trans_norm = 700.6153846153849
+INFO:root:################local_test_on_all_clients : 15
+INFO:root:{'training_acc': 0.8285747446610956, 'training_loss': 1.7745994747530989}
+INFO:root:{'test_acc': 0.8245114006514658, 'test_loss': 1.7727964481947607}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 760.8974358974361
+INFO:root:################local_test_on_all_clients : 16
+INFO:root:{'training_acc': 0.8314431622231065, 'training_loss': 1.7708669963985433}
+INFO:root:{'test_acc': 0.8268186753528773, 'test_loss': 1.769162550002304}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 823.7435897435898
+INFO:root:################local_test_on_all_clients : 17
+INFO:root:{'training_acc': 0.8325872131582438, 'training_loss': 1.7667445374279918}
+INFO:root:{'test_acc': 0.8277687296416938, 'test_loss': 1.7652292222464123}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 887.0
+INFO:root:################local_test_on_all_clients : 18
+INFO:root:{'training_acc': 0.8335488791616925, 'training_loss': 1.7623542333443012}
+INFO:root:{'test_acc': 0.8302117263843648, 'test_loss': 1.7609505459552997}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 12)
+Traceback (most recent call last):
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 347, in <module>
+    fedavgAPI.train()
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_api/standalone/fedavg/fedavg_api_algo3.py", line 93, in train
+    w = client.train(w_global_temp_to_train, round_idx)             #Get local parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_api/standalone/fedavg/client.py", line 29, in train
+    self.model_trainer.train(self.local_training_data, self.device, round, self.args)
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_api/standalone/fedavgPlannedAsync/my_model_trainer_classification.py", line 74, in train
+    train_data = self.shuffle_data_each_Epoch(train_data)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_api/standalone/fedavgPlannedAsync/my_model_trainer_classification.py", line 287, in shuffle_data_each_Epoch
+    shuff_combined_data.append(x)   # shuff_combined_data is the input and label data that are shuffled and are in two tensors
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+data_trans_norm = 949.9487179487179

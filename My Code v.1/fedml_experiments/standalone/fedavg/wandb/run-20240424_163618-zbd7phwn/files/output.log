@@ -1,0 +1,51 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+tensor([0, 1, 0, 8, 5, 2, 7, 3, 9, 3, 8, 6, 3, 5, 2, 5, 7, 1, 5, 3])
+%%% pytorch_total_params = 7850
+p in args = 0.01
+In algo 2
+p value = 0.01
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07835409368106916, 'training_loss': 2.328847745427891}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314368769865}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 1
+data_trans_norm = 78.0
+Round idx in main = 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.40667574931880107, 'training_loss': 2.1206685750999847}
+INFO:root:{'test_acc': 0.4025515743756786, 'test_loss': 2.122115599345436}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 2
+data_trans_norm = 78.0
+Round idx in main = 2
+INFO:root:{'training_acc': 0.5821006876865188, 'training_loss': 1.968737850922995}
+INFO:root:{'test_acc': 0.5792616720955484, 'test_loss': 1.9690330876654316}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 12)
+round idx in local_test = 2
+data_trans_norm = 78.0
+Round idx in main = 3
+INFO:root:################local_test_on_all_clients : 3
+INFO:root:{'training_acc': 0.7153399506941741, 'training_loss': 1.8083377243387602}
+INFO:root:{'test_acc': 0.7137622149837134, 'test_loss': 1.8089824906842586}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 12)
+round idx in local_test = 3
+data_trans_norm = 78.0
+Round idx in main = 4
+INFO:root:################local_test_on_all_clients : 4
+INFO:root:{'training_acc': 0.7824542623588945, 'training_loss': 1.7132781283878948}
+INFO:root:{'test_acc': 0.7793159609120521, 'test_loss': 1.7120457709676926}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 12)

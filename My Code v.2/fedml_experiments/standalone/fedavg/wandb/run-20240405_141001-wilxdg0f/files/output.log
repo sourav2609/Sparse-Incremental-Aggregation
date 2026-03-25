@@ -1,0 +1,72 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+tensor([7, 2, 2, 5, 0])
+%%% pytorch_total_params = 7850
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502665956714}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.32873144257211}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 8)
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -2.7841, -3.0820, -2.5142])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -3.8805, -4.3212, -3.9145])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -4.6510, -5.2128, -4.7741])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -5.2689, -5.7647, -5.4952])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -5.7348, -6.2691, -6.0485])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -6.1877, -6.6197, -6.5264])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -6.5538, -6.9843, -6.9292])
+INFO:root:################local_test_on_all_clients : 1
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -6.9403, -7.2998, -7.3444])
+INFO:root:{'training_acc': 0.8859464193046186, 'training_loss': 1.5629403257213792}
+INFO:root:{'test_acc': 0.8797502714440825, 'test_loss': 1.5687017653715856}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 8)
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -0.4806, -0.4719, -0.4747])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -0.5069, -0.4698, -0.5635])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -0.4907, -0.5088, -0.5470])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -0.4918, -0.4742, -0.5775])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -0.4703, -0.4503, -0.5323])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -0.5053, -0.4181, -0.5480])
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -0.4629, -0.4493, -0.5267])
+INFO:root:################local_test_on_all_clients : 2
+INFO:root:{'training_acc': 0.8900006486766995, 'training_loss': 1.5583344901905631}
+INFO:root:{'test_acc': 0.882600434310532, 'test_loss': 1.5645755842959066}
+in basic 3-with TopK sparsification
+in TopK: p = 1
+values_updated = tensor([ 0.0000,  0.0000,  0.0000,  ..., -0.5329, -0.4215, -0.5836])

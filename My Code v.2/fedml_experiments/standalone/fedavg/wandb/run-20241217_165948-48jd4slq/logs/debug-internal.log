@@ -1,0 +1,26 @@
+{"time":"2024-12-17T16:59:48.722192+01:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-12-17T16:59:48.722244+01:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241217_165948-48jd4slq/logs/debug-core.log"}
+{"time":"2024-12-17T16:59:48.728093+01:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-12-17T16:59:48.741813+01:00","level":"INFO","msg":"created new stream","id":"48jd4slq"}
+{"time":"2024-12-17T16:59:48.741851+01:00","level":"INFO","msg":"stream: started","id":"48jd4slq"}
+{"time":"2024-12-17T16:59:48.741881+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"48jd4slq"}}
+{"time":"2024-12-17T16:59:48.741865+01:00","level":"INFO","msg":"sender: started","stream_id":{"value":"48jd4slq"}}
+{"time":"2024-12-17T16:59:48.741857+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"48jd4slq"}}
+{"time":"2024-12-17T16:59:49.019735+01:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-12-17T16:59:49.021724+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-17T16:59:59.050966+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T17:00:09.042686+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T17:00:19.04204+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T17:00:29.043892+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T17:00:39.041398+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T17:00:40.767911+01:00","level":"INFO","msg":"stream: closing","id":"48jd4slq"}
+{"time":"2024-12-17T17:00:40.768183+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-17T17:00:40.768206+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-17T17:00:40.927001+01:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-12-17T17:00:40.927013+01:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-12-17T17:00:40.927018+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-17T17:00:41.787326+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-17T17:00:42.023966+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"48jd4slq"}}
+{"time":"2024-12-17T17:00:42.023951+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"48jd4slq"}}
+{"time":"2024-12-17T17:00:42.024021+01:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"48jd4slq"}}
+{"time":"2024-12-17T17:00:42.02443+01:00","level":"INFO","msg":"stream: closed","id":"48jd4slq"}

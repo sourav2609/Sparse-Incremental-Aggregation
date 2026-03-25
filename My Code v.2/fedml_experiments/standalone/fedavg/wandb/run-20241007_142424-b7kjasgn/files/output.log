@@ -1,0 +1,71 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+tensor([7, 2, 2, 5, 0, 6, 6, 6, 6, 9, 2, 4, 1, 9, 7, 7, 2, 8, 7, 0])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: Constant-Length ALgorithm
+K value = 78
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502628839134}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.328731441277764}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 8)
+INFO:root:################local_test_on_all_clients : 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.424980539699014, 'training_loss': 2.1248663795554212}
+INFO:root:{'test_acc': 0.4220955483170467, 'test_loss': 2.1268872913786177}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 8)
+INFO:root:################local_test_on_all_clients : 2
+round idx in local_test = 2
+INFO:root:{'training_acc': 0.5697489621172808, 'training_loss': 1.9835943288378104}
+INFO:root:{'test_acc': 0.5647394136807817, 'test_loss': 1.9833152935183915}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 8)
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.7004086663207058, 'training_loss': 1.8240326054135196}
+INFO:root:{'test_acc': 0.6958469055374593, 'test_loss': 1.8242903937637223}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 8)
+INFO:root:################local_test_on_all_clients : 4
+round idx in local_test = 4
+INFO:root:{'training_acc': 0.7492378048780488, 'training_loss': 1.7433670559075438}
+INFO:root:{'test_acc': 0.748099891422367, 'test_loss': 1.7415525513285535}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 8)
+INFO:root:################local_test_on_all_clients : 5
+round idx in local_test = 5
+INFO:root:{'training_acc': 0.788661131292164, 'training_loss': 1.690418211378826}
+INFO:root:{'test_acc': 0.7903094462540716, 'test_loss': 1.6894043137629826}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 8)
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.826673585884795, 'training_loss': 1.6543525976023032}
+INFO:root:{'test_acc': 0.8287187839305103, 'test_loss': 1.6526534966517736}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 8)
+Traceback (most recent call last):
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 351, in <module>
+    fedavgAPI.train()
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_api/standalone/fedavg/fedavg_api_CL_SIA_linear_growth_K.py", line 93, in train
+    w = client.train(w_global_temp_to_train, round_idx)             #Get local parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_api/standalone/fedavg/client.py", line 29, in train
+    self.model_trainer.train(self.local_training_data, self.device, round, self.args)
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_api/standalone/fedavgPlannedAsync/my_model_trainer_classification.py", line 86, in train
+    loss.backward()
+  File "/opt/anaconda3/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/opt/anaconda3/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/opt/anaconda3/lib/python3.12/site-packages/torch/autograd/graph.py", line 769, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

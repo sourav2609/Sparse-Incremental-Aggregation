@@ -1,0 +1,20 @@
+{"time":"2024-10-05T14:35:23.861012+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-05T14:35:23.861064+02:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Codes/fedml_experiments/standalone/fedavg/wandb/offline-run-20241005_143523-lqbqpytj/logs/debug-core.log"}
+{"time":"2024-10-05T14:35:23.872006+02:00","level":"INFO","msg":"created new stream","id":"lqbqpytj"}
+{"time":"2024-10-05T14:35:23.87205+02:00","level":"INFO","msg":"stream: started","id":"lqbqpytj"}
+{"time":"2024-10-05T14:35:23.87205+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lqbqpytj"}}
+{"time":"2024-10-05T14:35:23.872068+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lqbqpytj"}}
+{"time":"2024-10-05T14:35:23.87209+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"lqbqpytj"}}
+{"time":"2024-10-05T14:35:23.876565+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-05T14:35:23.877728+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-05T14:35:33.906097+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-05T14:35:43.897819+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-05T14:35:53.897009+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-05T14:36:03.89527+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-05T14:36:08.522045+02:00","level":"INFO","msg":"stream: closing","id":"lqbqpytj"}
+{"time":"2024-10-05T14:36:08.52217+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-05T14:36:08.522214+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-05T14:36:08.52285+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"lqbqpytj"}}
+{"time":"2024-10-05T14:36:08.522834+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lqbqpytj"}}
+{"time":"2024-10-05T14:36:08.522846+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lqbqpytj"}}
+{"time":"2024-10-05T14:36:08.523042+02:00","level":"INFO","msg":"stream: closed","id":"lqbqpytj"}

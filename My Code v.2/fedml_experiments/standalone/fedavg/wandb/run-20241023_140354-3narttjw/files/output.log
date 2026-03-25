@@ -1,0 +1,166 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+tensor([7, 2, 2, 5, 0, 6, 6, 6, 6, 9])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: Majority Voting Masks
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502631545622}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314467787352}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  147
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.2799364296834458, 'training_loss': 2.1837211850553087}
+INFO:root:{'test_acc': 0.28515200868621066, 'test_loss': 2.186757473390343}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  186
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 2
+round idx in local_test = 2
+INFO:root:{'training_acc': 0.5679488842760768, 'training_loss': 2.0396189490863863}
+INFO:root:{'test_acc': 0.5658251900108577, 'test_loss': 2.0404223222912456}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  199
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.6713155163466529, 'training_loss': 1.9106628689151326}
+INFO:root:{'test_acc': 0.6636807817589576, 'test_loss': 1.91396595838598}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  196
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 4
+round idx in local_test = 4
+INFO:root:{'training_acc': 0.7504216398546965, 'training_loss': 1.7423585506535961}
+INFO:root:{'test_acc': 0.7466069489685125, 'test_loss': 1.7443548736529553}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  187
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 5
+round idx in local_test = 5
+INFO:root:{'training_acc': 0.8090295796574987, 'training_loss': 1.665251704680066}
+INFO:root:{'test_acc': 0.8070032573289903, 'test_loss': 1.665243126460059}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  186
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.8013427607680332, 'training_loss': 1.655162092996157}
+INFO:root:{'test_acc': 0.7991313789359392, 'test_loss': 1.65802291762104}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  171
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 7
+round idx in local_test = 7
+INFO:root:{'training_acc': 0.8329170991177997, 'training_loss': 1.625628183307305}
+INFO:root:{'test_acc': 0.8291259500542888, 'test_loss': 1.6294373555369797}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  148
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 8
+round idx in local_test = 8
+INFO:root:{'training_acc': 0.8419823559937727, 'training_loss': 1.6144215213004394}
+INFO:root:{'test_acc': 0.8321118349619978, 'test_loss': 1.6193826444827255}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  133
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 9
+round idx in local_test = 9
+INFO:root:{'training_acc': 0.852912558380903, 'training_loss': 1.6074542230469735}
+INFO:root:{'test_acc': 0.8398479913137894, 'test_loss': 1.6132243258168721}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  108
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 10
+round idx in local_test = 10
+INFO:root:{'training_acc': 0.8532855474831345, 'training_loss': 1.6053549267069378}
+INFO:root:{'test_acc': 0.8425624321389794, 'test_loss': 1.6112163988923922}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  93
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 11
+round idx in local_test = 11
+INFO:root:{'training_acc': 0.8566911001556824, 'training_loss': 1.6050596103636663}
+INFO:root:{'test_acc': 0.8463626492942454, 'test_loss': 1.6102541007028728}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  86
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 12
+round idx in local_test = 12
+INFO:root:{'training_acc': 0.854615334717177, 'training_loss': 1.6086204230522454}
+INFO:root:{'test_acc': 0.8470412595005429, 'test_loss': 1.613868486091705}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  73
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 13
+round idx in local_test = 13
+INFO:root:{'training_acc': 0.8576316813700052, 'training_loss': 1.6062724560994093}
+INFO:root:{'test_acc': 0.8551845819761129, 'test_loss': 1.6105735769068639}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  46
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 14
+round idx in local_test = 14
+INFO:root:{'training_acc': 0.8611507524649714, 'training_loss': 1.6037261633789162}
+INFO:root:{'test_acc': 0.8564060803474485, 'test_loss': 1.6091814092749752}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  44
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 15
+round idx in local_test = 15
+INFO:root:{'training_acc': 0.8629670472236637, 'training_loss': 1.5986782838921505}
+INFO:root:{'test_acc': 0.8555917480998915, 'test_loss': 1.6037390250045236}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  45
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 16
+round idx in local_test = 16
+INFO:root:{'training_acc': 0.8611021017125065, 'training_loss': 1.599961170800065}
+INFO:root:{'test_acc': 0.8566775244299675, 'test_loss': 1.6045180768680625}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  43
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 17
+round idx in local_test = 17
+INFO:root:{'training_acc': 0.8666158536585366, 'training_loss': 1.594040963553244}
+INFO:root:{'test_acc': 0.8653637350705755, 'test_loss': 1.5996592303214192}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  50
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 18
+round idx in local_test = 18
+INFO:root:{'training_acc': 0.8702160093409445, 'training_loss': 1.5921336050842732}
+INFO:root:{'test_acc': 0.8686210640608035, 'test_loss': 1.5982930994189135}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  44
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 19
+round idx in local_test = 19
+INFO:root:{'training_acc': 0.8689510897768552, 'training_loss': 1.589970323900423}
+INFO:root:{'test_acc': 0.867128121606949, 'test_loss': 1.5949226501160154}

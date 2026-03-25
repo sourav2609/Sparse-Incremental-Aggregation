@@ -1,0 +1,66 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27']
+tensor([7, 9, 5, 5, 5, 0, 4, 2, 6, 0, 8, 2, 2, 7, 6, 0, 0, 7, 2, 1])
+%%% pytorch_total_params = 7850
+p in args = 0.0135
+In Algo 5
+p value = 0.0135
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.07835409368106916, 'training_loss': 2.3288477393181637}
+INFO:root:{'test_acc': 0.07930472569255839, 'test_loss': 2.3287101388948885}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 28)
+nonZerosOfAggregate = [98]
+nonZerosOfAggregate = [98, 98]
+nonZerosOfAggregate = [98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+nonZerosOfAggregate = [98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98, 98]
+data_trans_norm = 28.0
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.15372388737511353, 'training_loss': 2.298612590366352}
+INFO:root:{'test_acc': 0.15073329712112982, 'test_loss': 2.298766691130442}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 28)
+nonZerosOfAggregate = [105]
+nonZerosOfAggregate = [105, 105]
+nonZerosOfAggregate = [105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105, 105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105, 105, 105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105]
+nonZerosOfAggregate = [105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105, 105]

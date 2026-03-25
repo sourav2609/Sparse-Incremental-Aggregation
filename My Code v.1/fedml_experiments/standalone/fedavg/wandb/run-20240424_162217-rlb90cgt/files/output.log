@@ -1,0 +1,120 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3']
+tensor([8, 8, 2, 1, 0, 3, 1, 7, 9, 8, 8, 3, 3, 4, 4, 2, 3, 5, 3, 7])
+%%% pytorch_total_params = 7850
+p in args = 0.01
+In Algo 4
+p value = 0.01
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.328850261368279}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314411483293}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 10.0
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.1714290347690711, 'training_loss': 2.315777363063266}
+INFO:root:{'test_acc': 0.17046688382193267, 'test_loss': 2.316731697443901}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 4)
+INFO:root:################local_test_on_all_clients : 2
+data_trans_norm = 10.158512720156555
+INFO:root:{'training_acc': 0.16173131811105346, 'training_loss': 2.271036196324141}
+INFO:root:{'test_acc': 0.16992399565689467, 'test_loss': 2.27059360241657}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 10.704500978473583
+INFO:root:################local_test_on_all_clients : 3
+INFO:root:{'training_acc': 0.3277276855215361, 'training_loss': 2.2268084060607576}
+INFO:root:{'test_acc': 0.3258686210640608, 'test_loss': 2.225290321695429}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 4)
+INFO:root:################local_test_on_all_clients : 4
+data_trans_norm = 10.669275929549903
+INFO:root:{'training_acc': 0.3018130513751946, 'training_loss': 2.187084786628712}
+INFO:root:{'test_acc': 0.30306731813246474, 'test_loss': 2.1861459173415825}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 4)
+INFO:root:################local_test_on_all_clients : 5
+data_trans_norm = 10.651663405088062
+INFO:root:{'training_acc': 0.3889465490399585, 'training_loss': 2.1119200687567434}
+INFO:root:{'test_acc': 0.38558631921824105, 'test_loss': 2.1111429378988946}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 4)
+INFO:root:################local_test_on_all_clients : 6
+data_trans_norm = 10.810176125244618
+INFO:root:{'training_acc': 0.435797223663726, 'training_loss': 2.0402386811386446}
+INFO:root:{'test_acc': 0.43308903365906626, 'test_loss': 2.040497615723087}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 4)
+INFO:root:################local_test_on_all_clients : 7
+data_trans_norm = 10.915851272015654
+INFO:root:{'training_acc': 0.6007394914374675, 'training_loss': 1.8947659194562245}
+INFO:root:{'test_acc': 0.5985342019543974, 'test_loss': 1.8946158760080638}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 10.933463796477495
+INFO:root:################local_test_on_all_clients : 8
+INFO:root:{'training_acc': 0.6586176699532953, 'training_loss': 1.8057648745777697}
+INFO:root:{'test_acc': 0.6585233441910966, 'test_loss': 1.8045390955335283}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 4)
+INFO:root:################local_test_on_all_clients : 9
+data_trans_norm = 11.19765166340509
+INFO:root:{'training_acc': 0.6813700051894136, 'training_loss': 1.7883925505589497}
+INFO:root:{'test_acc': 0.6802388707926167, 'test_loss': 1.7878558193692426}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 11.091976516634052
+INFO:root:################local_test_on_all_clients : 10
+INFO:root:{'training_acc': 0.7194635443694862, 'training_loss': 1.7546264995285805}
+INFO:root:{'test_acc': 0.7164766558089034, 'test_loss': 1.7555933802769834}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 10.898238747553815
+INFO:root:################local_test_on_all_clients : 11
+INFO:root:{'training_acc': 0.7295829008822003, 'training_loss': 1.7336703143360457}
+INFO:root:{'test_acc': 0.7262486427795874, 'test_loss': 1.734458132364851}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 11.19765166340509
+INFO:root:################local_test_on_all_clients : 12
+INFO:root:{'training_acc': 0.7781850025947068, 'training_loss': 1.6729499614093362}
+INFO:root:{'test_acc': 0.7790445168295331, 'test_loss': 1.6735468396793618}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 11.144814090019569
+INFO:root:################local_test_on_all_clients : 13
+INFO:root:{'training_acc': 0.7756713803840166, 'training_loss': 1.661569881157734}
+INFO:root:{'test_acc': 0.7723941368078175, 'test_loss': 1.664325928843371}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 11.215264187866929
+INFO:root:################local_test_on_all_clients : 14
+INFO:root:{'training_acc': 0.7866664504411002, 'training_loss': 1.656427345493326}
+INFO:root:{'test_acc': 0.7787730727470141, 'test_loss': 1.6597489134108205}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 11.12720156555773
+INFO:root:################local_test_on_all_clients : 15
+INFO:root:{'training_acc': 0.7893584587441619, 'training_loss': 1.6654164565695218}
+INFO:root:{'test_acc': 0.7878664495114006, 'test_loss': 1.6664323802232484}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 11.232876712328768
+INFO:root:################local_test_on_all_clients : 16
+INFO:root:{'training_acc': 0.8229436948624805, 'training_loss': 1.6429298395821637}
+INFO:root:{'test_acc': 0.8121606948968513, 'test_loss': 1.6493035250714496}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 4)
+data_trans_norm = 11.215264187866929
+INFO:root:################local_test_on_all_clients : 17
+INFO:root:{'training_acc': 0.8354955889984432, 'training_loss': 1.6250183328514465}
+INFO:root:{'test_acc': 0.8295331161780674, 'test_loss': 1.6334238701482808}
+INFO:root:################Communication round : 18

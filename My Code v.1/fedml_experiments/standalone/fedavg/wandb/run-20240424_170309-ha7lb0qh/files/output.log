@@ -1,0 +1,313 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+tensor([0, 1, 0, 8, 5, 2, 7, 3, 9, 3])
+%%% pytorch_total_params = 7850
+p in args = 0.01
+In Algo 4
+p value = 0.01
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.07835409368106916, 'training_loss': 2.328847744089938}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.32873143823605}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 79.10491071428572
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.14824185805112236, 'training_loss': 2.3146727684794874}
+INFO:root:{'test_acc': 0.1482084690553746, 'test_loss': 2.314570175902463}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 2
+data_trans_norm = 82.45596868884539
+INFO:root:{'training_acc': 0.17354353185415855, 'training_loss': 2.266754067514879}
+INFO:root:{'test_acc': 0.1769815418023887, 'test_loss': 2.2663944710802437}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 3
+data_trans_norm = 90.89236790606654
+INFO:root:{'training_acc': 0.2667704684053458, 'training_loss': 2.2165258975519007}
+INFO:root:{'test_acc': 0.2733441910966341, 'test_loss': 2.2150109560430113}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 98.46575342465752
+INFO:root:################local_test_on_all_clients : 4
+INFO:root:{'training_acc': 0.3936843129622421, 'training_loss': 2.0935993684634355}
+INFO:root:{'test_acc': 0.3927795874049946, 'test_loss': 2.0912825089841918}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 103.85518590998042
+INFO:root:################local_test_on_all_clients : 5
+INFO:root:{'training_acc': 0.5081581678993123, 'training_loss': 1.9493909366201672}
+INFO:root:{'test_acc': 0.5001357220412594, 'test_loss': 1.9515977842929437}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 103.11545988258317
+INFO:root:################local_test_on_all_clients : 6
+INFO:root:{'training_acc': 0.6724082003373556, 'training_loss': 1.7615418872574014}
+INFO:root:{'test_acc': 0.6693811074918566, 'test_loss': 1.758968640033896}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 7
+data_trans_norm = 109.36790606653621
+INFO:root:{'training_acc': 0.7683761515505385, 'training_loss': 1.689863470381176}
+INFO:root:{'test_acc': 0.7684581976112921, 'test_loss': 1.6867531469409291}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 8
+data_trans_norm = 111.28767123287672
+INFO:root:{'training_acc': 0.7987219410925133, 'training_loss': 1.6607404832897505}
+INFO:root:{'test_acc': 0.8008957654723127, 'test_loss': 1.6591861866713864}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 106.70841487279844
+INFO:root:################local_test_on_all_clients : 9
+INFO:root:{'training_acc': 0.8170169975347087, 'training_loss': 1.641882315867758}
+INFO:root:{'test_acc': 0.8151465798045603, 'test_loss': 1.6417319238444752}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 108.82191780821918
+INFO:root:################local_test_on_all_clients : 10
+INFO:root:{'training_acc': 0.8269754768392371, 'training_loss': 1.6349935754079894}
+INFO:root:{'test_acc': 0.8208469055374593, 'test_loss': 1.6393812426591412}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 108.17025440313111
+INFO:root:################local_test_on_all_clients : 11
+INFO:root:{'training_acc': 0.8474114441416893, 'training_loss': 1.6221822807455366}
+INFO:root:{'test_acc': 0.8431053203040174, 'test_loss': 1.62805666325535}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 12
+data_trans_norm = 105.33463796477494
+INFO:root:{'training_acc': 0.8619112495134293, 'training_loss': 1.6121164923112061}
+INFO:root:{'test_acc': 0.8554560260586319, 'test_loss': 1.6164903253737541}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 13
+data_trans_norm = 102.21722113502935
+INFO:root:{'training_acc': 0.8648468924354483, 'training_loss': 1.6054049939926425}
+INFO:root:{'test_acc': 0.8606134636264929, 'test_loss': 1.6092872809897805}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 14
+data_trans_norm = 111.76320939334637
+INFO:root:{'training_acc': 0.8620734397301155, 'training_loss': 1.6055900750688283}
+INFO:root:{'test_acc': 0.8587133550488599, 'test_loss': 1.6087719254139063}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 15
+data_trans_norm = 112.96086105675147
+INFO:root:{'training_acc': 0.8619112495134293, 'training_loss': 1.6087685642507548}
+INFO:root:{'test_acc': 0.8578990228013029, 'test_loss': 1.6117029451845006}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 108.89236790606654
+INFO:root:################local_test_on_all_clients : 16
+INFO:root:{'training_acc': 0.8614246788633709, 'training_loss': 1.6056616602008005}
+INFO:root:{'test_acc': 0.8578990228013029, 'test_loss': 1.6093946732540214}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 112.06262230919765
+INFO:root:################local_test_on_all_clients : 17
+INFO:root:{'training_acc': 0.8587647593097184, 'training_loss': 1.6066186686457402}
+INFO:root:{'test_acc': 0.8558631921824105, 'test_loss': 1.6114359634901103}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 18
+data_trans_norm = 112.46771037181998
+INFO:root:{'training_acc': 0.8617977163617491, 'training_loss': 1.6023934822772687}
+INFO:root:{'test_acc': 0.8592562432138979, 'test_loss': 1.6076341277872184}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 109.56164383561644
+INFO:root:################local_test_on_all_clients : 19
+INFO:root:{'training_acc': 0.8692098092643051, 'training_loss': 1.5949470103676409}
+INFO:root:{'test_acc': 0.8611563517915309, 'test_loss': 1.600217067975304}
+INFO:root:################Communication round : 20
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 20
+data_trans_norm = 112.02739726027397
+INFO:root:{'training_acc': 0.8703613598027767, 'training_loss': 1.5910560960696647}
+INFO:root:{'test_acc': 0.863870792616721, 'test_loss': 1.5972846532877572}
+INFO:root:################Communication round : 21
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 109.38551859099803
+INFO:root:################local_test_on_all_clients : 21
+INFO:root:{'training_acc': 0.8705722070844687, 'training_loss': 1.5886478070984156}
+INFO:root:{'test_acc': 0.8640065146579805, 'test_loss': 1.5954813153425336}
+INFO:root:################Communication round : 22
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 22
+data_trans_norm = 111.42857142857143
+INFO:root:{'training_acc': 0.8698261320877124, 'training_loss': 1.5891911976722888}
+INFO:root:{'test_acc': 0.8612920738327905, 'test_loss': 1.5959708291013905}
+INFO:root:################Communication round : 23
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 23
+data_trans_norm = 112.89041095890411
+INFO:root:{'training_acc': 0.8677338782924614, 'training_loss': 1.591188185809264}
+INFO:root:{'test_acc': 0.8603420195439739, 'test_loss': 1.5965417067598184}
+INFO:root:################Communication round : 24
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 109.59686888454011
+INFO:root:################local_test_on_all_clients : 24
+INFO:root:{'training_acc': 0.8654307772155183, 'training_loss': 1.5911139111984747}
+INFO:root:{'test_acc': 0.8554560260586319, 'test_loss': 1.5961265601500885}
+INFO:root:################Communication round : 25
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 25
+data_trans_norm = 108.7866927592955
+INFO:root:{'training_acc': 0.8643441027637213, 'training_loss': 1.5906702856021708}
+INFO:root:{'test_acc': 0.8564060803474485, 'test_loss': 1.5947925909528515}
+INFO:root:################Communication round : 26
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 112.87279843444227
+INFO:root:################local_test_on_all_clients : 26
+INFO:root:{'training_acc': 0.8667931750356819, 'training_loss': 1.5899155780980447}
+INFO:root:{'test_acc': 0.8589847991313789, 'test_loss': 1.594871736148799}
+INFO:root:################Communication round : 27
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 27
+data_trans_norm = 112.09784735812133
+INFO:root:{'training_acc': 0.8664687946023096, 'training_loss': 1.588873370099473}
+INFO:root:{'test_acc': 0.8587133550488599, 'test_loss': 1.5936383222847628}
+INFO:root:################Communication round : 28
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 109.06849315068493
+INFO:root:################local_test_on_all_clients : 28
+INFO:root:{'training_acc': 0.8657713766705593, 'training_loss': 1.5857695902199755}
+INFO:root:{'test_acc': 0.8615635179153095, 'test_loss': 1.591075083849614}
+INFO:root:################Communication round : 29
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 29
+data_trans_norm = 112.89041095890411
+INFO:root:{'training_acc': 0.8673608407940833, 'training_loss': 1.58414515132135}
+INFO:root:{'test_acc': 0.863870792616721, 'test_loss': 1.5901632524145024}
+INFO:root:################Communication round : 30
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 30
+data_trans_norm = 112.62622309197651
+INFO:root:{'training_acc': 0.8681880108991825, 'training_loss': 1.58460271575424}
+INFO:root:{'test_acc': 0.863056460369164, 'test_loss': 1.5901695724807268}
+INFO:root:################Communication round : 31
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 112.45009784735812
+INFO:root:################local_test_on_all_clients : 31
+INFO:root:{'training_acc': 0.8701342934994161, 'training_loss': 1.5827009415671383}
+INFO:root:{'test_acc': 0.8661780673181325, 'test_loss': 1.5869767913406758}
+INFO:root:################Communication round : 32
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 32
+data_trans_norm = 110.4774951076321
+INFO:root:{'training_acc': 0.868463734267549, 'training_loss': 1.581845913541074}
+INFO:root:{'test_acc': 0.8650922909880565, 'test_loss': 1.5858590815794713}
+INFO:root:################Communication round : 33
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 33
+data_trans_norm = 112.71428571428572
+INFO:root:{'training_acc': 0.8706370831711431, 'training_loss': 1.5801082108176079}
+INFO:root:{'test_acc': 0.867399565689468, 'test_loss': 1.5838428158454605}
+INFO:root:################Communication round : 34
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 113.08414872798434
+INFO:root:################local_test_on_all_clients : 34
+INFO:root:{'training_acc': 0.8718697288179577, 'training_loss': 1.5781140083373868}
+INFO:root:{'test_acc': 0.870114006514658, 'test_loss': 1.5817215179581596}
+INFO:root:################Communication round : 35
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 112.97847358121331
+INFO:root:################local_test_on_all_clients : 35
+INFO:root:{'training_acc': 0.8735240690281563, 'training_loss': 1.576398748170236}
+INFO:root:{'test_acc': 0.86957111834962, 'test_loss': 1.5804145965526988}
+INFO:root:################Communication round : 36
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 113.08414872798434
+INFO:root:################local_test_on_all_clients : 36
+INFO:root:{'training_acc': 0.8735565070714935, 'training_loss': 1.5772896931725777}
+INFO:root:{'test_acc': 0.8691639522258415, 'test_loss': 1.580787112121344}
+INFO:root:################Communication round : 37
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 37
+data_trans_norm = 111.65753424657535
+INFO:root:{'training_acc': 0.8730050603347606, 'training_loss': 1.5764679396076704}
+INFO:root:{'test_acc': 0.8694353963083605, 'test_loss': 1.5809108031818584}
+INFO:root:################Communication round : 38
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 110.88258317025439
+INFO:root:################local_test_on_all_clients : 38
+INFO:root:{'training_acc': 0.8748378097833138, 'training_loss': 1.5757516391495099}
+INFO:root:{'test_acc': 0.8691639522258415, 'test_loss': 1.581737651013396}
+INFO:root:################Communication round : 39
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 112.3972602739726
+INFO:root:################local_test_on_all_clients : 39
+INFO:root:{'training_acc': 0.8762488646684832, 'training_loss': 1.5757918678029774}
+INFO:root:{'test_acc': 0.8713355048859935, 'test_loss': 1.5815067395778226}
+INFO:root:################Communication round : 40
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 40
+data_trans_norm = 112.57338551859101
+INFO:root:{'training_acc': 0.8758920461917737, 'training_loss': 1.5743866409094738}
+INFO:root:{'test_acc': 0.8710640608034745, 'test_loss': 1.5792595192417906}
+INFO:root:################Communication round : 41
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 112.32681017612525
+INFO:root:################local_test_on_all_clients : 41
+INFO:root:{'training_acc': 0.8750486570650058, 'training_loss': 1.574165548655067}
+INFO:root:{'test_acc': 0.8713355048859935, 'test_loss': 1.5784414015168347}
+INFO:root:################Communication round : 42
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 112.62622309197653
+INFO:root:################local_test_on_all_clients : 42
+INFO:root:{'training_acc': 0.8748540288049825, 'training_loss': 1.5744022892477973}
+INFO:root:{'test_acc': 0.8705211726384365, 'test_loss': 1.5790441664953057}
+INFO:root:################Communication round : 43
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 113.26027397260273
+INFO:root:################local_test_on_all_clients : 43
+INFO:root:{'training_acc': 0.8753892565200467, 'training_loss': 1.5744718090096104}
+INFO:root:{'test_acc': 0.871471226927253, 'test_loss': 1.5798038597927548}
+INFO:root:################Communication round : 44
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 111.79843444227006
+INFO:root:################local_test_on_all_clients : 44
+INFO:root:{'training_acc': 0.8761191124951343, 'training_loss': 1.5743527083533337}
+INFO:root:{'test_acc': 0.87228555917481, 'test_loss': 1.5783768201430897}
+INFO:root:################Communication round : 45
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 45
+data_trans_norm = 113.26027397260273
+INFO:root:{'training_acc': 0.8761839885818088, 'training_loss': 1.5729678739976432}
+INFO:root:{'test_acc': 0.8710640608034745, 'test_loss': 1.5775602978293204}
+INFO:root:################Communication round : 46
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 46
+data_trans_norm = 111.39334637964774
+INFO:root:{'training_acc': 0.8768003114052161, 'training_loss': 1.5720562639443099}
+INFO:root:{'test_acc': 0.8699782844733985, 'test_loss': 1.57769748950367}
+INFO:root:################Communication round : 47
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 47
+data_trans_norm = 113.20743639921722
+INFO:root:{'training_acc': 0.8752595043466979, 'training_loss': 1.5715459570224855}
+INFO:root:{'test_acc': 0.8688925081433225, 'test_loss': 1.5768570518454823}
+INFO:root:################Communication round : 48
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 48
+data_trans_norm = 112.81996086105676
+INFO:root:{'training_acc': 0.8728104320747373, 'training_loss': 1.572350871061032}
+INFO:root:{'test_acc': 0.866042345276873, 'test_loss': 1.576892711408234}
+INFO:root:################Communication round : 49
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 113.2426614481409
+Averaged commCost = 47622.0
+Averaged normCost = 106.74824302837573
+INFO:root:################local_test_on_all_clients : 49
+INFO:root:{'training_acc': 0.8736538212015051, 'training_loss': 1.5717750121233327}
+INFO:root:{'test_acc': 0.86957111834962, 'test_loss': 1.576471783245037}

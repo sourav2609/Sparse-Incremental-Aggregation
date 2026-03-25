@@ -1,0 +1,94 @@
+{
+    "os": "Linux-6.5.0-10008-tuxedo-x86_64-with-glibc2.35",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-04-18T13:54:51.583530",
+    "startedAt": "2024-04-18T13:54:51.015059",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wo_IA_wo_spar.py",
+    "codePathLocal": "wo_IA_wo_spar.py",
+    "codePath": "wo_IA_wo_spar.py",
+    "host": "kairo",
+    "username": "mukherjee",
+    "executable": "/home/mukherjee/anaconda3/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2.51725,
+        "min": 400.0,
+        "max": 4056.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1.804,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 3.089,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 2.208,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 0.4,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 2.808,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 1.396,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 1.967,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 4.041,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 4.026,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 4.041,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 4.027,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 0.4,
+            "min": 400.0,
+            "max": 4056.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 449.01197814941406,
+            "used": 117.3154411315918
+        }
+    },
+    "memory": {
+        "total": 30.681278228759766
+    }
+}

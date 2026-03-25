@@ -1,0 +1,27 @@
+{"time":"2024-12-17T09:57:47.90615+01:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-12-17T09:57:47.906226+01:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241217_095747-f3ek2lug/logs/debug-core.log"}
+{"time":"2024-12-17T09:57:47.912111+01:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-12-17T09:57:47.925945+01:00","level":"INFO","msg":"created new stream","id":"f3ek2lug"}
+{"time":"2024-12-17T09:57:47.925994+01:00","level":"INFO","msg":"stream: started","id":"f3ek2lug"}
+{"time":"2024-12-17T09:57:47.926025+01:00","level":"INFO","msg":"sender: started","stream_id":{"value":"f3ek2lug"}}
+{"time":"2024-12-17T09:57:47.926044+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"f3ek2lug"}}
+{"time":"2024-12-17T09:57:47.925999+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"f3ek2lug"}}
+{"time":"2024-12-17T09:57:48.35613+01:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-12-17T09:57:48.357966+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-17T09:57:58.397969+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T09:58:08.380283+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T09:58:18.375478+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T09:58:28.371092+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T09:58:38.368067+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T09:58:48.368326+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T09:58:50.893393+01:00","level":"INFO","msg":"stream: closing","id":"f3ek2lug"}
+{"time":"2024-12-17T09:58:50.893707+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-17T09:58:50.893729+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-17T09:58:51.130875+01:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-12-17T09:58:51.130889+01:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-12-17T09:58:51.130893+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-17T09:58:51.84451+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-17T09:58:52.074012+01:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"f3ek2lug"}}
+{"time":"2024-12-17T09:58:52.073994+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"f3ek2lug"}}
+{"time":"2024-12-17T09:58:52.074003+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"f3ek2lug"}}
+{"time":"2024-12-17T09:58:52.074469+01:00","level":"INFO","msg":"stream: closed","id":"f3ek2lug"}

@@ -1,0 +1,33 @@
+{"time":"2024-12-17T11:47:18.596175+01:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-12-17T11:47:18.596221+01:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241217_114718-4tnzidmk/logs/debug-core.log"}
+{"time":"2024-12-17T11:47:18.598485+01:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-12-17T11:47:18.606364+01:00","level":"INFO","msg":"created new stream","id":"4tnzidmk"}
+{"time":"2024-12-17T11:47:18.606406+01:00","level":"INFO","msg":"stream: started","id":"4tnzidmk"}
+{"time":"2024-12-17T11:47:18.606444+01:00","level":"INFO","msg":"sender: started","stream_id":{"value":"4tnzidmk"}}
+{"time":"2024-12-17T11:47:18.606486+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"4tnzidmk"}}
+{"time":"2024-12-17T11:47:18.606409+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"4tnzidmk"}}
+{"time":"2024-12-17T11:47:18.889733+01:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-12-17T11:47:18.890724+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-17T11:47:28.924336+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:47:38.922287+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:47:48.917955+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:47:58.917373+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:48:08.917987+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:48:18.917662+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:48:28.918831+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:48:38.917865+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:48:48.91839+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:48:58.923093+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:49:08.920164+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:49:18.920608+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T11:49:24.874402+01:00","level":"INFO","msg":"stream: closing","id":"4tnzidmk"}
+{"time":"2024-12-17T11:49:24.874437+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-17T11:49:24.874473+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-17T11:49:25.036+01:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-12-17T11:49:25.03606+01:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-12-17T11:49:25.03607+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-17T11:49:25.956618+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-17T11:49:26.353775+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"4tnzidmk"}}
+{"time":"2024-12-17T11:49:26.353806+01:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"4tnzidmk"}}
+{"time":"2024-12-17T11:49:26.353791+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"4tnzidmk"}}
+{"time":"2024-12-17T11:49:26.354053+01:00","level":"INFO","msg":"stream: closed","id":"4tnzidmk"}

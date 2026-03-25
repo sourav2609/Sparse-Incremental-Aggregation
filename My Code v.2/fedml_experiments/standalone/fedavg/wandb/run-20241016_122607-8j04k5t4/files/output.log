@@ -1,0 +1,755 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+tensor([7, 5, 3, 4, 2, 2, 7, 3, 9, 8])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: Constant-Length ALgorithm Heuristic
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.328850263525738}
+INFO:root:{'test_acc': 0.07934782608695652, 'test_loss': 2.3287098187467326}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [30160.13]
+error_for_L_clients = [30160.13, 60840.766]
+error_for_L_clients = [30160.13, 60840.766, 91816.74]
+error_for_L_clients = [30160.13, 60840.766, 91816.74, 123130.24]
+error_for_L_clients = [30160.13, 60840.766, 91816.74, 123130.24, 154696.95]
+error_for_L_clients = [30160.13, 60840.766, 91816.74, 123130.24, 154696.95, 186571.86]
+error_for_L_clients = [30160.13, 60840.766, 91816.74, 123130.24, 154696.95, 186571.86, 218584.45]
+error_for_L_clients = [30160.13, 60840.766, 91816.74, 123130.24, 154696.95, 186571.86, 218584.45, 250660.94]
+k_i = 16
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 33
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 50
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 67
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 84
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 102
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 119
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 137
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [16, 33, 50, 67, 84, 102, 119, 137]
+INFO:root:################local_test_on_all_clients : 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.38659509600415154, 'training_loss': 2.1498985915417244}
+INFO:root:{'test_acc': 0.38125, 'test_loss': 2.152044845502014}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [84574.0]
+error_for_L_clients = [84574.0, 105341.24]
+error_for_L_clients = [84574.0, 105341.24, 135341.69]
+error_for_L_clients = [84574.0, 105341.24, 135341.69, 171226.81]
+error_for_L_clients = [84574.0, 105341.24, 135341.69, 171226.81, 209289.83]
+error_for_L_clients = [84574.0, 105341.24, 135341.69, 171226.81, 209289.83, 249399.36]
+error_for_L_clients = [84574.0, 105341.24, 135341.69, 171226.81, 209289.83, 249399.36, 289039.6]
+error_for_L_clients = [84574.0, 105341.24, 135341.69, 171226.81, 209289.83, 249399.36, 289039.6, 327459.7]
+k_i = 32
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 41
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 52
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 66
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 81
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 97
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 112
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 127
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [32, 41, 52, 66, 81, 97, 112, 127]
+INFO:root:################local_test_on_all_clients : 2
+round idx in local_test = 2
+INFO:root:{'training_acc': 0.6276757913855734, 'training_loss': 1.9689210739835408}
+INFO:root:{'test_acc': 0.6203804347826087, 'test_loss': 1.969115920688795}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [116820.516]
+error_for_L_clients = [116820.516, 140411.22]
+error_for_L_clients = [116820.516, 140411.22, 173088.69]
+error_for_L_clients = [116820.516, 140411.22, 173088.69, 212843.08]
+error_for_L_clients = [116820.516, 140411.22, 173088.69, 212843.08, 256698.84]
+error_for_L_clients = [116820.516, 140411.22, 173088.69, 212843.08, 256698.84, 303328.9]
+error_for_L_clients = [116820.516, 140411.22, 173088.69, 212843.08, 256698.84, 303328.9, 348928.6]
+error_for_L_clients = [116820.516, 140411.22, 173088.69, 212843.08, 256698.84, 303328.9, 348928.6, 393552.38]
+k_i = 36
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 44
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 54
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 66
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 95
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 109
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 123
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [36, 44, 54, 66, 80, 95, 109, 123]
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.7734172288531396, 'training_loss': 1.7413519549482712}
+INFO:root:{'test_acc': 0.7775815217391304, 'test_loss': 1.7400061282450738}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [139981.5]
+error_for_L_clients = [139981.5, 166738.9]
+error_for_L_clients = [139981.5, 166738.9, 202251.08]
+error_for_L_clients = [139981.5, 166738.9, 202251.08, 245583.7]
+error_for_L_clients = [139981.5, 166738.9, 202251.08, 245583.7, 294035.16]
+error_for_L_clients = [139981.5, 166738.9, 202251.08, 245583.7, 294035.16, 345246.34]
+error_for_L_clients = [139981.5, 166738.9, 202251.08, 245583.7, 294035.16, 345246.34, 395377.94]
+error_for_L_clients = [139981.5, 166738.9, 202251.08, 245583.7, 294035.16, 345246.34, 395377.94, 443417.9]
+k_i = 38
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 45
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 55
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 67
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 94
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 108
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 121
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [38, 45, 55, 67, 80, 94, 108, 121]
+INFO:root:################local_test_on_all_clients : 4
+round idx in local_test = 4
+INFO:root:{'training_acc': 0.7953425012973534, 'training_loss': 1.6931048410586513}
+INFO:root:{'test_acc': 0.7921195652173914, 'test_loss': 1.6926250780082268}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [157578.97]
+error_for_L_clients = [157578.97, 187636.19]
+error_for_L_clients = [157578.97, 187636.19, 225962.06]
+error_for_L_clients = [157578.97, 187636.19, 225962.06, 272743.7]
+error_for_L_clients = [157578.97, 187636.19, 225962.06, 272743.7, 325090.97]
+error_for_L_clients = [157578.97, 187636.19, 225962.06, 272743.7, 325090.97, 379638.97]
+error_for_L_clients = [157578.97, 187636.19, 225962.06, 272743.7, 325090.97, 379638.97, 432824.9]
+error_for_L_clients = [157578.97, 187636.19, 225962.06, 272743.7, 325090.97, 379638.97, 432824.9, 483269.94]
+k_i = 39
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 46
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 56
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 67
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 94
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 107
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 119
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [39, 46, 56, 67, 80, 94, 107, 119]
+INFO:root:################local_test_on_all_clients : 5
+round idx in local_test = 5
+INFO:root:{'training_acc': 0.8331765697976129, 'training_loss': 1.6375686234461562}
+INFO:root:{'test_acc': 0.8269021739130434, 'test_loss': 1.6381898221114408}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [174673.14]
+error_for_L_clients = [174673.14, 205522.8]
+error_for_L_clients = [174673.14, 205522.8, 244655.4]
+error_for_L_clients = [174673.14, 205522.8, 244655.4, 293019.12]
+error_for_L_clients = [174673.14, 205522.8, 244655.4, 293019.12, 347351.75]
+error_for_L_clients = [174673.14, 205522.8, 244655.4, 293019.12, 347351.75, 403480.6]
+error_for_L_clients = [174673.14, 205522.8, 244655.4, 293019.12, 347351.75, 403480.6, 458626.84]
+error_for_L_clients = [174673.14, 205522.8, 244655.4, 293019.12, 347351.75, 403480.6, 458626.84, 511030.4]
+k_i = 40
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 47
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 56
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 67
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 93
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 106
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 118
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [40, 47, 56, 67, 80, 93, 106, 118]
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.8554748313440581, 'training_loss': 1.6112972940567187}
+INFO:root:{'test_acc': 0.8516304347826087, 'test_loss': 1.6131031573142693}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [189111.89]
+error_for_L_clients = [189111.89, 219950.84]
+error_for_L_clients = [189111.89, 219950.84, 259068.44]
+error_for_L_clients = [189111.89, 219950.84, 259068.44, 307670.53]
+error_for_L_clients = [189111.89, 219950.84, 259068.44, 307670.53, 362789.38]
+error_for_L_clients = [189111.89, 219950.84, 259068.44, 307670.53, 362789.38, 419948.88]
+error_for_L_clients = [189111.89, 219950.84, 259068.44, 307670.53, 362789.38, 419948.88, 476064.78]
+error_for_L_clients = [189111.89, 219950.84, 259068.44, 307670.53, 362789.38, 419948.88, 476064.78, 528779.94]
+k_i = 41
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 48
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 57
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 68
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 93
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 105
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 117
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [41, 48, 57, 68, 80, 93, 105, 117]
+INFO:root:################local_test_on_all_clients : 7
+round idx in local_test = 7
+INFO:root:{'training_acc': 0.8654320186818889, 'training_loss': 1.5989637784795188}
+INFO:root:{'test_acc': 0.85625, 'test_loss': 1.6020310532463633}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [199601.02]
+error_for_L_clients = [199601.02, 230175.31]
+error_for_L_clients = [199601.02, 230175.31, 270098.56]
+error_for_L_clients = [199601.02, 230175.31, 270098.56, 319327.97]
+error_for_L_clients = [199601.02, 230175.31, 270098.56, 319327.97, 374979.72]
+error_for_L_clients = [199601.02, 230175.31, 270098.56, 319327.97, 374979.72, 431918.66]
+error_for_L_clients = [199601.02, 230175.31, 270098.56, 319327.97, 374979.72, 431918.66, 487326.0]
+error_for_L_clients = [199601.02, 230175.31, 270098.56, 319327.97, 374979.72, 431918.66, 487326.0, 539620.56]
+k_i = 42
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 49
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 57
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 68
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 92
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 104
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 115
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [42, 49, 57, 68, 80, 92, 104, 115]
+INFO:root:################local_test_on_all_clients : 8
+round idx in local_test = 8
+INFO:root:{'training_acc': 0.8740269849507005, 'training_loss': 1.5929073951075159}
+INFO:root:{'test_acc': 0.8684782608695653, 'test_loss': 1.5966884477630905}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [208295.0]
+error_for_L_clients = [208295.0, 238891.55]
+error_for_L_clients = [208295.0, 238891.55, 278523.66]
+error_for_L_clients = [208295.0, 238891.55, 278523.66, 327023.94]
+error_for_L_clients = [208295.0, 238891.55, 278523.66, 327023.94, 382757.25]
+error_for_L_clients = [208295.0, 238891.55, 278523.66, 327023.94, 382757.25, 439596.8]
+error_for_L_clients = [208295.0, 238891.55, 278523.66, 327023.94, 382757.25, 439596.8, 494260.88]
+error_for_L_clients = [208295.0, 238891.55, 278523.66, 327023.94, 382757.25, 439596.8, 494260.88, 545316.9]
+k_i = 43
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 50
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 58
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 68
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 92
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 103
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 114
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [43, 50, 58, 68, 80, 92, 103, 114]
+INFO:root:################local_test_on_all_clients : 9
+round idx in local_test = 9
+INFO:root:{'training_acc': 0.8759567981318112, 'training_loss': 1.5922614582536379}
+INFO:root:{'test_acc': 0.8701086956521739, 'test_loss': 1.5970101523334566}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [214444.4]
+error_for_L_clients = [214444.4, 244587.6]
+error_for_L_clients = [214444.4, 244587.6, 283888.47]
+error_for_L_clients = [214444.4, 244587.6, 283888.47, 332570.34]
+error_for_L_clients = [214444.4, 244587.6, 283888.47, 332570.34, 387328.56]
+error_for_L_clients = [214444.4, 244587.6, 283888.47, 332570.34, 387328.56, 443896.4]
+error_for_L_clients = [214444.4, 244587.6, 283888.47, 332570.34, 387328.56, 443896.4, 497641.22]
+error_for_L_clients = [214444.4, 244587.6, 283888.47, 332570.34, 387328.56, 443896.4, 497641.22, 547709.7]
+k_i = 44
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 50
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 58
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 68
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 92
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 103
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 113
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [44, 50, 58, 68, 80, 92, 103, 113]
+INFO:root:################local_test_on_all_clients : 10
+round idx in local_test = 10
+INFO:root:{'training_acc': 0.8785190710949663, 'training_loss': 1.5858718389495394}
+INFO:root:{'test_acc': 0.8737771739130434, 'test_loss': 1.5904265546604344}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [220809.89]
+error_for_L_clients = [220809.89, 250693.97]
+error_for_L_clients = [220809.89, 250693.97, 289784.22]
+error_for_L_clients = [220809.89, 250693.97, 289784.22, 337657.3]
+error_for_L_clients = [220809.89, 250693.97, 289784.22, 337657.3, 391037.75]
+error_for_L_clients = [220809.89, 250693.97, 289784.22, 337657.3, 391037.75, 447065.28]
+error_for_L_clients = [220809.89, 250693.97, 289784.22, 337657.3, 391037.75, 447065.28, 499159.44]
+error_for_L_clients = [220809.89, 250693.97, 289784.22, 337657.3, 391037.75, 447065.28, 499159.44, 548487.6]
+k_i = 45
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 51
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 59
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 69
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 91
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 102
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 112
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [45, 51, 59, 69, 80, 91, 102, 112]
+INFO:root:################local_test_on_all_clients : 11
+round idx in local_test = 11
+INFO:root:{'training_acc': 0.8798164244940322, 'training_loss': 1.5849906939087164}
+INFO:root:{'test_acc': 0.8779891304347827, 'test_loss': 1.588270759290975}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [224696.64]
+error_for_L_clients = [224696.64, 253971.3]
+error_for_L_clients = [224696.64, 253971.3, 292209.97]
+error_for_L_clients = [224696.64, 253971.3, 292209.97, 339938.5]
+error_for_L_clients = [224696.64, 253971.3, 292209.97, 339938.5, 392438.44]
+error_for_L_clients = [224696.64, 253971.3, 292209.97, 339938.5, 392438.44, 446772.0]
+error_for_L_clients = [224696.64, 253971.3, 292209.97, 339938.5, 392438.44, 446772.0, 497353.03]
+error_for_L_clients = [224696.64, 253971.3, 292209.97, 339938.5, 392438.44, 446772.0, 497353.03, 545851.6]
+k_i = 45
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 51
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 59
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 69
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 91
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 101
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 111
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [45, 51, 59, 69, 80, 91, 101, 111]
+INFO:root:################local_test_on_all_clients : 12
+round idx in local_test = 12
+INFO:root:{'training_acc': 0.8806921380384016, 'training_loss': 1.583458803048948}
+INFO:root:{'test_acc': 0.8771739130434782, 'test_loss': 1.5868653099498022}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [228801.19]
+error_for_L_clients = [228801.19, 256924.8]
+error_for_L_clients = [228801.19, 256924.8, 294702.22]
+error_for_L_clients = [228801.19, 256924.8, 294702.22, 341842.16]
+error_for_L_clients = [228801.19, 256924.8, 294702.22, 341842.16, 393163.4]
+error_for_L_clients = [228801.19, 256924.8, 294702.22, 341842.16, 393163.4, 445884.88]
+error_for_L_clients = [228801.19, 256924.8, 294702.22, 341842.16, 393163.4, 445884.88, 494875.6]
+error_for_L_clients = [228801.19, 256924.8, 294702.22, 341842.16, 393163.4, 445884.88, 494875.6, 542550.3]
+k_i = 46
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 52
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 60
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 69
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 90
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 100
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 110
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [46, 52, 60, 69, 80, 90, 100, 110]
+INFO:root:################local_test_on_all_clients : 13
+round idx in local_test = 13
+INFO:root:{'training_acc': 0.8817138038401661, 'training_loss': 1.5798157002403752}
+INFO:root:{'test_acc': 0.8751358695652174, 'test_loss': 1.5832393788125203}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [230850.83]
+error_for_L_clients = [230850.83, 258650.3]
+error_for_L_clients = [230850.83, 258650.3, 296302.12]
+error_for_L_clients = [230850.83, 258650.3, 296302.12, 343363.97]
+error_for_L_clients = [230850.83, 258650.3, 296302.12, 343363.97, 393090.2]
+error_for_L_clients = [230850.83, 258650.3, 296302.12, 343363.97, 393090.2, 444148.94]
+error_for_L_clients = [230850.83, 258650.3, 296302.12, 343363.97, 393090.2, 444148.94, 491755.94]
+error_for_L_clients = [230850.83, 258650.3, 296302.12, 343363.97, 393090.2, 444148.94, 491755.94, 538373.94]
+k_i = 47
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 52
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 60
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 70
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 90
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 100
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 109
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [47, 52, 60, 70, 80, 90, 100, 109]
+INFO:root:################local_test_on_all_clients : 14
+round idx in local_test = 14
+INFO:root:{'training_acc': 0.8813083809029579, 'training_loss': 1.5774860370171522}
+INFO:root:{'test_acc': 0.8755434782608695, 'test_loss': 1.5814269071687823}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [232122.9]
+error_for_L_clients = [232122.9, 261140.02]
+error_for_L_clients = [232122.9, 261140.02, 298482.62]
+error_for_L_clients = [232122.9, 261140.02, 298482.62, 344976.06]
+error_for_L_clients = [232122.9, 261140.02, 298482.62, 344976.06, 393218.9]
+error_for_L_clients = [232122.9, 261140.02, 298482.62, 344976.06, 393218.9, 442573.94]
+error_for_L_clients = [232122.9, 261140.02, 298482.62, 344976.06, 393218.9, 442573.94, 488770.34]
+error_for_L_clients = [232122.9, 261140.02, 298482.62, 344976.06, 393218.9, 442573.94, 488770.34, 533992.8]
+k_i = 47
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 53
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 60
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 70
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 90
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 99
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 109
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [47, 53, 60, 70, 80, 90, 99, 109]
+INFO:root:################local_test_on_all_clients : 15
+round idx in local_test = 15
+INFO:root:{'training_acc': 0.8809678256357032, 'training_loss': 1.5779804493217005}
+INFO:root:{'test_acc': 0.8779891304347827, 'test_loss': 1.5822389815812525}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [233812.88]
+error_for_L_clients = [233812.88, 262259.94]
+error_for_L_clients = [233812.88, 262259.94, 299927.97]
+error_for_L_clients = [233812.88, 262259.94, 299927.97, 345479.66]
+error_for_L_clients = [233812.88, 262259.94, 299927.97, 345479.66, 392738.97]
+error_for_L_clients = [233812.88, 262259.94, 299927.97, 345479.66, 392738.97, 440338.0]
+error_for_L_clients = [233812.88, 262259.94, 299927.97, 345479.66, 392738.97, 440338.0, 485286.78]
+error_for_L_clients = [233812.88, 262259.94, 299927.97, 345479.66, 392738.97, 440338.0, 485286.78, 529629.56]
+k_i = 47
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 53
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 61
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 70
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 90
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 99
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 108
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [47, 53, 61, 70, 80, 90, 99, 108]
+INFO:root:################local_test_on_all_clients : 16
+round idx in local_test = 16
+INFO:root:{'training_acc': 0.8835949662688116, 'training_loss': 1.5774041660744784}
+INFO:root:{'test_acc': 0.8789402173913043, 'test_loss': 1.5819044663854267}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [235477.02]
+error_for_L_clients = [235477.02, 263897.6]
+error_for_L_clients = [235477.02, 263897.6, 301455.2]
+error_for_L_clients = [235477.02, 263897.6, 301455.2, 346337.5]
+error_for_L_clients = [235477.02, 263897.6, 301455.2, 346337.5, 392518.28]
+error_for_L_clients = [235477.02, 263897.6, 301455.2, 346337.5, 392518.28, 438399.53]
+error_for_L_clients = [235477.02, 263897.6, 301455.2, 346337.5, 392518.28, 438399.53, 481547.38]
+error_for_L_clients = [235477.02, 263897.6, 301455.2, 346337.5, 392518.28, 438399.53, 481547.38, 525873.75]
+k_i = 48
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 54
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 61
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 70
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 89
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 98
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 107
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [48, 54, 61, 70, 80, 89, 98, 107]
+INFO:root:################local_test_on_all_clients : 17
+round idx in local_test = 17
+INFO:root:{'training_acc': 0.8835787493513233, 'training_loss': 1.574545122037357}
+INFO:root:{'test_acc': 0.8805706521739131, 'test_loss': 1.5796473345354847}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [235484.16]
+error_for_L_clients = [235484.16, 262691.53]
+error_for_L_clients = [235484.16, 262691.53, 301749.2]
+error_for_L_clients = [235484.16, 262691.53, 301749.2, 346422.75]
+error_for_L_clients = [235484.16, 262691.53, 301749.2, 346422.75, 391184.25]
+error_for_L_clients = [235484.16, 262691.53, 301749.2, 346422.75, 391184.25, 435788.0]
+error_for_L_clients = [235484.16, 262691.53, 301749.2, 346422.75, 391184.25, 435788.0, 477031.66]
+error_for_L_clients = [235484.16, 262691.53, 301749.2, 346422.75, 391184.25, 435788.0, 477031.66, 521603.62]
+k_i = 48
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 54
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 62
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 71
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 89
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 98
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 107
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [48, 54, 62, 71, 80, 89, 98, 107]
+INFO:root:################local_test_on_all_clients : 18
+round idx in local_test = 18
+INFO:root:{'training_acc': 0.8848761027503892, 'training_loss': 1.5722327310191762}
+INFO:root:{'test_acc': 0.8808423913043478, 'test_loss': 1.5775414760345998}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 16)
+error_for_L_clients = [235449.44]
+error_for_L_clients = [235449.44, 263320.9]
+error_for_L_clients = [235449.44, 263320.9, 301880.3]
+error_for_L_clients = [235449.44, 263320.9, 301880.3, 346462.03]
+error_for_L_clients = [235449.44, 263320.9, 301880.3, 346462.03, 390405.03]
+error_for_L_clients = [235449.44, 263320.9, 301880.3, 346462.03, 390405.03, 433090.5]
+error_for_L_clients = [235449.44, 263320.9, 301880.3, 346462.03, 390405.03, 433090.5, 472534.28]
+error_for_L_clients = [235449.44, 263320.9, 301880.3, 346462.03, 390405.03, 433090.5, 472534.28, 516914.75]
+k_i = 48
+client.get_sample_number()  = 3854
+total_sample_num = 34686
+k_i = 54
+client.get_sample_number()  = 3854
+total_sample_num = 38540
+k_i = 62
+client.get_sample_number()  = 3854
+total_sample_num = 42394
+k_i = 71
+client.get_sample_number()  = 3854
+total_sample_num = 46248
+k_i = 80
+client.get_sample_number()  = 3854
+total_sample_num = 50102
+k_i = 89
+client.get_sample_number()  = 3854
+total_sample_num = 53956
+k_i = 97
+client.get_sample_number()  = 3854
+total_sample_num = 57810
+k_i = 106
+client.get_sample_number()  = 3854
+total_sample_num = 61664
+K_new_vec = [48, 54, 62, 71, 80, 89, 97, 106]
+INFO:root:################local_test_on_all_clients : 19
+round idx in local_test = 19
+INFO:root:{'training_acc': 0.8836436170212766, 'training_loss': 1.5712069124640673}
+INFO:root:{'test_acc': 0.8762228260869566, 'test_loss': 1.5762428672093411}

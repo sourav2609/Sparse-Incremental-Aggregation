@@ -1,0 +1,113 @@
+{
+    "os": "Linux-6.5.0-10031-tuxedo-x86_64-with-glibc2.35",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-04-24T10:44:55.556876",
+    "startedAt": "2024-04-24T10:44:54.983776",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--gpu",
+        "1",
+        "--dataset",
+        "mnist",
+        "--data_dir",
+        "./../../../data/mnist",
+        "--model",
+        "lr",
+        "--spar_ratio",
+        "0.01",
+        "--client_num_in_total",
+        "4",
+        "--client_num_per_round",
+        "4",
+        "--comm_round",
+        "3",
+        "--batch_size",
+        "20"
+    ],
+    "state": "running",
+    "program": "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/./main_fedavg.py",
+    "codePathLocal": "main_fedavg.py",
+    "codePath": "main_fedavg.py",
+    "host": "kolkata",
+    "username": "mukherjee",
+    "executable": "/home/mukherjee/anaconda3/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2.9207499999999995,
+        "min": 400.0,
+        "max": 4056.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.119,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 0.4,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 4.039,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 2.805,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 3.826,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 3.15,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 3.191,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 3.861,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 4.025,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 4.04,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 3.516,
+            "min": 400.0,
+            "max": 4056.0
+        },
+        {
+            "current": 0.4,
+            "min": 400.0,
+            "max": 4056.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 449.01197814941406,
+            "used": 122.15213394165039
+        }
+    },
+    "memory": {
+        "total": 30.68124771118164
+    }
+}

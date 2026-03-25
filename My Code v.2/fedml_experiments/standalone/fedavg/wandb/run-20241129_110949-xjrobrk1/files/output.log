@@ -1,0 +1,299 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+tensor([7, 2, 2, 5, 0, 6, 6, 6, 6, 9])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: CL_SIA_Bho
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502631545622}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314467787352}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 18854.373046875
+Max value of gradients for client 1 is 26192.396484375
+Max value of gradients for client 2 is 31635.107421875
+Max value of gradients for client 3 is 35982.09375
+Max value of gradients for client 4 is 39491.37890625
+Max value of gradients for client 5 is 42573.125
+Max value of gradients for client 6 is 45215.4296875
+Max value of gradients for client 7 is 47745.3515625
+Master Client = 7
+INFO:root:################local_test_on_all_clients : 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.3080727815256876, 'training_loss': 2.1877412661082642}
+INFO:root:{'test_acc': 0.3129750271444082, 'test_loss': 2.1908208952082098}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 4681.8837890625
+Max value of gradients for client 1 is 4925.23974609375
+Max value of gradients for client 2 is 4799.35986328125
+Max value of gradients for client 3 is 6150.005859375
+Max value of gradients for client 4 is 5748.23876953125
+Max value of gradients for client 5 is 5668.5966796875
+Max value of gradients for client 6 is 5705.947265625
+Max value of gradients for client 7 is 5565.41064453125
+Master Client = 7
+INFO:root:################local_test_on_all_clients : 2
+round idx in local_test = 2
+INFO:root:{'training_acc': 0.4804910482615464, 'training_loss': 2.041969320705411}
+INFO:root:{'test_acc': 0.4800488599348534, 'test_loss': 2.0419175578574533}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 5967.94482421875
+Max value of gradients for client 1 is 6856.064453125
+Max value of gradients for client 2 is 6291.6044921875
+Max value of gradients for client 3 is 8168.19921875
+Max value of gradients for client 4 is 7903.2373046875
+Max value of gradients for client 5 is 6366.88818359375
+Max value of gradients for client 6 is 6170.69091796875
+Max value of gradients for client 7 is 6368.1806640625
+Master Client = 6
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.6497307991696938, 'training_loss': 1.9163234979996857}
+INFO:root:{'test_acc': 0.6431867535287731, 'test_loss': 1.9173520126670243}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 7783.3212890625
+Max value of gradients for client 1 is 8339.810546875
+Max value of gradients for client 2 is 8096.41650390625
+Max value of gradients for client 3 is 10199.158203125
+Max value of gradients for client 4 is 7946.1875
+Max value of gradients for client 5 is 7164.8349609375
+Max value of gradients for client 6 is 6860.4345703125
+Max value of gradients for client 7 is 7489.998046875
+Master Client = 7
+INFO:root:################local_test_on_all_clients : 4
+round idx in local_test = 4
+INFO:root:{'training_acc': 0.7408536585365854, 'training_loss': 1.7435838374863588}
+INFO:root:{'test_acc': 0.7349348534201955, 'test_loss': 1.7450741988634053}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 8620.947265625
+Max value of gradients for client 1 is 10348.3310546875
+Max value of gradients for client 2 is 10501.8212890625
+Max value of gradients for client 3 is 8763.1435546875
+Max value of gradients for client 4 is 9015.3251953125
+Max value of gradients for client 5 is 8446.609375
+Max value of gradients for client 6 is 8601.291015625
+Max value of gradients for client 7 is 7654.158203125
+Master Client = 3
+INFO:root:################local_test_on_all_clients : 5
+round idx in local_test = 5
+INFO:root:{'training_acc': 0.7485242605085626, 'training_loss': 1.7027233599433331}
+INFO:root:{'test_acc': 0.741313789359392, 'test_loss': 1.7035162727976467}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 9280.115234375
+Max value of gradients for client 1 is 11543.9462890625
+Max value of gradients for client 2 is 11648.423828125
+Max value of gradients for client 3 is 8930.55078125
+Max value of gradients for client 4 is 9881.8681640625
+Max value of gradients for client 5 is 9223.9072265625
+Max value of gradients for client 6 is 9567.1474609375
+Max value of gradients for client 7 is 9884.9755859375
+Master Client = 4
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.7732550596782564, 'training_loss': 1.684969827996738}
+INFO:root:{'test_acc': 0.7698154180238871, 'test_loss': 1.6874111753106764}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 10080.361328125
+Max value of gradients for client 1 is 13167.69140625
+Max value of gradients for client 2 is 13239.0947265625
+Max value of gradients for client 3 is 9112.8388671875
+Max value of gradients for client 4 is 9084.595703125
+Max value of gradients for client 5 is 9738.134765625
+Max value of gradients for client 6 is 11244.1669921875
+Max value of gradients for client 7 is 8933.927734375
+Master Client = 5
+INFO:root:################local_test_on_all_clients : 7
+round idx in local_test = 7
+INFO:root:{'training_acc': 0.7860339906590555, 'training_loss': 1.6635391802508162}
+INFO:root:{'test_acc': 0.7786373507057546, 'test_loss': 1.6688487168470243}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 10861.7060546875
+Max value of gradients for client 1 is 14614.0712890625
+Max value of gradients for client 2 is 14777.1748046875
+Max value of gradients for client 3 is 10058.099609375
+Max value of gradients for client 4 is 8796.314453125
+Max value of gradients for client 5 is 8528.443359375
+Max value of gradients for client 6 is 14025.388671875
+Max value of gradients for client 7 is 9555.4541015625
+Master Client = 6
+INFO:root:################local_test_on_all_clients : 8
+round idx in local_test = 8
+INFO:root:{'training_acc': 0.807943046185781, 'training_loss': 1.6482093457691276}
+INFO:root:{'test_acc': 0.7973669923995657, 'test_loss': 1.6515198422274295}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 11673.8583984375
+Max value of gradients for client 1 is 16198.1748046875
+Max value of gradients for client 2 is 15822.9521484375
+Max value of gradients for client 3 is 10760.994140625
+Max value of gradients for client 4 is 11031.3525390625
+Max value of gradients for client 5 is 10866.4267578125
+Max value of gradients for client 6 is 10331.24609375
+Max value of gradients for client 7 is 10760.8701171875
+Master Client = 1
+INFO:root:################local_test_on_all_clients : 9
+round idx in local_test = 9
+INFO:root:{'training_acc': 0.8353982874935132, 'training_loss': 1.6254741633547731}
+INFO:root:{'test_acc': 0.8264115092290988, 'test_loss': 1.6315530592112537}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 16204.28125
+Max value of gradients for client 1 is 10559.81640625
+Max value of gradients for client 2 is 16410.779296875
+Max value of gradients for client 3 is 11752.728515625
+Max value of gradients for client 4 is 15513.087890625
+Max value of gradients for client 5 is 10935.109375
+Max value of gradients for client 6 is 10358.533203125
+Max value of gradients for client 7 is 12529.373046875
+Master Client = 2
+INFO:root:################local_test_on_all_clients : 10
+round idx in local_test = 10
+INFO:root:{'training_acc': 0.8446419304618578, 'training_loss': 1.6216606016241335}
+INFO:root:{'test_acc': 0.8356406080347448, 'test_loss': 1.62867629471418}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 16803.466796875
+Max value of gradients for client 1 is 11498.1865234375
+Max value of gradients for client 2 is 10896.9072265625
+Max value of gradients for client 3 is 12824.63671875
+Max value of gradients for client 4 is 19826.29296875
+Max value of gradients for client 5 is 11160.376953125
+Max value of gradients for client 6 is 11457.337890625
+Max value of gradients for client 7 is 15165.2880859375
+Master Client = 0
+INFO:root:################local_test_on_all_clients : 11
+round idx in local_test = 11
+INFO:root:{'training_acc': 0.8398092890503374, 'training_loss': 1.6177541541624825}
+INFO:root:{'test_acc': 0.8300760043431054, 'test_loss': 1.6262463331707915}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 12049.359375
+Max value of gradients for client 1 is 13571.466796875
+Max value of gradients for client 2 is 15142.669921875
+Max value of gradients for client 3 is 13629.3193359375
+Max value of gradients for client 4 is 24027.228515625
+Max value of gradients for client 5 is 12513.576171875
+Max value of gradients for client 6 is 12673.7578125
+Max value of gradients for client 7 is 15776.60546875
+Master Client = 7
+INFO:root:################local_test_on_all_clients : 12
+round idx in local_test = 12
+INFO:root:{'training_acc': 0.8448851842241827, 'training_loss': 1.6170977101766142}
+INFO:root:{'test_acc': 0.8356406080347448, 'test_loss': 1.623999305304047}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 10941.9130859375
+Max value of gradients for client 1 is 11725.4013671875
+Max value of gradients for client 2 is 11490.3544921875
+Max value of gradients for client 3 is 14227.236328125
+Max value of gradients for client 4 is 28191.0390625
+Max value of gradients for client 5 is 12443.2060546875
+Max value of gradients for client 6 is 12382.1611328125
+Max value of gradients for client 7 is 11051.1455078125
+Master Client = 4
+INFO:root:################local_test_on_all_clients : 13
+round idx in local_test = 13
+INFO:root:{'training_acc': 0.8480637000518941, 'training_loss': 1.6168416365749116}
+INFO:root:{'test_acc': 0.8398479913137894, 'test_loss': 1.6218362222956524}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 12724.9921875
+Max value of gradients for client 1 is 13684.068359375
+Max value of gradients for client 2 is 13550.791015625
+Max value of gradients for client 3 is 14602.9990234375
+Max value of gradients for client 4 is 12390.8828125
+Max value of gradients for client 5 is 13489.900390625
+Max value of gradients for client 6 is 13227.3896484375
+Max value of gradients for client 7 is 12937.244140625
+Master Client = 3
+INFO:root:################local_test_on_all_clients : 14
+round idx in local_test = 14
+INFO:root:{'training_acc': 0.8547612869745719, 'training_loss': 1.612314778354481}
+INFO:root:{'test_acc': 0.8452768729641694, 'test_loss': 1.6167543806321716}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 13171.8515625
+Max value of gradients for client 1 is 14168.7001953125
+Max value of gradients for client 2 is 14710.9365234375
+Max value of gradients for client 3 is 11865.673828125
+Max value of gradients for client 4 is 11375.80078125
+Max value of gradients for client 5 is 13365.990234375
+Max value of gradients for client 6 is 13312.5966796875
+Max value of gradients for client 7 is 14519.65625
+Master Client = 5
+INFO:root:################local_test_on_all_clients : 15
+round idx in local_test = 15
+INFO:root:{'training_acc': 0.8519881940840685, 'training_loss': 1.6222767683821882}
+INFO:root:{'test_acc': 0.8428338762214984, 'test_loss': 1.6267197335322956}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 13984.208984375
+Max value of gradients for client 1 is 16210.7900390625
+Max value of gradients for client 2 is 15466.8642578125
+Max value of gradients for client 3 is 12194.5908203125
+Max value of gradients for client 4 is 12095.2470703125
+Max value of gradients for client 5 is 10629.8515625
+Max value of gradients for client 6 is 14260.734375
+Max value of gradients for client 7 is 16184.208984375
+Master Client = 6
+INFO:root:################local_test_on_all_clients : 16
+round idx in local_test = 16
+INFO:root:{'training_acc': 0.8473339387649196, 'training_loss': 1.6274607024765968}
+INFO:root:{'test_acc': 0.8435124864277959, 'test_loss': 1.6309232804499543}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 14606.8251953125
+Max value of gradients for client 1 is 16495.888671875
+Max value of gradients for client 2 is 15670.7763671875
+Max value of gradients for client 3 is 12696.1865234375
+Max value of gradients for client 4 is 12736.1376953125
+Max value of gradients for client 5 is 12697.1142578125
+Max value of gradients for client 6 is 11956.2373046875
+Max value of gradients for client 7 is 17844.390625
+Master Client = 1
+INFO:root:################local_test_on_all_clients : 17
+round idx in local_test = 17
+INFO:root:{'training_acc': 0.8446257135443694, 'training_loss': 1.6255550289794332}
+INFO:root:{'test_acc': 0.8398479913137894, 'test_loss': 1.6283296541625332}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 15510.9384765625
+Max value of gradients for client 1 is 12423.322265625
+Max value of gradients for client 2 is 15548.2841796875
+Max value of gradients for client 3 is 13631.0830078125
+Max value of gradients for client 4 is 14113.615234375
+Max value of gradients for client 5 is 13780.662109375
+Max value of gradients for client 6 is 14913.1748046875
+Max value of gradients for client 7 is 15605.5654296875
+Master Client = 2
+INFO:root:################local_test_on_all_clients : 18
+round idx in local_test = 18
+INFO:root:{'training_acc': 0.8317008303061754, 'training_loss': 1.6322787325997457}
+INFO:root:{'test_acc': 0.8352334419109664, 'test_loss': 1.6346623441295438}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 8)
+Max value of gradients for client 0 is 16459.439453125
+Max value of gradients for client 1 is 12562.97265625
+Max value of gradients for client 2 is 11730.71484375
+Max value of gradients for client 3 is 14615.822265625
+Max value of gradients for client 4 is 14444.0068359375
+Max value of gradients for client 5 is 12942.490234375
+Max value of gradients for client 6 is 12899.0673828125
+Max value of gradients for client 7 is 15849.3125
+Master Client = 0
+INFO:root:################local_test_on_all_clients : 19
+round idx in local_test = 19
+INFO:root:{'training_acc': 0.833679294239751, 'training_loss': 1.6316801754532544}
+INFO:root:{'test_acc': 0.8319761129207384, 'test_loss': 1.6328996573772026}

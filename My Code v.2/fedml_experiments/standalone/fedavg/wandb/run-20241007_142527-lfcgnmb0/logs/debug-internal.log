@@ -1,0 +1,24 @@
+{"time":"2024-10-07T14:25:27.132969+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-07T14:25:27.133039+02:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241007_142527-lfcgnmb0/logs/debug-core.log"}
+{"time":"2024-10-07T14:25:27.135574+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-07T14:25:27.14499+02:00","level":"INFO","msg":"created new stream","id":"lfcgnmb0"}
+{"time":"2024-10-07T14:25:27.145058+02:00","level":"INFO","msg":"stream: started","id":"lfcgnmb0"}
+{"time":"2024-10-07T14:25:27.145101+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"lfcgnmb0"}}
+{"time":"2024-10-07T14:25:27.145071+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"lfcgnmb0"}}
+{"time":"2024-10-07T14:25:27.145144+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"lfcgnmb0"}}
+{"time":"2024-10-07T14:25:27.381975+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-07T14:25:27.383482+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-07T14:25:37.408507+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-07T14:25:47.405208+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-07T14:25:57.402669+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-07T14:25:57.60887+02:00","level":"INFO","msg":"stream: closing","id":"lfcgnmb0"}
+{"time":"2024-10-07T14:25:57.6089+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-07T14:25:57.608934+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-07T14:25:57.916483+02:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-07T14:25:57.916504+02:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-07T14:25:57.916511+02:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-07T14:25:58.345342+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-07T14:25:58.52284+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"lfcgnmb0"}}
+{"time":"2024-10-07T14:25:58.522876+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"lfcgnmb0"}}
+{"time":"2024-10-07T14:25:58.522869+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"lfcgnmb0"}}
+{"time":"2024-10-07T14:25:58.523411+02:00","level":"INFO","msg":"stream: closed","id":"lfcgnmb0"}

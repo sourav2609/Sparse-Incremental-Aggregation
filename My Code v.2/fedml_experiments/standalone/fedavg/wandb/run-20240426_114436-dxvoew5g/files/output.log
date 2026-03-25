@@ -1,0 +1,14 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15']
+Traceback (most recent call last):
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 333, in <module>
+    dataset = load_data(args, args.dataset)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 119, in load_data
+    class_num = load_partition_data_mnist(args.batch_size)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_api/data_preprocessing/MNIST/data_loader.py", line 111, in load_partition_data_mnist
+    user_test_data_num = len(test_data[u]['x'])
+                             ~~~~~~~~~^^^
+KeyError: '12'

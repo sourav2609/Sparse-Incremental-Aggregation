@@ -1,0 +1,1 @@
+{"Train/Acc": 0.7898481029450782, "round": 6, "_timestamp": 1713442415.988322, "_runtime": 113.1485800743103, "_step": 34, "Train/Loss": 1.6590788980462121, "Total transmitted data [normalized]": 526.3205128205129, "Test/Acc": 0.7808423913043478, "Test/Loss": 1.6617086778354386, "_wandb": {"runtime": 125}}

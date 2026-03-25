@@ -1,0 +1,25 @@
+{"time":"2024-12-17T13:46:40.846501+01:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-12-17T13:46:40.846556+01:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241217_134640-ngh566bt/logs/debug-core.log"}
+{"time":"2024-12-17T13:46:40.848592+01:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-12-17T13:46:40.856947+01:00","level":"INFO","msg":"created new stream","id":"ngh566bt"}
+{"time":"2024-12-17T13:46:40.857017+01:00","level":"INFO","msg":"stream: started","id":"ngh566bt"}
+{"time":"2024-12-17T13:46:40.857105+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ngh566bt"}}
+{"time":"2024-12-17T13:46:40.857014+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ngh566bt"}}
+{"time":"2024-12-17T13:46:40.857056+01:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ngh566bt"}}
+{"time":"2024-12-17T13:46:41.155441+01:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-12-17T13:46:41.156375+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-17T13:46:51.178912+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T13:47:01.178735+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T13:47:11.17801+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T13:47:21.178906+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-17T13:47:22.960526+01:00","level":"INFO","msg":"stream: closing","id":"ngh566bt"}
+{"time":"2024-12-17T13:47:22.960544+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-17T13:47:22.960672+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-17T13:47:23.112662+01:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-12-17T13:47:23.112671+01:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-12-17T13:47:23.112675+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-17T13:47:23.671642+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-17T13:47:23.945053+01:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ngh566bt"}}
+{"time":"2024-12-17T13:47:23.945022+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ngh566bt"}}
+{"time":"2024-12-17T13:47:23.945041+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ngh566bt"}}
+{"time":"2024-12-17T13:47:23.945564+01:00","level":"INFO","msg":"stream: closed","id":"ngh566bt"}

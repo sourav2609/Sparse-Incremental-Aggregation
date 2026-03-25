@@ -1,0 +1,34 @@
+{"time":"2024-10-16T11:47:13.055423+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-16T11:47:13.055486+02:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241016_114713-o93uxx45/logs/debug-core.log"}
+{"time":"2024-10-16T11:47:13.060445+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-16T11:47:13.074009+02:00","level":"INFO","msg":"created new stream","id":"o93uxx45"}
+{"time":"2024-10-16T11:47:13.074067+02:00","level":"INFO","msg":"stream: started","id":"o93uxx45"}
+{"time":"2024-10-16T11:47:13.074077+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"o93uxx45"}}
+{"time":"2024-10-16T11:47:13.07415+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"o93uxx45"}}
+{"time":"2024-10-16T11:47:13.074109+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"o93uxx45"}}
+{"time":"2024-10-16T11:47:13.609428+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-16T11:47:13.611467+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-16T11:47:23.64316+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:47:33.631988+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:47:43.647846+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:47:53.652232+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:48:03.631475+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:48:13.633124+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:48:23.63247+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:48:33.645233+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:48:43.650903+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:48:53.635113+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:49:03.63594+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:49:13.630775+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:49:23.63215+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-16T11:49:29.566023+02:00","level":"INFO","msg":"stream: closing","id":"o93uxx45"}
+{"time":"2024-10-16T11:49:29.566438+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-16T11:49:29.566474+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-16T11:49:29.706177+02:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-16T11:49:29.706197+02:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-16T11:49:29.706204+02:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-16T11:49:30.149941+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-16T11:49:30.343116+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"o93uxx45"}}
+{"time":"2024-10-16T11:49:30.343143+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"o93uxx45"}}
+{"time":"2024-10-16T11:49:30.343158+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"o93uxx45"}}
+{"time":"2024-10-16T11:49:30.343287+02:00","level":"INFO","msg":"stream: closed","id":"o93uxx45"}

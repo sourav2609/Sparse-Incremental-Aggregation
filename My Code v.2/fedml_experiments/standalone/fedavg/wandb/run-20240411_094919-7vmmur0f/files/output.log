@@ -1,0 +1,61 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39']
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.328850265528541}
+INFO:root:{'test_acc': 0.07894021739130434, 'test_loss': 2.328765782195589}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 40)
+tensor([4, 4, 6, 7, 6])
+%%% pytorch_total_params = 7850
+In algo 1
+aggregated values = 1.0
+aggregated values = 1.6063694267515924
+aggregated values = 1.8904458598726115
+aggregated values = 2.1630573248407643
+aggregated values = 2.561783439490446
+aggregated values = 2.6713375796178345
+aggregated values = 2.797452229299363
+aggregated values = 2.8636942675159234
+aggregated values = 2.9401273885350316
+aggregated values = 3.0063694267515926
+aggregated values = 3.070063694267516
+aggregated values = 3.115923566878981
+aggregated values = 3.1528662420382165
+aggregated values = 3.202547770700637
+aggregated values = 3.2343949044585987
+aggregated values = 3.256050955414013
+aggregated values = 3.30828025477707
+aggregated values = 3.343949044585987
+aggregated values = 3.3796178343949044
+aggregated values = 3.4165605095541403
+aggregated values = 3.4687898089171973
+aggregated values = 3.5031847133757963
+aggregated values = 3.521019108280255
+aggregated values = 3.5605095541401273
+aggregated values = 3.5770700636942676
+aggregated values = 3.612738853503185
+aggregated values = 3.6369426751592355
+aggregated values = 3.652229299363057
+aggregated values = 3.6853503184713374
+aggregated values = 3.699363057324841
+aggregated values = 3.7146496815286625
+aggregated values = 3.740127388535032
+aggregated values = 3.756687898089172
+aggregated values = 3.775796178343949
+aggregated values = 3.8063694267515924
+aggregated values = 3.829299363057325
+aggregated values = 3.838216560509554
+aggregated values = 3.8509554140127387
+aggregated values = 3.870063694267516
+aggregated values = 3.8980891719745223
+data_trans_norm = 129.97834394904459
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.883562532433835, 'training_loss': 1.6031075134587276}
+INFO:root:{'test_acc': 0.8764945652173913, 'test_loss': 1.6067861891473116}

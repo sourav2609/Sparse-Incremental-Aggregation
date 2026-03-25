@@ -1,0 +1,556 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+tensor([7, 2, 2, 5, 0, 6, 6, 6, 6, 9])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: Proposed Algorithm
+K value = 78
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502631545622}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314467787352}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.36278866113129216, 'training_loss': 2.1951383174192616}
+INFO:root:{'test_acc': 0.3691639522258415, 'test_loss': 2.1916405761798483}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 2
+round idx in local_test = 2
+INFO:root:{'training_acc': 0.4179910482615464, 'training_loss': 2.1045405146606426}
+INFO:root:{'test_acc': 0.41083061889250816, 'test_loss': 2.1021004573853603}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.42854826154644526, 'training_loss': 2.0383983489510675}
+INFO:root:{'test_acc': 0.42901737242128124, 'test_loss': 2.0349827059155308}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 4
+round idx in local_test = 4
+INFO:root:{'training_acc': 0.532352750389206, 'training_loss': 1.9561418215954434}
+INFO:root:{'test_acc': 0.5337947882736156, 'test_loss': 1.9551159839482573}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 5
+round idx in local_test = 5
+INFO:root:{'training_acc': 0.573413985469642, 'training_loss': 1.8954094128715107}
+INFO:root:{'test_acc': 0.5749185667752443, 'test_loss': 1.896462985183983}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.6013557343020238, 'training_loss': 1.841713291572114}
+INFO:root:{'test_acc': 0.6030130293159609, 'test_loss': 1.8423187087950308}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 7
+round idx in local_test = 7
+INFO:root:{'training_acc': 0.6548066943435392, 'training_loss': 1.7931608615233356}
+INFO:root:{'test_acc': 0.6549945711183496, 'test_loss': 1.7927529462871024}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 8
+round idx in local_test = 8
+INFO:root:{'training_acc': 0.6811754021795537, 'training_loss': 1.753521315417082}
+INFO:root:{'test_acc': 0.6825461454940283, 'test_loss': 1.7492756406725036}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 9
+round idx in local_test = 9
+INFO:root:{'training_acc': 0.6990302283341983, 'training_loss': 1.7489531840655428}
+INFO:root:{'test_acc': 0.6996471226927253, 'test_loss': 1.7457560084024029}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 10
+round idx in local_test = 10
+INFO:root:{'training_acc': 0.7390049299429164, 'training_loss': 1.7184777321650626}
+INFO:root:{'test_acc': 0.7376492942453855, 'test_loss': 1.7164891524954287}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 11
+round idx in local_test = 11
+INFO:root:{'training_acc': 0.7821905812143228, 'training_loss': 1.6621655049097308}
+INFO:root:{'test_acc': 0.7842019543973942, 'test_loss': 1.6597470223385917}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 12
+round idx in local_test = 12
+INFO:root:{'training_acc': 0.8081538661131292, 'training_loss': 1.628543535549992}
+INFO:root:{'test_acc': 0.8064603691639523, 'test_loss': 1.6295540775460606}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 13
+round idx in local_test = 13
+INFO:root:{'training_acc': 0.8284574468085106, 'training_loss': 1.6134470817287412}
+INFO:root:{'test_acc': 0.8291259500542888, 'test_loss': 1.6153118860029112}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 14
+round idx in local_test = 14
+INFO:root:{'training_acc': 0.8409444732745199, 'training_loss': 1.6070693152969713}
+INFO:root:{'test_acc': 0.8424267100977199, 'test_loss': 1.6095845294179927}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 15
+round idx in local_test = 15
+INFO:root:{'training_acc': 0.8475285417747794, 'training_loss': 1.6000765893989173}
+INFO:root:{'test_acc': 0.8493485342019544, 'test_loss': 1.6022671099011982}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 16
+round idx in local_test = 16
+INFO:root:{'training_acc': 0.8475771925272444, 'training_loss': 1.602975028885512}
+INFO:root:{'test_acc': 0.8504343105320304, 'test_loss': 1.605570921583362}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 17
+round idx in local_test = 17
+INFO:root:{'training_acc': 0.8515503373118838, 'training_loss': 1.5994601985241503}
+INFO:root:{'test_acc': 0.8516558089033659, 'test_loss': 1.6016823685809922}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 18
+round idx in local_test = 18
+INFO:root:{'training_acc': 0.8495070057083549, 'training_loss': 1.6006868870636002}
+INFO:root:{'test_acc': 0.8489413680781759, 'test_loss': 1.6044264367491363}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 19
+round idx in local_test = 19
+INFO:root:{'training_acc': 0.8487285936689154, 'training_loss': 1.6033730780213808}
+INFO:root:{'test_acc': 0.8435124864277959, 'test_loss': 1.6075647436769984}
+INFO:root:################Communication round : 20
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 20
+round idx in local_test = 20
+INFO:root:{'training_acc': 0.8483393876491956, 'training_loss': 1.6044118366690887}
+INFO:root:{'test_acc': 0.8420195439739414, 'test_loss': 1.60832237538828}
+INFO:root:################Communication round : 21
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 21
+round idx in local_test = 21
+INFO:root:{'training_acc': 0.8477717955371044, 'training_loss': 1.5995145290664705}
+INFO:root:{'test_acc': 0.8421552660152009, 'test_loss': 1.6048441184007125}
+INFO:root:################Communication round : 22
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 22
+round idx in local_test = 22
+INFO:root:{'training_acc': 0.8450473533990659, 'training_loss': 1.5981750334204634}
+INFO:root:{'test_acc': 0.8379478827361564, 'test_loss': 1.6026156936386897}
+INFO:root:################Communication round : 23
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 23
+round idx in local_test = 23
+INFO:root:{'training_acc': 0.8482258692267773, 'training_loss': 1.5930507281707182}
+INFO:root:{'test_acc': 0.8371335504885994, 'test_loss': 1.596148229868482}
+INFO:root:################Communication round : 24
+INFO:root:client_indexes = range(0, 8)
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+Proposed Algorithm
+G = 100
+INFO:root:################local_test_on_all_clients : 24
+Traceback (most recent call last):
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 370, in <module>
+    fedavgAPI.train()
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_api/standalone/fedavg/fedavg_api_CL_SIA_new.py", line 155, in train
+    self._local_test_on_all_clients(round_idx, nonZerosOfAggregate, self.args.client_num_per_round, commCost, data_trans_norm)                          #Check test accuracy, etc parameters for the training accuracy at a given global iterations
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_api/standalone/fedavg/fedavg_api_CL_SIA_new.py", line 411, in _local_test_on_all_clients
+    train_local_metrics = client2.local_test(False)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_api/standalone/fedavg/client.py", line 38, in local_test
+    metrics = self.model_trainer.test(test_data, self.device, self.args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_api/standalone/fedavgPlannedAsync/my_model_trainer_classification.py", line 333, in test
+    metrics['test_correct'] += correct.item()
+                               ^^^^^^^^^^^^^^
+KeyboardInterrupt

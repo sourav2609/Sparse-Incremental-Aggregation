@@ -1,0 +1,21 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Traceback (most recent call last):
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 325, in <module>
+    fedavgAPI = FedAvgAPI(dataset, device, args, model_trainer)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_api/standalone/fedavg/fedavg_api_algo0.py", line 34, in __init__
+    self._setup_clients(train_data_local_num_dict, train_data_local_dict, test_data_local_dict, model_trainer)
+  File "/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_api/standalone/fedavg/fedavg_api_algo0.py", line 39, in _setup_clients
+    c = Client(client_idx, train_data_local_dict[client_idx], test_data_local_dict[client_idx],
+                           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 8
+tensor([7, 2, 2, 5, 0])
+%%% pytorch_total_params = 7850

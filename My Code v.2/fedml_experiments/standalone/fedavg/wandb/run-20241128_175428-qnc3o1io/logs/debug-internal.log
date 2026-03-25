@@ -1,0 +1,28 @@
+{"time":"2024-11-28T17:54:28.516619+01:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-11-28T17:54:28.516669+01:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241128_175428-qnc3o1io/logs/debug-core.log"}
+{"time":"2024-11-28T17:54:28.581755+01:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-11-28T17:54:28.60329+01:00","level":"INFO","msg":"created new stream","id":"qnc3o1io"}
+{"time":"2024-11-28T17:54:28.603353+01:00","level":"INFO","msg":"stream: started","id":"qnc3o1io"}
+{"time":"2024-11-28T17:54:28.603423+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"qnc3o1io"}}
+{"time":"2024-11-28T17:54:28.603359+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"qnc3o1io"}}
+{"time":"2024-11-28T17:54:28.603386+01:00","level":"INFO","msg":"sender: started","stream_id":{"value":"qnc3o1io"}}
+{"time":"2024-11-28T17:54:29.013675+01:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-11-28T17:54:29.015439+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-28T17:54:39.101934+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-28T17:54:49.037351+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-28T17:54:59.037182+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-28T17:55:09.036886+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-28T17:55:19.038361+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-28T17:55:29.036737+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-28T17:55:39.036678+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-11-28T17:55:43.445836+01:00","level":"INFO","msg":"stream: closing","id":"qnc3o1io"}
+{"time":"2024-11-28T17:55:43.446185+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-28T17:55:43.446205+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-28T17:55:43.737831+01:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-11-28T17:55:43.737847+01:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-11-28T17:55:43.737853+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-11-28T17:55:44.420602+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-28T17:55:45.225128+01:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"qnc3o1io"}}
+{"time":"2024-11-28T17:55:45.225096+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"qnc3o1io"}}
+{"time":"2024-11-28T17:55:45.225117+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"qnc3o1io"}}
+{"time":"2024-11-28T17:55:45.227477+01:00","level":"INFO","msg":"stream: closed","id":"qnc3o1io"}

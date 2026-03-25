@@ -1,0 +1,161 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+tensor([9, 3, 6, 7, 8, 2, 0, 1, 4, 3])
+%%% pytorch_total_params = 7850
+p in args = 0.01
+In algo 1
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.07834901070385987, 'training_loss': 2.3288441124033548}
+INFO:root:{'test_acc': 0.07924016282225238, 'test_loss': 2.3287209495275283}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 89]
+nonZerosOfAggregate = [78, 89, 100]
+nonZerosOfAggregate = [78, 89, 100, 111]
+nonZerosOfAggregate = [78, 89, 100, 111, 118]
+nonZerosOfAggregate = [78, 89, 100, 111, 118, 122]
+nonZerosOfAggregate = [78, 89, 100, 111, 118, 122, 124]
+nonZerosOfAggregate = [78, 89, 100, 111, 118, 122, 124, 128]
+nonZerosOfAggregate = [78, 89, 100, 111, 118, 122, 124, 128, 132]
+nonZerosOfAggregate = [78, 89, 100, 111, 118, 122, 124, 128, 132, 135]
+data_trans_norm = 73.78205128205128
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.3547680830360039, 'training_loss': 2.149012055483647}
+INFO:root:{'test_acc': 0.35508819538670283, 'test_loss': 2.1510070745786463}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 118]
+nonZerosOfAggregate = [78, 118, 145]
+nonZerosOfAggregate = [78, 118, 145, 165]
+nonZerosOfAggregate = [78, 118, 145, 165, 183]
+nonZerosOfAggregate = [78, 118, 145, 165, 183, 199]
+nonZerosOfAggregate = [78, 118, 145, 165, 183, 199, 209]
+nonZerosOfAggregate = [78, 118, 145, 165, 183, 199, 209, 223]
+nonZerosOfAggregate = [78, 118, 145, 165, 183, 199, 209, 223, 232]
+nonZerosOfAggregate = [78, 118, 145, 165, 183, 199, 209, 223, 232, 245]
+data_trans_norm = 108.51282051282053
+INFO:root:################local_test_on_all_clients : 2
+INFO:root:{'training_acc': 0.7012487836522867, 'training_loss': 1.8246070854933742}
+INFO:root:{'test_acc': 0.6968792401628222, 'test_loss': 1.822742543469614}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 138]
+nonZerosOfAggregate = [78, 138, 181]
+nonZerosOfAggregate = [78, 138, 181, 233]
+nonZerosOfAggregate = [78, 138, 181, 233, 267]
+nonZerosOfAggregate = [78, 138, 181, 233, 267, 303]
+nonZerosOfAggregate = [78, 138, 181, 233, 267, 303, 338]
+nonZerosOfAggregate = [78, 138, 181, 233, 267, 303, 338, 366]
+nonZerosOfAggregate = [78, 138, 181, 233, 267, 303, 338, 366, 400]
+nonZerosOfAggregate = [78, 138, 181, 233, 267, 303, 338, 366, 400, 418]
+data_trans_norm = 152.38461538461536
+INFO:root:################local_test_on_all_clients : 3
+INFO:root:{'training_acc': 0.8017353227375933, 'training_loss': 1.6718366263402271}
+INFO:root:{'test_acc': 0.7985074626865671, 'test_loss': 1.6739576977499466}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 139]
+nonZerosOfAggregate = [78, 139, 198]
+nonZerosOfAggregate = [78, 139, 198, 260]
+nonZerosOfAggregate = [78, 139, 198, 260, 312]
+nonZerosOfAggregate = [78, 139, 198, 260, 312, 361]
+nonZerosOfAggregate = [78, 139, 198, 260, 312, 361, 400]
+nonZerosOfAggregate = [78, 139, 198, 260, 312, 361, 400, 438]
+nonZerosOfAggregate = [78, 139, 198, 260, 312, 361, 400, 438, 468]
+nonZerosOfAggregate = [78, 139, 198, 260, 312, 361, 400, 438, 468, 498]
+data_trans_norm = 172.56410256410257
+INFO:root:################local_test_on_all_clients : 4
+INFO:root:{'training_acc': 0.8661855335711969, 'training_loss': 1.609141926784002}
+INFO:root:{'test_acc': 0.8637720488466757, 'test_loss': 1.6121730864290629}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 142]
+nonZerosOfAggregate = [78, 142, 202]
+nonZerosOfAggregate = [78, 142, 202, 258]
+nonZerosOfAggregate = [78, 142, 202, 258, 302]
+nonZerosOfAggregate = [78, 142, 202, 258, 302, 357]
+nonZerosOfAggregate = [78, 142, 202, 258, 302, 357, 412]
+nonZerosOfAggregate = [78, 142, 202, 258, 302, 357, 412, 457]
+nonZerosOfAggregate = [78, 142, 202, 258, 302, 357, 412, 457, 498]
+nonZerosOfAggregate = [78, 142, 202, 258, 302, 357, 412, 457, 498, 541]
+data_trans_norm = 174.7820512820513
+INFO:root:################local_test_on_all_clients : 5
+INFO:root:{'training_acc': 0.8766623418747973, 'training_loss': 1.5944352770137817}
+INFO:root:{'test_acc': 0.8723202170963364, 'test_loss': 1.5990105046022536}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 151]
+nonZerosOfAggregate = [78, 151, 218]
+nonZerosOfAggregate = [78, 151, 218, 289]
+nonZerosOfAggregate = [78, 151, 218, 289, 352]
+nonZerosOfAggregate = [78, 151, 218, 289, 352, 414]
+nonZerosOfAggregate = [78, 151, 218, 289, 352, 414, 473]
+nonZerosOfAggregate = [78, 151, 218, 289, 352, 414, 473, 533]
+nonZerosOfAggregate = [78, 151, 218, 289, 352, 414, 473, 533, 588]
+nonZerosOfAggregate = [78, 151, 218, 289, 352, 414, 473, 533, 588, 632]
+data_trans_norm = 197.26923076923075
+INFO:root:################local_test_on_all_clients : 6
+INFO:root:{'training_acc': 0.8831170937398638, 'training_loss': 1.596029689267128}
+INFO:root:{'test_acc': 0.8773405698778833, 'test_loss': 1.6010203982143583}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 147]
+nonZerosOfAggregate = [78, 147, 208]
+nonZerosOfAggregate = [78, 147, 208, 269]
+nonZerosOfAggregate = [78, 147, 208, 269, 326]
+nonZerosOfAggregate = [78, 147, 208, 269, 326, 384]
+nonZerosOfAggregate = [78, 147, 208, 269, 326, 384, 444]
+nonZerosOfAggregate = [78, 147, 208, 269, 326, 384, 444, 494]
+nonZerosOfAggregate = [78, 147, 208, 269, 326, 384, 444, 494, 550]
+nonZerosOfAggregate = [78, 147, 208, 269, 326, 384, 444, 494, 550, 598]
+data_trans_norm = 185.66666666666666
+INFO:root:################local_test_on_all_clients : 7
+INFO:root:{'training_acc': 0.8838144664288031, 'training_loss': 1.582403018356259}
+INFO:root:{'test_acc': 0.8774762550881954, 'test_loss': 1.587109053215793}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 153]
+nonZerosOfAggregate = [78, 153, 227]
+nonZerosOfAggregate = [78, 153, 227, 301]
+nonZerosOfAggregate = [78, 153, 227, 301, 374]
+nonZerosOfAggregate = [78, 153, 227, 301, 374, 442]
+nonZerosOfAggregate = [78, 153, 227, 301, 374, 442, 513]
+nonZerosOfAggregate = [78, 153, 227, 301, 374, 442, 513, 574]
+nonZerosOfAggregate = [78, 153, 227, 301, 374, 442, 513, 574, 636]
+nonZerosOfAggregate = [78, 153, 227, 301, 374, 442, 513, 574, 636, 698]
+data_trans_norm = 208.69230769230768
+INFO:root:################local_test_on_all_clients : 8
+INFO:root:{'training_acc': 0.8856308790139474, 'training_loss': 1.582745752367848}
+INFO:root:{'test_acc': 0.878561736770692, 'test_loss': 1.5871272031293633}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [78]
+nonZerosOfAggregate = [78, 146]
+nonZerosOfAggregate = [78, 146, 212]
+nonZerosOfAggregate = [78, 146, 212, 273]
+nonZerosOfAggregate = [78, 146, 212, 273, 336]
+nonZerosOfAggregate = [78, 146, 212, 273, 336, 398]
+nonZerosOfAggregate = [78, 146, 212, 273, 336, 398, 456]
+nonZerosOfAggregate = [78, 146, 212, 273, 336, 398, 456, 514]
+nonZerosOfAggregate = [78, 146, 212, 273, 336, 398, 456, 514, 573]
+nonZerosOfAggregate = [78, 146, 212, 273, 336, 398, 456, 514, 573, 629]
+data_trans_norm = 190.35897435897434
+INFO:root:################local_test_on_all_clients : 9
+INFO:root:{'training_acc': 0.8867337009406422, 'training_loss': 1.5732188596959011}
+INFO:root:{'test_acc': 0.8796472184531886, 'test_loss': 1.5785287545364617}
+INFO:root:################Communication round : 10

@@ -1,0 +1,57 @@
+2024-04-26 10:25:17,395 INFO    StreamThr :231229 [internal.py:wandb_internal():86] W&B internal server running at pid: 231229, started at: 2024-04-26 10:25:17.394693
+2024-04-26 10:25:17,419 DEBUG   HandlerThread:231229 [handler.py:handle_request():146] handle_request: status
+2024-04-26 10:25:17,426 INFO    WriterThread:231229 [datastore.py:open_for_write():87] open: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240426_102517-lgam41nt/run-lgam41nt.wandb
+2024-04-26 10:25:17,426 DEBUG   SenderThread:231229 [sender.py:send():379] send: header
+2024-04-26 10:25:17,427 DEBUG   SenderThread:231229 [sender.py:send():379] send: run
+2024-04-26 10:25:17,900 INFO    SenderThread:231229 [dir_watcher.py:__init__():211] watching files in: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240426_102517-lgam41nt/files
+2024-04-26 10:25:17,900 INFO    SenderThread:231229 [sender.py:_start_run_threads():1124] run started: lgam41nt with start time 1714119917.400264
+2024-04-26 10:25:17,909 DEBUG   HandlerThread:231229 [handler.py:handle_request():146] handle_request: check_version
+2024-04-26 10:25:17,910 DEBUG   SenderThread:231229 [sender.py:send_request():406] send_request: check_version
+2024-04-26 10:25:18,107 DEBUG   HandlerThread:231229 [handler.py:handle_request():146] handle_request: run_start
+2024-04-26 10:25:18,108 DEBUG   HandlerThread:231229 [system_info.py:__init__():26] System info init
+2024-04-26 10:25:18,108 DEBUG   HandlerThread:231229 [system_info.py:__init__():41] System info init done
+2024-04-26 10:25:18,108 INFO    HandlerThread:231229 [system_monitor.py:start():194] Starting system monitor
+2024-04-26 10:25:18,113 INFO    SystemMonitor:231229 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-26 10:25:18,113 INFO    HandlerThread:231229 [system_monitor.py:probe():214] Collecting system info
+2024-04-26 10:25:18,118 INFO    SystemMonitor:231229 [interfaces.py:start():190] Started cpu monitoring
+2024-04-26 10:25:18,122 DEBUG   HandlerThread:231229 [system_info.py:probe():150] Probing system
+2024-04-26 10:25:18,123 INFO    SystemMonitor:231229 [interfaces.py:start():190] Started disk monitoring
+2024-04-26 10:25:18,128 INFO    SystemMonitor:231229 [interfaces.py:start():190] Started memory monitoring
+2024-04-26 10:25:18,134 DEBUG   HandlerThread:231229 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-26 10:25:18,134 DEBUG   HandlerThread:231229 [system_info.py:probe():198] Probing system done
+2024-04-26 10:25:18,134 DEBUG   HandlerThread:231229 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-10031-tuxedo-x86_64-with-glibc2.35', 'python': '3.11.7', 'heartbeatAt': '2024-04-26T08:25:18.122727', 'startedAt': '2024-04-26T08:25:17.382143', 'docker': None, 'cuda': None, 'args': ('--gpu', '1', '--dataset', 'mnist', '--data_dir', './../../../data/mnist', '--model', 'lr', '--spar_ratio', '0.01', '--client_num_in_total', '24', '--client_num_per_round', '24', '--comm_round', '10', '--batch_size', '20'), 'state': 'running', 'program': '/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/./main_fedavg.py', 'codePathLocal': 'main_fedavg.py', 'codePath': 'main_fedavg.py', 'host': 'kolkata', 'username': 'mukherjee', 'executable': '/home/mukherjee/anaconda3/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2.4200000000000004, 'min': 400.0, 'max': 4056.0}, 'cpu_freq_per_core': [{'current': 2.42, 'min': 400.0, 'max': 4056.0}, {'current': 2.42, 'min': 400.0, 'max': 4056.0}, {'current': 2.42, 'min': 400.0, 'max': 4056.0}, {'current': 2.42, 'min': 400.0, 'max': 4056.0}, {'current': 2.42, 'min': 400.0, 'max': 4056.0}, {'current': 2.42, 'min': 400.0, 'max': 4056.0}, {'current': 2.418, 'min': 400.0, 'max': 4056.0}, {'current': 2.418, 'min': 400.0, 'max': 4056.0}, {'current': 2.418, 'min': 400.0, 'max': 4056.0}, {'current': 2.418, 'min': 400.0, 'max': 4056.0}, {'current': 2.418, 'min': 400.0, 'max': 4056.0}, {'current': 2.418, 'min': 400.0, 'max': 4056.0}], 'disk': {'/': {'total': 449.01197814941406, 'used': 129.6539535522461}}, 'memory': {'total': 30.68124771118164}}
+2024-04-26 10:25:18,134 INFO    HandlerThread:231229 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-26 10:25:18,134 INFO    HandlerThread:231229 [system_monitor.py:probe():227] Publishing system info
+2024-04-26 10:25:18,134 DEBUG   HandlerThread:231229 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-26 10:25:18,142 INFO    SystemMonitor:231229 [interfaces.py:start():190] Started network monitoring
+2024-04-26 10:25:18,897 INFO    Thread-12 :231229 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240426_102517-lgam41nt/files/conda-environment.yaml
+2024-04-26 10:25:33,168 ERROR   HandlerThread:231229 [system_info.py:_save_conda():221] Error saving conda packages: Command '['conda', 'env', 'export']' timed out after 15 seconds
+Traceback (most recent call last):
+  File "/home/mukherjee/anaconda3/lib/python3.11/site-packages/wandb/sdk/internal/system/system_info.py", line 214, in _save_conda
+    subprocess.call(
+  File "/home/mukherjee/anaconda3/lib/python3.11/subprocess.py", line 391, in call
+    return p.wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mukherjee/anaconda3/lib/python3.11/subprocess.py", line 1264, in wait
+    return self._wait(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mukherjee/anaconda3/lib/python3.11/subprocess.py", line 2038, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['conda', 'env', 'export']' timed out after 15 seconds
+2024-04-26 10:25:33,169 DEBUG   HandlerThread:231229 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-26 10:25:33,169 INFO    HandlerThread:231229 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-26 10:25:33,171 DEBUG   HandlerThread:231229 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 10:25:33,172 DEBUG   HandlerThread:231229 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-26 10:25:33,172 DEBUG   HandlerThread:231229 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 10:25:33,172 DEBUG   HandlerThread:231229 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-26 10:25:33,172 DEBUG   HandlerThread:231229 [handler.py:handle_request():146] handle_request: status_report
+2024-04-26 10:25:33,172 DEBUG   SenderThread:231229 [sender.py:send():379] send: files
+2024-04-26 10:25:33,173 INFO    SenderThread:231229 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-26 10:25:33,900 INFO    Thread-12 :231229 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240426_102517-lgam41nt/files/wandb-metadata.json
+2024-04-26 10:25:33,935 INFO    wandb-upload_0:231229 [upload_job.py:push():131] Uploaded file /tmp/tmpa9lrcnhowandb/h5gcz82k-wandb-metadata.json
+2024-04-26 10:25:34,116 INFO    MainThread:231229 [internal.py:handle_exit():76] Internal process exited
+2024-04-26 10:25:34,131 INFO    cpu       :231229 [interfaces.py:monitor():140] Process cpu has exited.
+2024-04-26 10:25:34,132 DEBUG   SystemMonitor:231229 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-26 10:25:34,132 DEBUG   SystemMonitor:231229 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-26 10:25:34,132 DEBUG   SystemMonitor:231229 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-26 10:25:34,133 DEBUG   SenderThread:231229 [sender.py:send():379] send: stats

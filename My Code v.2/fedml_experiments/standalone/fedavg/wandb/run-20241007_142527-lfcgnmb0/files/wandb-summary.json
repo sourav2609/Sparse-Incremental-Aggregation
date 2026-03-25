@@ -1,0 +1,1 @@
+{"Total communication cost (bits)":28080,"Test/Acc":0.8445982627578719,"_timestamp":1.728303957021677e+09,"_runtime":29.892245,"Train/Acc":0.8537234042553191,"Averaged num of non-zero values per round":78,"Total communication cost [normalized]":8,"Test/Loss":1.6152301940351046,"_step":69,"Train/Loss":1.6124361452888687,"round":9,"_wandb":{"runtime":30}}

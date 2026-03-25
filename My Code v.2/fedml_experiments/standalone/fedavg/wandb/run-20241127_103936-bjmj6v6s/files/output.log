@@ -1,0 +1,166 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+tensor([7, 2, 2, 5, 0, 6, 6, 6, 6, 9])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: CL_SIA_Bho
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502631545622}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314467787352}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 8)
+Counter = 0
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.3919466787752984, 'training_loss': 2.1769695663752184}
+INFO:root:{'test_acc': 0.3921009771986971, 'test_loss': 2.1784619521855273}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 8)
+Counter = 1
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 2
+round idx in local_test = 2
+INFO:root:{'training_acc': 0.4929294239750908, 'training_loss': 2.116390013240846}
+INFO:root:{'test_acc': 0.49049945711183496, 'test_loss': 2.1163904914767944}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 8)
+Counter = 2
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.5297093928386092, 'training_loss': 2.1785742713145226}
+INFO:root:{'test_acc': 0.5306731813246471, 'test_loss': 2.1816074092600424}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 8)
+Counter = 3
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 4
+round idx in local_test = 4
+INFO:root:{'training_acc': 0.53415282823041, 'training_loss': 2.1484583312665855}
+INFO:root:{'test_acc': 0.5329804560260586, 'test_loss': 2.150453571808584}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 8)
+Counter = 4
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 5
+round idx in local_test = 5
+INFO:root:{'training_acc': 0.6217890503373119, 'training_loss': 2.1822230448500752}
+INFO:root:{'test_acc': 0.614956568946797, 'test_loss': 2.1853373886837373}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 8)
+Counter = 5
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.5314770368448365, 'training_loss': 2.1702461686269507}
+INFO:root:{'test_acc': 0.5335233441910966, 'test_loss': 2.1728484987986074}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 8)
+Counter = 6
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 7
+round idx in local_test = 7
+INFO:root:{'training_acc': 0.5666353139595226, 'training_loss': 2.1844734609645142}
+INFO:root:{'test_acc': 0.5665038002171553, 'test_loss': 2.1877092150536472}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 8)
+Counter = 7
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 8
+round idx in local_test = 8
+INFO:root:{'training_acc': 0.5140762843798651, 'training_loss': 2.1651765046787186}
+INFO:root:{'test_acc': 0.5185939196525515, 'test_loss': 2.1678786133936767}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 8)
+Counter = 0
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 9
+round idx in local_test = 9
+INFO:root:{'training_acc': 0.5276822781525687, 'training_loss': 2.1773435769918734}
+INFO:root:{'test_acc': 0.5283659066232356, 'test_loss': 2.180433850448243}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 8)
+Counter = 1
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 10
+round idx in local_test = 10
+INFO:root:{'training_acc': 0.5197035547483134, 'training_loss': 2.1678879263877993}
+INFO:root:{'test_acc': 0.5215798045602605, 'test_loss': 2.1701785464984455}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 8)
+Counter = 2
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 11
+round idx in local_test = 11
+INFO:root:{'training_acc': 0.5205954852101713, 'training_loss': 2.1762976953223325}
+INFO:root:{'test_acc': 0.5217155266015201, 'test_loss': 2.179724718263043}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 8)
+Counter = 3
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 12
+round idx in local_test = 12
+INFO:root:{'training_acc': 0.513216787752984, 'training_loss': 2.1661700065280094}
+INFO:root:{'test_acc': 0.5149294245385451, 'test_loss': 2.169392810242572}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 8)
+Counter = 4
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 13
+round idx in local_test = 13
+INFO:root:{'training_acc': 0.5113518422418267, 'training_loss': 2.176084097434216}
+INFO:root:{'test_acc': 0.511400651465798, 'test_loss': 2.179972111871395}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 8)
+Counter = 5
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 14
+round idx in local_test = 14
+INFO:root:{'training_acc': 0.5129897509081474, 'training_loss': 2.1643028252781766}
+INFO:root:{'test_acc': 0.5112649294245385, 'test_loss': 2.1672297691386375}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 8)
+Counter = 6
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 15
+round idx in local_test = 15
+INFO:root:{'training_acc': 0.5122113388687078, 'training_loss': 2.1731847628185523}
+INFO:root:{'test_acc': 0.5115363735070575, 'test_loss': 2.176221965368226}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 8)
+Counter = 7
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 16
+round idx in local_test = 16
+INFO:root:{'training_acc': 0.5124545926310327, 'training_loss': 2.159883041539895}
+INFO:root:{'test_acc': 0.5138436482084691, 'test_loss': 2.1627453782885913}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 8)
+Counter = 0
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 17
+round idx in local_test = 17
+INFO:root:{'training_acc': 0.5152114686040478, 'training_loss': 2.1674001572211914}
+INFO:root:{'test_acc': 0.5161509229098805, 'test_loss': 2.1713160431896306}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 8)
+Counter = 1
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 18
+round idx in local_test = 18
+INFO:root:{'training_acc': 0.5181142968344578, 'training_loss': 2.152011146485713}
+INFO:root:{'test_acc': 0.5199511400651465, 'test_loss': 2.1540530705652587}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 8)
+Counter = 2
+non-zeros in mask = 78
+INFO:root:################local_test_on_all_clients : 19
+round idx in local_test = 19
+INFO:root:{'training_acc': 0.5185521536066424, 'training_loss': 2.160899233221853}
+INFO:root:{'test_acc': 0.5184581976112921, 'test_loss': 2.165101492298154}

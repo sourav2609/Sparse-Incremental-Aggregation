@@ -1,0 +1,28 @@
+{"time":"2024-10-22T15:37:59.833975+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-22T15:37:59.834027+02:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241022_153759-dp83kjxc/logs/debug-core.log"}
+{"time":"2024-10-22T15:37:59.840776+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-22T15:37:59.85672+02:00","level":"INFO","msg":"created new stream","id":"dp83kjxc"}
+{"time":"2024-10-22T15:37:59.85676+02:00","level":"INFO","msg":"stream: started","id":"dp83kjxc"}
+{"time":"2024-10-22T15:37:59.856794+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"dp83kjxc"}}
+{"time":"2024-10-22T15:37:59.856816+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"dp83kjxc"}}
+{"time":"2024-10-22T15:37:59.856769+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"dp83kjxc"}}
+{"time":"2024-10-22T15:38:00.218345+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-22T15:38:00.220185+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-22T15:38:10.23987+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-22T15:38:20.242706+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-22T15:38:30.239263+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-22T15:38:40.240454+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-22T15:38:50.239297+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-22T15:39:00.238826+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-22T15:39:10.239658+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-22T15:39:15.186509+02:00","level":"INFO","msg":"stream: closing","id":"dp83kjxc"}
+{"time":"2024-10-22T15:39:15.18685+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-22T15:39:15.186872+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-22T15:39:15.354222+02:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-22T15:39:15.354232+02:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-22T15:39:15.354236+02:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-22T15:39:16.041313+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-22T15:39:16.236595+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"dp83kjxc"}}
+{"time":"2024-10-22T15:39:16.23656+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"dp83kjxc"}}
+{"time":"2024-10-22T15:39:16.23658+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"dp83kjxc"}}
+{"time":"2024-10-22T15:39:16.23813+02:00","level":"INFO","msg":"stream: closed","id":"dp83kjxc"}

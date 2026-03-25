@@ -1,0 +1,14 @@
+{"time":"2024-10-22T11:12:37.315535+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-22T11:12:37.315572+02:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241022_111237-61oigfjf/logs/debug-core.log"}
+{"time":"2024-10-22T11:12:37.319908+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-22T11:12:37.331625+02:00","level":"INFO","msg":"created new stream","id":"61oigfjf"}
+{"time":"2024-10-22T11:12:37.331658+02:00","level":"INFO","msg":"stream: started","id":"61oigfjf"}
+{"time":"2024-10-22T11:12:37.331697+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"61oigfjf"}}
+{"time":"2024-10-22T11:12:37.331666+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"61oigfjf"}}
+{"time":"2024-10-22T11:12:37.331684+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"61oigfjf"}}
+{"time":"2024-10-22T11:12:37.333897+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-10-22T11:12:39.36453+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-10-22T11:12:43.649768+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-10-22T11:12:53.450237+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2024-10-22T11:13:10.012191+02:00","level":"INFO","msg":"stream: closing","id":"61oigfjf"}
+{"time":"2024-10-22T11:13:12.267528+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}

@@ -1,0 +1,899 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5']
+tensor([6, 2, 1, 6, 8, 4, 5, 1, 4, 5, 2, 6, 2, 0, 7, 6, 7, 3, 9, 3, 6, 4, 9, 8,
+        6, 7, 4, 1, 3, 6, 3, 8, 6, 3, 4, 8, 2, 3, 3, 4, 8, 7, 8, 5, 7, 6, 0, 0,
+        3, 8])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: Constant-Length ALgorithm
+K value = 78
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834646946255393, 'training_loss': 2.3288500396876928}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314362298135}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 10513.875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 17533.423828125
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 22596.509765625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 26375.0078125
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 29425.8125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 32071.828125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.42215627128539457, 'training_loss': 2.0895982991013144}
+INFO:root:{'test_acc': 0.4180238870792617, 'test_loss': 2.091309952587051}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 3708.912109375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 3512.293701171875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 3818.07958984375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 3524.99560546875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 3667.199462890625
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 3731.53515625
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 2
+round idx in local_test = 2
+INFO:root:{'training_acc': 0.5904608997437644, 'training_loss': 1.9306304666825178}
+INFO:root:{'test_acc': 0.5830618892508144, 'test_loss': 1.9311357381613066}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 3313.616943359375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2970.13671875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 3496.1025390625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 3164.335693359375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 3181.532470703125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 3330.864013671875
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.714848691252311, 'training_loss': 1.7930528746512402}
+INFO:root:{'test_acc': 0.7094191096634094, 'test_loss': 1.7915775362365798}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 3885.380126953125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 3832.215087890625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 3792.87158203125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 3958.372314453125
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 3958.536376953125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 3847.315673828125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 4
+round idx in local_test = 4
+INFO:root:{'training_acc': 0.7661931173169861, 'training_loss': 1.73531872955276}
+INFO:root:{'test_acc': 0.7642508143322475, 'test_loss': 1.7346846196602275}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 3297.16357421875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 3051.062744140625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 3149.20654296875
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2926.816650390625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 3066.43310546875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 3359.92138671875
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 5
+round idx in local_test = 5
+INFO:root:{'training_acc': 0.7925464629755765, 'training_loss': 1.7012939113468808}
+INFO:root:{'test_acc': 0.7861020629750272, 'test_loss': 1.6999395326281475}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 3028.62841796875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 3020.62109375
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 3069.929443359375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 3052.47900390625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 3188.7509765625
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 3202.3349609375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.8100288670493984, 'training_loss': 1.66957453578118}
+INFO:root:{'test_acc': 0.8082247557003257, 'test_loss': 1.6683604243200325}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 2839.56884765625
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2737.926025390625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2689.42138671875
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2533.785400390625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 2725.554931640625
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 2846.59375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 7
+round idx in local_test = 7
+INFO:root:{'training_acc': 0.8327495053679738, 'training_loss': 1.6494234365333682}
+INFO:root:{'test_acc': 0.8295331161780674, 'test_loss': 1.650223698179833}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 2527.5986328125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2466.943115234375
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2607.787109375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2497.972900390625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 2701.466796875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 2744.490234375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 8
+round idx in local_test = 8
+INFO:root:{'training_acc': 0.8394959618565729, 'training_loss': 1.638168463817244}
+INFO:root:{'test_acc': 0.8357763300760044, 'test_loss': 1.638702937594972}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 3154.947509765625
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 3009.678466796875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 3058.42822265625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2863.970703125
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 3052.37109375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 3118.79931640625
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 9
+round idx in local_test = 9
+INFO:root:{'training_acc': 0.8448963705361486, 'training_loss': 1.6282898518903128}
+INFO:root:{'test_acc': 0.8394408251900108, 'test_loss': 1.6296844458152884}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 2484.854248046875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2602.9873046875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2479.782470703125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2447.547119140625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 2565.59423828125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 2508.562744140625
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 10
+round idx in local_test = 10
+INFO:root:{'training_acc': 0.8515617398073367, 'training_loss': 1.6198277452222403}
+INFO:root:{'test_acc': 0.8469055374592834, 'test_loss': 1.6209234809189486}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 2745.519287109375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2629.258544921875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2613.6259765625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2630.084228515625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 2774.530029296875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 2696.235595703125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 11
+round idx in local_test = 11
+INFO:root:{'training_acc': 0.861178683792287, 'training_loss': 1.6151247830922348}
+INFO:root:{'test_acc': 0.8547774158523345, 'test_loss': 1.6170019234301083}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 2321.833251953125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2357.643310546875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2240.841064453125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2266.97509765625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 2402.29638671875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 2214.58935546875
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 12
+round idx in local_test = 12
+INFO:root:{'training_acc': 0.8613084233401447, 'training_loss': 1.610233893452391}
+INFO:root:{'test_acc': 0.8584419109663409, 'test_loss': 1.6133331034846208}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 2467.80322265625
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2397.785400390625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2396.349609375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2168.030029296875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 2336.671875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 2393.18896484375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 13
+round idx in local_test = 13
+INFO:root:{'training_acc': 0.8616003373228245, 'training_loss': 1.6064040007548253}
+INFO:root:{'test_acc': 0.8554560260586319, 'test_loss': 1.60981768217589}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 2118.491455078125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2075.70068359375
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2092.955078125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2186.308837890625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 2346.95068359375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 2248.21630859375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 14
+round idx in local_test = 14
+INFO:root:{'training_acc': 0.8617138594271999, 'training_loss': 1.606390579691546}
+INFO:root:{'test_acc': 0.8576275787187839, 'test_loss': 1.6096243760290674}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1891.4483642578125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1993.51513671875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1951.4447021484375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1965.7442626953125
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 2113.375244140625
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1907.01708984375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 15
+round idx in local_test = 15
+INFO:root:{'training_acc': 0.8644546073756932, 'training_loss': 1.6042443598450797}
+INFO:root:{'test_acc': 0.8614277958740499, 'test_loss': 1.6073054694585769}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1941.1292724609375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2311.17236328125
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2195.570556640625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2110.371337890625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1995.754638671875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1941.374267578125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 16
+round idx in local_test = 16
+INFO:root:{'training_acc': 0.8650546527845351, 'training_loss': 1.5991061596246208}
+INFO:root:{'test_acc': 0.8621064060803475, 'test_loss': 1.6024979530276486}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1809.06689453125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1814.3985595703125
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1720.0697021484375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1710.35693359375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1816.3831787109375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1901.1905517578125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 17
+round idx in local_test = 17
+INFO:root:{'training_acc': 0.8657357854107879, 'training_loss': 1.597365009655556}
+INFO:root:{'test_acc': 0.8626492942453855, 'test_loss': 1.6006029523286187}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1840.0426025390625
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2004.93310546875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1841.9244384765625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1797.2958984375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1889.5126953125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1613.79345703125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 18
+round idx in local_test = 18
+INFO:root:{'training_acc': 0.8683954461418701, 'training_loss': 1.5936924106015846}
+INFO:root:{'test_acc': 0.8626492942453855, 'test_loss': 1.598067097924043}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1738.7845458984375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 2132.95751953125
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 2013.86181640625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 2004.9036865234375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1893.8104248046875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1846.2220458984375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 19
+round idx in local_test = 19
+INFO:root:{'training_acc': 0.8701144951509844, 'training_loss': 1.5908618615946557}
+INFO:root:{'test_acc': 0.8626492942453855, 'test_loss': 1.594678250346717}
+INFO:root:################Communication round : 20
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1400.2218017578125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1691.2109375
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1613.0927734375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1618.537109375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1604.28173828125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1574.8153076171875
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 20
+round idx in local_test = 20
+INFO:root:{'training_acc': 0.8700982777075021, 'training_loss': 1.5894186974368285}
+INFO:root:{'test_acc': 0.864413680781759, 'test_loss': 1.5926114506817277}
+INFO:root:################Communication round : 21
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1461.35498046875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1606.5015869140625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1536.3858642578125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1569.503173828125
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1671.5355224609375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1698.39990234375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 21
+round idx in local_test = 21
+INFO:root:{'training_acc': 0.868768447341961, 'training_loss': 1.587456020672157}
+INFO:root:{'test_acc': 0.8642779587404995, 'test_loss': 1.59127566486953}
+INFO:root:################Communication round : 22
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1361.9591064453125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1694.6607666015625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1618.6302490234375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1610.049560546875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1564.1077880859375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1489.8414306640625
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 22
+round idx in local_test = 22
+INFO:root:{'training_acc': 0.870163147481431, 'training_loss': 1.5857926901278976}
+INFO:root:{'test_acc': 0.8650922909880565, 'test_loss': 1.5897772461014126}
+INFO:root:################Communication round : 23
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1288.3934326171875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1341.235107421875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1495.4229736328125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1295.4549560546875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1387.5198974609375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1412.51708984375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 23
+round idx in local_test = 23
+INFO:root:{'training_acc': 0.8700496253770555, 'training_loss': 1.5836895190947582}
+INFO:root:{'test_acc': 0.866313789359392, 'test_loss': 1.5879292964093978}
+INFO:root:################Communication round : 24
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1242.8780517578125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1313.0770263671875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1492.26220703125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1273.834228515625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1396.78662109375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1415.991455078125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 24
+round idx in local_test = 24
+INFO:root:{'training_acc': 0.8704388440206285, 'training_loss': 1.582443628565653}
+INFO:root:{'test_acc': 0.868213897937025, 'test_loss': 1.5856011957415541}
+INFO:root:################Communication round : 25
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1226.9368896484375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1277.0587158203125
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1341.8720703125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1297.8905029296875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1414.2420654296875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1374.6953125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 25
+round idx in local_test = 25
+INFO:root:{'training_acc': 0.8689468392202653, 'training_loss': 1.5808276193264352}
+INFO:root:{'test_acc': 0.8664495114006515, 'test_loss': 1.584047205479215}
+INFO:root:################Communication round : 26
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1183.940185546875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1308.9361572265625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1273.49609375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1375.61669921875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1308.9361572265625
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1241.7459716796875
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 26
+round idx in local_test = 26
+INFO:root:{'training_acc': 0.8689792741072297, 'training_loss': 1.5788131172153357}
+INFO:root:{'test_acc': 0.866042345276873, 'test_loss': 1.5823734069362396}
+INFO:root:################Communication round : 27
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1055.83251953125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1099.573974609375
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1281.723876953125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1127.8790283203125
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1154.41015625
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1269.8843994140625
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 27
+round idx in local_test = 27
+INFO:root:{'training_acc': 0.8691252310985697, 'training_loss': 1.578418684314674}
+INFO:root:{'test_acc': 0.86414223669924, 'test_loss': 1.5828980535883599}
+INFO:root:################Communication round : 28
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1123.155029296875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1117.4263916015625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1288.5306396484375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1131.9010009765625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1258.4075927734375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1295.9058837890625
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 28
+round idx in local_test = 28
+INFO:root:{'training_acc': 0.8694009276377672, 'training_loss': 1.5774932460936326}
+INFO:root:{'test_acc': 0.8648208469055375, 'test_loss': 1.581939270293156}
+INFO:root:################Communication round : 29
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1092.2183837890625
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1112.37890625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1175.8447265625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1138.1258544921875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1211.858154296875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1250.4295654296875
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 29
+round idx in local_test = 29
+INFO:root:{'training_acc': 0.8718984139340274, 'training_loss': 1.5761428995738875}
+INFO:root:{'test_acc': 0.8675352877307275, 'test_loss': 1.5805183214809944}
+INFO:root:################Communication round : 30
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1117.2254638671875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1103.984375
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1138.0806884765625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 952.5995483398438
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1010.2778930664062
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1203.7625732421875
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 30
+round idx in local_test = 30
+INFO:root:{'training_acc': 0.8721416755862605, 'training_loss': 1.5756786247668653}
+INFO:root:{'test_acc': 0.8664495114006515, 'test_loss': 1.5811911722671455}
+INFO:root:################Communication round : 31
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 953.2807006835938
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 968.49169921875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1103.129150390625
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 945.1459350585938
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1076.6644287109375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1128.1583251953125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 31
+round idx in local_test = 31
+INFO:root:{'training_acc': 0.872952547760371, 'training_loss': 1.5750104295326244}
+INFO:root:{'test_acc': 0.8664495114006515, 'test_loss': 1.5803524091694177}
+INFO:root:################Communication round : 32
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 941.4804077148438
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 907.19189453125
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1077.923828125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 922.2412109375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1033.8785400390625
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1115.554443359375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 32
+round idx in local_test = 32
+INFO:root:{'training_acc': 0.8733579838474262, 'training_loss': 1.5746704490988792}
+INFO:root:{'test_acc': 0.8694353963083605, 'test_loss': 1.5804303883859052}
+INFO:root:################Communication round : 33
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1067.289794921875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 1086.1075439453125
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 1044.0126953125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 950.1199340820312
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1163.3485107421875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1225.0599365234375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 33
+round idx in local_test = 33
+INFO:root:{'training_acc': 0.8736336803866238, 'training_loss': 1.5733296074639431}
+INFO:root:{'test_acc': 0.8678067318132465, 'test_loss': 1.5794425079281504}
+INFO:root:################Communication round : 34
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1002.7213745117188
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 981.8699340820312
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 916.4635620117188
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 840.658447265625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 1089.5966796875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1128.2220458984375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 34
+round idx in local_test = 34
+INFO:root:{'training_acc': 0.874963510752165, 'training_loss': 1.571898135600771}
+INFO:root:{'test_acc': 0.869028230184582, 'test_loss': 1.577576587888757}
+INFO:root:################Communication round : 35
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 855.046142578125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 843.1331787109375
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 940.7943725585938
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 835.2189331054688
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 909.0540771484375
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 912.7784423828125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 35
+round idx in local_test = 35
+INFO:root:{'training_acc': 0.8759852096915443, 'training_loss': 1.570448413511065}
+INFO:root:{'test_acc': 0.869299674267101, 'test_loss': 1.5760174501084607}
+INFO:root:################Communication round : 36
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 822.5218505859375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 744.44287109375
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 842.7460327148438
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 793.065185546875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 863.1373901367188
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1016.9397583007812
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 36
+round idx in local_test = 36
+INFO:root:{'training_acc': 0.8772663877266388, 'training_loss': 1.5706177807790724}
+INFO:root:{'test_acc': 0.8721498371335505, 'test_loss': 1.5761992079362548}
+INFO:root:################Communication round : 37
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 896.4844360351562
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 828.3485107421875
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 889.3885498046875
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1165.42724609375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 918.1346435546875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 901.0320434570312
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 37
+round idx in local_test = 37
+INFO:root:{'training_acc': 0.8781259122311958, 'training_loss': 1.5699983722530033}
+INFO:root:{'test_acc': 0.873099891422367, 'test_loss': 1.5757651846131855}
+INFO:root:################Communication round : 38
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 828.2113037109375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 756.3804321289062
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 872.4819946289062
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1094.05029296875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 849.2440185546875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 953.0503540039062
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 38
+round idx in local_test = 38
+INFO:root:{'training_acc': 0.8780286075703027, 'training_loss': 1.5692619057511468}
+INFO:root:{'test_acc': 0.8710640608034745, 'test_loss': 1.5750962456002686}
+INFO:root:################Communication round : 39
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 903.7958984375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 858.0746459960938
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 973.0197143554688
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1042.4912109375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 901.688720703125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 1009.0870971679688
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 39
+round idx in local_test = 39
+INFO:root:{'training_acc': 0.8787421750835198, 'training_loss': 1.568567037700327}
+INFO:root:{'test_acc': 0.8724212812160695, 'test_loss': 1.5746166363730623}
+INFO:root:################Communication round : 40
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 1074.204345703125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 921.2072143554688
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 951.8203735351562
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1028.816650390625
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 865.2244262695312
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 986.598876953125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 40
+round idx in local_test = 40
+INFO:root:{'training_acc': 0.878758392527002, 'training_loss': 1.5671429260199836}
+INFO:root:{'test_acc': 0.8713355048859935, 'test_loss': 1.5736530408602973}
+INFO:root:################Communication round : 41
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 880.59716796875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 848.0630493164062
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 795.3193969726562
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 1005.4945678710938
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 889.614013671875
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 847.376953125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 41
+round idx in local_test = 41
+INFO:root:{'training_acc': 0.8788556971878952, 'training_loss': 1.5665840680006626}
+INFO:root:{'test_acc': 0.872557003257329, 'test_loss': 1.573225208460055}
+INFO:root:################Communication round : 42
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 861.6207275390625
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 802.0281372070312
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 877.2648315429688
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 960.1329345703125
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 845.2875366210938
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 873.95703125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 42
+round idx in local_test = 42
+INFO:root:{'training_acc': 0.8798125263533456, 'training_loss': 1.56547944439648}
+INFO:root:{'test_acc': 0.87228555917481, 'test_loss': 1.5727323149366306}
+INFO:root:################Communication round : 43
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 934.6064453125
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 640.1710205078125
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 813.1619873046875
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 819.4786376953125
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 782.4998168945312
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 878.3870239257812
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 43
+round idx in local_test = 43
+INFO:root:{'training_acc': 0.880607181083974, 'training_loss': 1.5652644247534846}
+INFO:root:{'test_acc': 0.8743213897937026, 'test_loss': 1.5729912892226676}
+INFO:root:################Communication round : 44
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 918.20263671875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 725.6799926757812
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 811.6134643554688
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 669.2747802734375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 799.440673828125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 916.6400146484375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 44
+round idx in local_test = 44
+INFO:root:{'training_acc': 0.8823586649800526, 'training_loss': 1.56559763602628}
+INFO:root:{'test_acc': 0.8751357220412594, 'test_loss': 1.5733562941206913}
+INFO:root:################Communication round : 45
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 884.0403442382812
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 766.4606323242188
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 775.026611328125
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 748.0202026367188
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 798.3283081054688
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 884.870361328125
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 45
+round idx in local_test = 45
+INFO:root:{'training_acc': 0.8823910998670169, 'training_loss': 1.5652954542576167}
+INFO:root:{'test_acc': 0.8751357220412594, 'test_loss': 1.5730768942742344}
+INFO:root:################Communication round : 46
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 685.4022216796875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 702.9164428710938
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 726.6199340820312
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 719.8900756835938
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 645.4782104492188
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 818.3956909179688
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 46
+round idx in local_test = 46
+INFO:root:{'training_acc': 0.88278031851059, 'training_loss': 1.5646309854224045}
+INFO:root:{'test_acc': 0.8751357220412594, 'test_loss': 1.5728546989015855}
+INFO:root:################Communication round : 47
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 708.17138671875
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 713.3690795898438
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 725.3654174804688
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 752.8177490234375
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 675.204345703125
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 813.0443725585938
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 47
+round idx in local_test = 47
+INFO:root:{'training_acc': 0.8832344069280919, 'training_loss': 1.5641173547892793}
+INFO:root:{'test_acc': 0.874457111834962, 'test_loss': 1.5725114475308748}
+INFO:root:################Communication round : 48
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 694.6395874023438
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 709.4879150390625
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 701.4365234375
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 759.1785888671875
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 660.4721069335938
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 767.7646484375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 48
+round idx in local_test = 48
+INFO:root:{'training_acc': 0.883396581362914, 'training_loss': 1.5633088407617473}
+INFO:root:{'test_acc': 0.876357220412595, 'test_loss': 1.5714505049485985}
+INFO:root:################Communication round : 49
+INFO:root:client_indexes = range(0, 6)
+Max value of gradients for client 0 is 786.33740234375
+Non-zeros after spars. = 78
+Max value of gradients for client 1 is 716.8316040039062
+Non-zeros after spars. = 78
+Max value of gradients for client 2 is 758.0171508789062
+Non-zeros after spars. = 78
+Max value of gradients for client 3 is 731.7571411132812
+Non-zeros after spars. = 78
+Max value of gradients for client 4 is 669.9837036132812
+Non-zeros after spars. = 78
+Max value of gradients for client 5 is 797.2425537109375
+Non-zeros after spars. = 78
+INFO:root:################local_test_on_all_clients : 49
+round idx in local_test = 49
+INFO:root:{'training_acc': 0.8856021536764944, 'training_loss': 1.5626229142215504}
+INFO:root:{'test_acc': 0.8762214983713354, 'test_loss': 1.5703451382673783}

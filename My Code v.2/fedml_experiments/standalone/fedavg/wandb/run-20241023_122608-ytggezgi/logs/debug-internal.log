@@ -1,0 +1,25 @@
+{"time":"2024-10-23T12:26:08.633506+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T12:26:08.633564+02:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241023_122608-ytggezgi/logs/debug-core.log"}
+{"time":"2024-10-23T12:26:08.639139+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T12:26:08.651953+02:00","level":"INFO","msg":"created new stream","id":"ytggezgi"}
+{"time":"2024-10-23T12:26:08.651993+02:00","level":"INFO","msg":"stream: started","id":"ytggezgi"}
+{"time":"2024-10-23T12:26:08.652033+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ytggezgi"}}
+{"time":"2024-10-23T12:26:08.652062+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ytggezgi"}}
+{"time":"2024-10-23T12:26:08.651999+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ytggezgi"}}
+{"time":"2024-10-23T12:26:09.024579+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T12:26:09.02645+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T12:26:19.05046+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T12:26:29.045591+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T12:26:39.04563+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T12:26:49.045817+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-23T12:26:57.588029+02:00","level":"INFO","msg":"stream: closing","id":"ytggezgi"}
+{"time":"2024-10-23T12:26:57.588342+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T12:26:57.588372+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T12:26:57.739019+02:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-23T12:26:57.739036+02:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-23T12:26:57.739042+02:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-23T12:26:58.57793+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T12:26:58.791132+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"ytggezgi"}}
+{"time":"2024-10-23T12:26:58.791158+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ytggezgi"}}
+{"time":"2024-10-23T12:26:58.791168+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"ytggezgi"}}
+{"time":"2024-10-23T12:26:58.791367+02:00","level":"INFO","msg":"stream: closed","id":"ytggezgi"}

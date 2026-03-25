@@ -1,0 +1,29 @@
+2024-04-22 13:22:01,332 INFO    MainThread:762294 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_setup.py:_flush():76] Configure stats pid to 762294
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_setup.py:_flush():76] Loading settings from /home/mukherjee/.config/wandb/settings
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_setup.py:_flush():76] Loading settings from /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/settings
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main_fedavg.py', 'program_abspath': '/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/main_fedavg.py', 'program': '/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/./main_fedavg.py'}
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_init.py:_log_setup():527] Logging user logs to /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240422_132201-c9nxo47h/logs/debug.log
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_init.py:_log_setup():528] Logging internal logs to /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240422_132201-c9nxo47h/logs/debug-internal.log
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_init.py:init():567] calling init triggers
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_init.py:init():574] wandb.init called with sweep_config: {}
+config: {'model': 'lr', 'dataset': 'mnist', 'data_dir': './../../../data/mnist', 'spar_ratio': 0.01, 'partition_method': 'hetero', 'batch_size': 5, 'client_optimizer': 'sgd', 'lr': 0.1, 'wd': 0.0, 'epochs': 5, 'client_num_in_total': 4, 'client_num_per_round': 4, 'comm_round': 50, 'frequency_of_the_test': 1, 'gpu': 1, 'ci': 0}
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_init.py:init():617] starting backend
+2024-04-22 13:22:01,333 INFO    MainThread:762294 [wandb_init.py:init():621] setting up manager
+2024-04-22 13:22:01,335 INFO    MainThread:762294 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-22 13:22:01,336 INFO    MainThread:762294 [wandb_init.py:init():629] backend started and connected
+2024-04-22 13:22:01,337 INFO    MainThread:762294 [wandb_init.py:init():721] updated telemetry
+2024-04-22 13:22:01,338 INFO    MainThread:762294 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-04-22 13:22:01,739 INFO    MainThread:762294 [wandb_run.py:_on_init():2344] communicating current version
+2024-04-22 13:22:01,847 INFO    MainThread:762294 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-22 13:22:01,847 INFO    MainThread:762294 [wandb_init.py:init():805] starting run threads in backend
+2024-04-22 13:22:06,189 INFO    MainThread:762294 [wandb_run.py:_console_start():2323] atexit reg
+2024-04-22 13:22:06,189 INFO    MainThread:762294 [wandb_run.py:_redirect():2178] redirect: wrap_raw
+2024-04-22 13:22:06,189 INFO    MainThread:762294 [wandb_run.py:_redirect():2243] Wrapping output streams.
+2024-04-22 13:22:06,189 INFO    MainThread:762294 [wandb_run.py:_redirect():2268] Redirects installed.
+2024-04-22 13:22:06,190 INFO    MainThread:762294 [wandb_init.py:init():848] run started, returning control to user process
+2024-04-22 13:22:31,273 WARNING MsgRouterThr:762294 [router.py:message_loop():77] message_loop has been closed

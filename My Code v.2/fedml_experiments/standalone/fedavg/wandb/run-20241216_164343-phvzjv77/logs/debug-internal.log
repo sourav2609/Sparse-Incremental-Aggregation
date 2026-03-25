@@ -1,0 +1,22 @@
+{"time":"2024-12-16T16:43:43.883294+01:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-12-16T16:43:43.883362+01:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241216_164343-phvzjv77/logs/debug-core.log"}
+{"time":"2024-12-16T16:43:43.889123+01:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-12-16T16:43:43.90504+01:00","level":"INFO","msg":"created new stream","id":"phvzjv77"}
+{"time":"2024-12-16T16:43:43.9051+01:00","level":"INFO","msg":"stream: started","id":"phvzjv77"}
+{"time":"2024-12-16T16:43:43.905124+01:00","level":"INFO","msg":"sender: started","stream_id":{"value":"phvzjv77"}}
+{"time":"2024-12-16T16:43:43.905132+01:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"phvzjv77"}}
+{"time":"2024-12-16T16:43:43.905103+01:00","level":"INFO","msg":"handler: started","stream_id":{"value":"phvzjv77"}}
+{"time":"2024-12-16T16:43:44.35374+01:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-12-16T16:43:44.355689+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-12-16T16:43:54.38184+01:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-12-16T16:44:02.032315+01:00","level":"INFO","msg":"stream: closing","id":"phvzjv77"}
+{"time":"2024-12-16T16:44:02.032571+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-12-16T16:44:02.032594+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-12-16T16:44:02.180157+01:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-12-16T16:44:02.180166+01:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-12-16T16:44:02.18017+01:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-12-16T16:44:03.286917+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-12-16T16:44:03.851922+01:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"phvzjv77"}}
+{"time":"2024-12-16T16:44:03.851943+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"phvzjv77"}}
+{"time":"2024-12-16T16:44:03.851953+01:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"phvzjv77"}}
+{"time":"2024-12-16T16:44:03.853679+01:00","level":"INFO","msg":"stream: closed","id":"phvzjv77"}

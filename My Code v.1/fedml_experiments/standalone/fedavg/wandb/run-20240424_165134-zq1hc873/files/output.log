@@ -1,0 +1,1734 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3']
+tensor([8, 8, 2, 1, 0, 3, 1, 7, 9, 8])
+%%% pytorch_total_params = 7850
+p in args = 0.01
+p value = 0.01
+in algo 0
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502650645713}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314476200605}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 98]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 98, 105]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 98, 105, 112]
+INFO:root:################local_test_on_all_clients : 1
+INFO:root:{'training_acc': 0.30504021795537106, 'training_loss': 2.180620165751521}
+INFO:root:{'test_acc': 0.30401737242128124, 'test_loss': 2.1831152021690765}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 118]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 118, 144]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 118, 144, 167]
+INFO:root:################local_test_on_all_clients : 2
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.5428775298391282, 'training_loss': 2.07504215631605}
+INFO:root:{'test_acc': 0.5401737242128122, 'test_loss': 2.0763673269463934}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 136]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 136, 189]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 136, 189, 229]
+INFO:root:################local_test_on_all_clients : 3
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.7161715101193565, 'training_loss': 1.8729122455256493}
+INFO:root:{'test_acc': 0.7072475570032574, 'test_loss': 1.8737123386285204}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 139]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 139, 197]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 139, 197, 242]
+INFO:root:################local_test_on_all_clients : 4
+INFO:root:{'training_acc': 0.7968020238713025, 'training_loss': 1.7698590903198341}
+INFO:root:{'test_acc': 0.7957383279044516, 'test_loss': 1.7701579916101844}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151, 220]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151, 220, 277]
+INFO:root:################local_test_on_all_clients : 5
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.8526855215360665, 'training_loss': 1.6481809506592011}
+INFO:root:{'test_acc': 0.8492128121606949, 'test_loss': 1.648647226126264}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 149]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 149, 212]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 149, 212, 268]
+INFO:root:################local_test_on_all_clients : 6
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.8705241307732227, 'training_loss': 1.6029032846505802}
+INFO:root:{'test_acc': 0.864956568946797, 'test_loss': 1.6063625798616294}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 148]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 148, 216]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 148, 216, 278]
+INFO:root:################local_test_on_all_clients : 7
+INFO:root:{'training_acc': 0.876702776336274, 'training_loss': 1.5848119088178418}
+INFO:root:{'test_acc': 0.8713355048859935, 'test_loss': 1.5883191476750969}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 227]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 227, 294]
+INFO:root:################local_test_on_all_clients : 8
+INFO:root:{'training_acc': 0.8885897768552153, 'training_loss': 1.5717825308735964}
+INFO:root:{'test_acc': 0.880157437567861, 'test_loss': 1.5763633882507568}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152, 220]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152, 220, 288]
+INFO:root:################local_test_on_all_clients : 9
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.8935683705241307, 'training_loss': 1.5669898482094666}
+INFO:root:{'test_acc': 0.88585776330076, 'test_loss': 1.5719750912518247}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151, 222]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151, 222, 291]
+INFO:root:################local_test_on_all_clients : 10
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.8955468344577063, 'training_loss': 1.563129053981303}
+INFO:root:{'test_acc': 0.887486427795874, 'test_loss': 1.5700036694056048}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152, 226]
+INFO:root:################local_test_on_all_clients : 11
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152, 226, 298]
+INFO:root:{'training_acc': 0.8952387130254281, 'training_loss': 1.562751582390172}
+INFO:root:{'test_acc': 0.8883007600434311, 'test_loss': 1.569027698098254}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151, 224]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 151, 224, 292]
+INFO:root:################local_test_on_all_clients : 12
+INFO:root:{'training_acc': 0.8979469382459782, 'training_loss': 1.5623852248923669}
+INFO:root:{'test_acc': 0.8911509229098805, 'test_loss': 1.5687358020506517}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 150]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 150, 225]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 150, 225, 298]
+INFO:root:################local_test_on_all_clients : 13
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9001848728593669, 'training_loss': 1.560885497438951}
+INFO:root:{'test_acc': 0.8931867535287731, 'test_loss': 1.5668987299797978}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 228]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 228, 296]
+INFO:root:################local_test_on_all_clients : 14
+INFO:root:{'training_acc': 0.9001037882719253, 'training_loss': 1.5622507618400923}
+INFO:root:{'test_acc': 0.8934581976112921, 'test_loss': 1.569108245394776}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152, 222]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152, 222, 289]
+INFO:root:################local_test_on_all_clients : 15
+INFO:root:{'training_acc': 0.9007038142189933, 'training_loss': 1.559481585325821}
+INFO:root:{'test_acc': 0.8952225841476655, 'test_loss': 1.5666430268626776}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 224]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 224, 295]
+INFO:root:################local_test_on_all_clients : 16
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9009146341463414, 'training_loss': 1.558902990886846}
+INFO:root:{'test_acc': 0.8915580890336591, 'test_loss': 1.5663934142594746}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230, 304]
+INFO:root:################local_test_on_all_clients : 17
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9000713544369486, 'training_loss': 1.556741000698772}
+INFO:root:{'test_acc': 0.8923724212812161, 'test_loss': 1.565081465872051}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 228]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 228, 300]
+INFO:root:################local_test_on_all_clients : 18
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.8997307991696938, 'training_loss': 1.5546769722020248}
+INFO:root:{'test_acc': 0.8899294245385451, 'test_loss': 1.5629570304570835}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 228]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 228, 300]
+INFO:root:################local_test_on_all_clients : 19
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9020660352880124, 'training_loss': 1.5531611541043493}
+INFO:root:{'test_acc': 0.8942725298588491, 'test_loss': 1.5613173023756113}
+INFO:root:################Communication round : 20
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 226]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 226, 301]
+INFO:root:################local_test_on_all_clients : 20
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9005578619615984, 'training_loss': 1.5530314116657058}
+INFO:root:{'test_acc': 0.8893865363735071, 'test_loss': 1.5618684290221667}
+INFO:root:################Communication round : 21
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 226]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 226, 299]
+INFO:root:################local_test_on_all_clients : 21
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.8996983653347171, 'training_loss': 1.5516307218842205}
+INFO:root:{'test_acc': 0.8930510314875135, 'test_loss': 1.5598587872345206}
+INFO:root:################Communication round : 22
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 228]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 228, 297]
+INFO:root:################local_test_on_all_clients : 22
+INFO:root:{'training_acc': 0.9003308251167618, 'training_loss': 1.549446360943196}
+INFO:root:{'test_acc': 0.8930510314875135, 'test_loss': 1.5589045717519476}
+INFO:root:################Communication round : 23
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 229]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 229, 304]
+INFO:root:################local_test_on_all_clients : 23
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9024065905552673, 'training_loss': 1.5496579751867239}
+INFO:root:{'test_acc': 0.8957654723127035, 'test_loss': 1.5594165349757374}
+INFO:root:################Communication round : 24
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 228]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 228, 299]
+INFO:root:################local_test_on_all_clients : 24
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9020498183705241, 'training_loss': 1.5484667564875174}
+INFO:root:{'test_acc': 0.8938653637350705, 'test_loss': 1.5587974114669132}
+INFO:root:################Communication round : 25
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 226]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 226, 300]
+INFO:root:################local_test_on_all_clients : 25
+INFO:root:{'training_acc': 0.9007686818889465, 'training_loss': 1.5485058259866555}
+INFO:root:{'test_acc': 0.8935939196525515, 'test_loss': 1.5592861733723928}
+INFO:root:################Communication round : 26
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231, 305]
+INFO:root:################local_test_on_all_clients : 26
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9023092890503374, 'training_loss': 1.5479294832198498}
+INFO:root:{'test_acc': 0.8934581976112921, 'test_loss': 1.5592396501674197}
+INFO:root:################Communication round : 27
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 228]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 228, 301]
+INFO:root:################local_test_on_all_clients : 27
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9010768033212248, 'training_loss': 1.5477116698496813}
+INFO:root:{'test_acc': 0.8910152008686211, 'test_loss': 1.5586341553803504}
+INFO:root:################Communication round : 28
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 229]
+INFO:root:################local_test_on_all_clients : 28
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 229, 299]
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9012551894135963, 'training_loss': 1.5474518091491793}
+INFO:root:{'test_acc': 0.8912866449511401, 'test_loss': 1.559320821306475}
+INFO:root:################Communication round : 29
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 229]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 229, 303]
+INFO:root:################local_test_on_all_clients : 29
+INFO:root:{'training_acc': 0.9025038920601972, 'training_loss': 1.546750563124826}
+INFO:root:{'test_acc': 0.8929153094462541, 'test_loss': 1.5582045342906679}
+INFO:root:################Communication round : 30
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231, 304]
+INFO:root:################local_test_on_all_clients : 30
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9038336792942397, 'training_loss': 1.5463080884464429}
+INFO:root:{'test_acc': 0.8912866449511401, 'test_loss': 1.5583188733759454}
+INFO:root:################Communication round : 31
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 231]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 231, 306]
+INFO:root:################local_test_on_all_clients : 31
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9032498702646601, 'training_loss': 1.5452475058341126}
+INFO:root:{'test_acc': 0.8910152008686211, 'test_loss': 1.5567664820842453}
+INFO:root:################Communication round : 32
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152, 226]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 152, 226, 299]
+INFO:root:################local_test_on_all_clients : 32
+INFO:root:{'training_acc': 0.9052445511157239, 'training_loss': 1.5456960027777413}
+INFO:root:{'test_acc': 0.8934581976112921, 'test_loss': 1.5570335115400122}
+INFO:root:################Communication round : 33
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231, 303]
+INFO:root:################local_test_on_all_clients : 33
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9046283082511676, 'training_loss': 1.5450551181134624}
+INFO:root:{'test_acc': 0.8927795874049945, 'test_loss': 1.5571446472801163}
+INFO:root:################Communication round : 34
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231]
+INFO:root:################local_test_on_all_clients : 34
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231, 300]
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9017092631032694, 'training_loss': 1.5449830493703678}
+INFO:root:{'test_acc': 0.8883007600434311, 'test_loss': 1.5584429679489031}
+INFO:root:################Communication round : 35
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 229]
+INFO:root:################local_test_on_all_clients : 35
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 229, 302]
+INFO:root:{'training_acc': 0.9023579398028023, 'training_loss': 1.5450434899030105}
+INFO:root:{'test_acc': 0.8907437567861021, 'test_loss': 1.5577216744422913}
+INFO:root:################Communication round : 36
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 229]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 229, 307]
+INFO:root:################local_test_on_all_clients : 36
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9029579657498703, 'training_loss': 1.5450573040759186}
+INFO:root:{'test_acc': 0.8910152008686211, 'test_loss': 1.5574369978697629}
+INFO:root:################Communication round : 37
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 233]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 233, 305]
+INFO:root:################local_test_on_all_clients : 37
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9033147379346134, 'training_loss': 1.5451247305505376}
+INFO:root:{'test_acc': 0.8897937024972855, 'test_loss': 1.5572698769300173}
+INFO:root:################Communication round : 38
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230, 307]
+INFO:root:################local_test_on_all_clients : 38
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.905147249610794, 'training_loss': 1.5451923769854732}
+INFO:root:{'test_acc': 0.8922366992399565, 'test_loss': 1.5573143898534723}
+INFO:root:################Communication round : 39
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 232]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 232, 307]
+INFO:root:################local_test_on_all_clients : 39
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9046120913336793, 'training_loss': 1.5442411525800368}
+INFO:root:{'test_acc': 0.8922366992399565, 'test_loss': 1.556442660630461}
+INFO:root:################Communication round : 40
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230, 306]
+INFO:root:################local_test_on_all_clients : 40
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9067365075246497, 'training_loss': 1.5443985642672946}
+INFO:root:{'test_acc': 0.8961726384364821, 'test_loss': 1.5568366154267914}
+INFO:root:################Communication round : 41
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 232]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 232, 306]
+INFO:root:################local_test_on_all_clients : 41
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9075635703165542, 'training_loss': 1.5435207949697074}
+INFO:root:{'test_acc': 0.8960369163952225, 'test_loss': 1.55611008463931}
+INFO:root:################Communication round : 42
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 232]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 232, 304]
+INFO:root:################local_test_on_all_clients : 42
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9079041255838091, 'training_loss': 1.543174936822275}
+INFO:root:{'test_acc': 0.8969869706840391, 'test_loss': 1.5561197943718503}
+INFO:root:################Communication round : 43
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230]
+INFO:root:################local_test_on_all_clients : 43
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230, 304]
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9082284639335755, 'training_loss': 1.543254756678493}
+INFO:root:{'test_acc': 0.8965798045602605, 'test_loss': 1.5561472373275362}
+INFO:root:################Communication round : 44
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 230]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 230, 306]
+INFO:root:################local_test_on_all_clients : 44
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9078230409963675, 'training_loss': 1.5442020898780553}
+INFO:root:{'test_acc': 0.8997014115092291, 'test_loss': 1.5557152827904357}
+INFO:root:################Communication round : 45
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 228]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 153, 228, 302]
+INFO:root:################local_test_on_all_clients : 45
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9060878308251168, 'training_loss': 1.5438289728632355}
+INFO:root:{'test_acc': 0.8946796959826275, 'test_loss': 1.5575097970154852}
+INFO:root:################Communication round : 46
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 230]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 154, 230, 305]
+INFO:root:################local_test_on_all_clients : 46
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9060716139076285, 'training_loss': 1.5431797006005565}
+INFO:root:{'test_acc': 0.8973941368078175, 'test_loss': 1.5574012998972862}
+INFO:root:################Communication round : 47
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231, 307]
+INFO:root:################local_test_on_all_clients : 47
+INFO:root:{'training_acc': 0.9058445770627919, 'training_loss': 1.543583656229624}
+INFO:root:{'test_acc': 0.8969869706840391, 'test_loss': 1.557978186525817}
+INFO:root:################Communication round : 48
+INFO:root:client_indexes = range(0, 4)
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 156, 231, 304]
+INFO:root:################local_test_on_all_clients : 48
+weight vectors = torch.Size([10])
+non-zeros in w_global = 7850
+INFO:root:{'training_acc': 0.9049688635184224, 'training_loss': 1.5439940101327398}
+INFO:root:{'test_acc': 0.8963083604777415, 'test_loss': 1.5586188208720324}
+INFO:root:################Communication round : 49
+INFO:root:client_indexes = range(0, 4)
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230]
+model-new non-zeros = 7850
+key_idx = 0
+non-zeros in gradient = 7200
+key_idx = 1
+non-zeros in gradient = 7200
+p value = 0.01
+nonZerosOfAggregate = [78, 155, 230, 306]
+INFO:root:################local_test_on_all_clients : 49
+Averaged commCost = 32691.6
+Averaged normCost = 18.843076923076925
+INFO:root:{'training_acc': 0.9008659833938765, 'training_loss': 1.544207235375834}
+INFO:root:{'test_acc': 0.8945439739413681, 'test_loss': 1.5584716162321752}

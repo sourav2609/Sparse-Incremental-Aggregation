@@ -1,0 +1,190 @@
+2024-04-11 16:15:08,062 INFO    StreamThr :1189178 [internal.py:wandb_internal():86] W&B internal server running at pid: 1189178, started at: 2024-04-11 16:15:08.061780
+2024-04-11 16:15:08,064 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: status
+2024-04-11 16:15:08,065 INFO    WriterThread:1189178 [datastore.py:open_for_write():87] open: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/run-mpxsohpb.wandb
+2024-04-11 16:15:08,066 DEBUG   SenderThread:1189178 [sender.py:send():379] send: header
+2024-04-11 16:15:08,066 DEBUG   SenderThread:1189178 [sender.py:send():379] send: run
+2024-04-11 16:15:08,462 INFO    SenderThread:1189178 [dir_watcher.py:__init__():211] watching files in: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files
+2024-04-11 16:15:08,462 INFO    SenderThread:1189178 [sender.py:_start_run_threads():1124] run started: mpxsohpb with start time 1712844908.061655
+2024-04-11 16:15:08,470 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: check_version
+2024-04-11 16:15:08,470 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: check_version
+2024-04-11 16:15:08,597 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: run_start
+2024-04-11 16:15:08,598 DEBUG   HandlerThread:1189178 [system_info.py:__init__():26] System info init
+2024-04-11 16:15:08,598 DEBUG   HandlerThread:1189178 [system_info.py:__init__():41] System info init done
+2024-04-11 16:15:08,599 INFO    HandlerThread:1189178 [system_monitor.py:start():194] Starting system monitor
+2024-04-11 16:15:08,599 INFO    SystemMonitor:1189178 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-11 16:15:08,599 INFO    HandlerThread:1189178 [system_monitor.py:probe():214] Collecting system info
+2024-04-11 16:15:08,600 INFO    SystemMonitor:1189178 [interfaces.py:start():190] Started cpu monitoring
+2024-04-11 16:15:08,600 INFO    SystemMonitor:1189178 [interfaces.py:start():190] Started disk monitoring
+2024-04-11 16:15:08,601 INFO    SystemMonitor:1189178 [interfaces.py:start():190] Started memory monitoring
+2024-04-11 16:15:08,601 INFO    SystemMonitor:1189178 [interfaces.py:start():190] Started network monitoring
+2024-04-11 16:15:08,606 DEBUG   HandlerThread:1189178 [system_info.py:probe():150] Probing system
+2024-04-11 16:15:08,608 DEBUG   HandlerThread:1189178 [gitlib.py:_init_repo():56] git repository is invalid
+2024-04-11 16:15:08,608 DEBUG   HandlerThread:1189178 [system_info.py:probe():198] Probing system done
+2024-04-11 16:15:08,608 DEBUG   HandlerThread:1189178 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-10008-tuxedo-x86_64-with-glibc2.35', 'python': '3.11.7', 'heartbeatAt': '2024-04-11T14:15:08.606638', 'startedAt': '2024-04-11T14:15:08.058519', 'docker': None, 'cuda': None, 'args': ('--gpu', '1', '--dataset', 'mnist', '--data_dir', './../../../data/mnist', '--model', 'lr', '--lr', '0.1', '--client_num_in_total', '4', '--client_num_per_round', '4', '--comm_round', '2', '--batch_size', '5'), 'state': 'running', 'program': '/home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/./main_fedavg.py', 'codePathLocal': 'main_fedavg.py', 'codePath': 'main_fedavg.py', 'host': 'kairo', 'username': 'mukherjee', 'executable': '/home/mukherjee/anaconda3/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2.561916666666667, 'min': 400.0, 'max': 4056.0}, 'cpu_freq_per_core': [{'current': 3.365, 'min': 400.0, 'max': 4056.0}, {'current': 0.4, 'min': 400.0, 'max': 4056.0}, {'current': 2.711, 'min': 400.0, 'max': 4056.0}, {'current': 0.4, 'min': 400.0, 'max': 4056.0}, {'current': 4.0, 'min': 400.0, 'max': 4056.0}, {'current': 2.428, 'min': 400.0, 'max': 4056.0}, {'current': 3.093, 'min': 400.0, 'max': 4056.0}, {'current': 3.28, 'min': 400.0, 'max': 4056.0}, {'current': 3.742, 'min': 400.0, 'max': 4056.0}, {'current': 3.625, 'min': 400.0, 'max': 4056.0}, {'current': 3.299, 'min': 400.0, 'max': 4056.0}, {'current': 0.4, 'min': 400.0, 'max': 4056.0}], 'disk': {'/': {'total': 449.01197814941406, 'used': 104.1449089050293}}, 'memory': {'total': 30.681278228759766}}
+2024-04-11 16:15:08,608 INFO    HandlerThread:1189178 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-11 16:15:08,608 INFO    HandlerThread:1189178 [system_monitor.py:probe():227] Publishing system info
+2024-04-11 16:15:08,608 DEBUG   HandlerThread:1189178 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-11 16:15:09,464 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/conda-environment.yaml
+2024-04-11 16:15:12,834 DEBUG   HandlerThread:1189178 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-11 16:15:12,834 INFO    HandlerThread:1189178 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-11 16:15:12,836 DEBUG   SenderThread:1189178 [sender.py:send():379] send: files
+2024-04-11 16:15:12,837 INFO    SenderThread:1189178 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-11 16:15:12,986 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-11 16:15:12,987 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: python_packages
+2024-04-11 16:15:12,988 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:15:12,988 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:15:12,989 DEBUG   SenderThread:1189178 [sender.py:send():379] send: telemetry
+2024-04-11 16:15:12,989 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:15:13,298 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:15:13,438 INFO    wandb-upload_0:1189178 [upload_job.py:push():131] Uploaded file /tmp/tmpr2kesup0wandb/3wux3nsz-wandb-metadata.json
+2024-04-11 16:15:13,464 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/conda-environment.yaml
+2024-04-11 16:15:13,464 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/wandb-metadata.json
+2024-04-11 16:15:13,464 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/requirements.txt
+2024-04-11 16:15:13,464 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/output.log
+2024-04-11 16:15:15,464 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/output.log
+2024-04-11 16:15:18,301 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:15:23,301 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:15:28,693 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:15:29,449 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:15:29,463 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-11 16:15:29,464 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: stop_status
+2024-04-11 16:15:30,469 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/output.log
+2024-04-11 16:15:32,021 DEBUG   SenderThread:1189178 [sender.py:send():379] send: exit
+2024-04-11 16:15:32,021 INFO    SenderThread:1189178 [sender.py:send_exit():586] handling exit code: 1
+2024-04-11 16:15:32,021 INFO    SenderThread:1189178 [sender.py:send_exit():588] handling runtime: 23
+2024-04-11 16:15:32,022 INFO    SenderThread:1189178 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-11 16:15:32,022 INFO    SenderThread:1189178 [sender.py:send_exit():594] send defer
+2024-04-11 16:15:32,022 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:32,022 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-11 16:15:32,022 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:32,022 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-11 16:15:32,022 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 1
+2024-04-11 16:15:32,023 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:32,023 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-11 16:15:32,023 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:32,023 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-11 16:15:32,023 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 2
+2024-04-11 16:15:32,023 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:32,023 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-11 16:15:32,023 INFO    HandlerThread:1189178 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-11 16:15:32,023 DEBUG   SystemMonitor:1189178 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-11 16:15:32,023 DEBUG   SystemMonitor:1189178 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-11 16:15:32,023 DEBUG   SystemMonitor:1189178 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-11 16:15:32,023 INFO    HandlerThread:1189178 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-11 16:15:32,024 INFO    HandlerThread:1189178 [interfaces.py:finish():202] Joined disk monitor
+2024-04-11 16:15:32,024 INFO    HandlerThread:1189178 [interfaces.py:finish():202] Joined memory monitor
+2024-04-11 16:15:32,024 INFO    HandlerThread:1189178 [interfaces.py:finish():202] Joined network monitor
+2024-04-11 16:15:32,024 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:32,024 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-11 16:15:32,024 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 3
+2024-04-11 16:15:32,024 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:32,024 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-11 16:15:32,024 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:32,024 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-11 16:15:32,024 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 4
+2024-04-11 16:15:32,024 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:32,024 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-11 16:15:32,025 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:32,025 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-11 16:15:32,025 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 5
+2024-04-11 16:15:32,025 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:32,025 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-11 16:15:32,025 DEBUG   SenderThread:1189178 [sender.py:send():379] send: summary
+2024-04-11 16:15:32,025 INFO    SenderThread:1189178 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-11 16:15:32,025 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:32,025 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-11 16:15:32,025 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 6
+2024-04-11 16:15:32,025 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:32,026 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-11 16:15:32,026 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:32,026 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-11 16:15:32,027 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: status_report
+2024-04-11 16:15:32,201 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 7
+2024-04-11 16:15:32,201 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:32,201 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-11 16:15:32,201 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:32,201 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-11 16:15:32,470 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/config.yaml
+2024-04-11 16:15:32,470 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/wandb-summary.json
+2024-04-11 16:15:33,021 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-11 16:15:33,470 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/output.log
+2024-04-11 16:15:33,697 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 8
+2024-04-11 16:15:33,697 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: poll_exit
+2024-04-11 16:15:33,697 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:33,698 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-11 16:15:33,698 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:33,698 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-11 16:15:33,698 INFO    SenderThread:1189178 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-11 16:15:33,698 INFO    SenderThread:1189178 [job_builder.py:_get_source_type():466] no source found
+2024-04-11 16:15:33,698 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 9
+2024-04-11 16:15:33,698 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:33,698 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-11 16:15:33,699 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:33,699 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-11 16:15:33,699 INFO    SenderThread:1189178 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-11 16:15:34,022 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-11 16:15:34,470 INFO    Thread-12 :1189178 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/output.log
+2024-04-11 16:15:34,471 INFO    SenderThread:1189178 [dir_watcher.py:finish():388] scan: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files
+2024-04-11 16:15:34,472 INFO    SenderThread:1189178 [dir_watcher.py:finish():402] scan save: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/config.yaml config.yaml
+2024-04-11 16:15:34,472 INFO    SenderThread:1189178 [dir_watcher.py:finish():402] scan save: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/requirements.txt requirements.txt
+2024-04-11 16:15:34,475 INFO    SenderThread:1189178 [dir_watcher.py:finish():402] scan save: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/wandb-summary.json wandb-summary.json
+2024-04-11 16:15:34,477 INFO    SenderThread:1189178 [dir_watcher.py:finish():402] scan save: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/conda-environment.yaml conda-environment.yaml
+2024-04-11 16:15:34,478 INFO    SenderThread:1189178 [dir_watcher.py:finish():402] scan save: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/wandb-metadata.json wandb-metadata.json
+2024-04-11 16:15:34,478 INFO    SenderThread:1189178 [dir_watcher.py:finish():402] scan save: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/output.log output.log
+2024-04-11 16:15:34,478 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 10
+2024-04-11 16:15:34,478 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: poll_exit
+2024-04-11 16:15:34,478 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:34,479 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-11 16:15:34,481 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:34,481 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-11 16:15:34,481 INFO    SenderThread:1189178 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-11 16:15:34,858 INFO    wandb-upload_0:1189178 [upload_job.py:push():131] Uploaded file /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/config.yaml
+2024-04-11 16:15:35,024 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-11 16:15:35,024 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: poll_exit
+2024-04-11 16:15:35,026 INFO    wandb-upload_4:1189178 [upload_job.py:push():131] Uploaded file /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/output.log
+2024-04-11 16:15:35,027 INFO    wandb-upload_1:1189178 [upload_job.py:push():131] Uploaded file /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/requirements.txt
+2024-04-11 16:15:35,042 INFO    wandb-upload_2:1189178 [upload_job.py:push():131] Uploaded file /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/wandb-summary.json
+2024-04-11 16:15:35,071 INFO    wandb-upload_3:1189178 [upload_job.py:push():131] Uploaded file /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/files/conda-environment.yaml
+2024-04-11 16:15:35,271 INFO    Thread-11 (_thread_body):1189178 [sender.py:transition_state():614] send defer: 11
+2024-04-11 16:15:35,272 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:35,272 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-11 16:15:35,272 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:35,273 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-11 16:15:35,273 INFO    SenderThread:1189178 [file_pusher.py:join():178] waiting for file pusher
+2024-04-11 16:15:35,273 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 12
+2024-04-11 16:15:35,273 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:35,273 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-11 16:15:35,274 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:35,274 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-11 16:15:35,274 INFO    SenderThread:1189178 [file_stream.py:finish():614] file stream finish called
+2024-04-11 16:15:35,441 INFO    SenderThread:1189178 [file_stream.py:finish():618] file stream finish is done
+2024-04-11 16:15:35,441 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 13
+2024-04-11 16:15:35,441 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:35,441 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-11 16:15:35,441 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:35,441 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-11 16:15:35,442 INFO    SenderThread:1189178 [sender.py:transition_state():614] send defer: 14
+2024-04-11 16:15:35,442 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: defer
+2024-04-11 16:15:35,442 INFO    HandlerThread:1189178 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-11 16:15:35,442 DEBUG   SenderThread:1189178 [sender.py:send():379] send: final
+2024-04-11 16:15:35,442 DEBUG   SenderThread:1189178 [sender.py:send():379] send: footer
+2024-04-11 16:15:35,442 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: defer
+2024-04-11 16:15:35,442 INFO    SenderThread:1189178 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-11 16:15:35,443 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-11 16:15:35,443 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: poll_exit
+2024-04-11 16:15:35,444 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-11 16:15:35,444 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: server_info
+2024-04-11 16:15:35,444 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-11 16:15:35,444 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-11 16:15:35,444 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: poll_exit
+2024-04-11 16:15:35,445 DEBUG   SenderThread:1189178 [sender.py:send_request():406] send_request: server_info
+2024-04-11 16:15:35,445 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-11 16:15:35,610 INFO    MainThread:1189178 [wandb_run.py:_footer_history_summary_info():3920] rendering history
+2024-04-11 16:15:35,610 INFO    MainThread:1189178 [wandb_run.py:_footer_history_summary_info():3952] rendering summary
+2024-04-11 16:15:35,610 INFO    MainThread:1189178 [wandb_run.py:_footer_sync_info():3879] logging synced files
+2024-04-11 16:15:35,611 DEBUG   HandlerThread:1189178 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-11 16:15:35,611 INFO    HandlerThread:1189178 [handler.py:finish():866] shutting down handler
+2024-04-11 16:15:36,445 INFO    WriterThread:1189178 [datastore.py:close():296] close: /home/mukherjee/Desktop/PhD_Year1/Codes/My Codes/fedml_experiments/standalone/fedavg/wandb/run-20240411_161508-mpxsohpb/run-mpxsohpb.wandb
+2024-04-11 16:15:36,610 INFO    SenderThread:1189178 [sender.py:finish():1546] shutting down sender
+2024-04-11 16:15:36,610 INFO    SenderThread:1189178 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-11 16:15:36,610 INFO    SenderThread:1189178 [file_pusher.py:join():178] waiting for file pusher

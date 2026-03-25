@@ -1,0 +1,23 @@
+{"time":"2024-10-07T15:07:48.662596+02:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-07T15:07:48.662633+02:00","level":"INFO","msg":"created symlink","path":"/Users/souravmukherjee/Desktop/PhD - Uni Bremen/PhD_Year1/Codes/Incremental Aggregation/My Code v.2/fedml_experiments/standalone/fedavg/wandb/run-20241007_150748-onabvmb2/logs/debug-core.log"}
+{"time":"2024-10-07T15:07:48.664837+02:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-07T15:07:48.670466+02:00","level":"INFO","msg":"created new stream","id":"onabvmb2"}
+{"time":"2024-10-07T15:07:48.67051+02:00","level":"INFO","msg":"stream: started","id":"onabvmb2"}
+{"time":"2024-10-07T15:07:48.670515+02:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"onabvmb2"}}
+{"time":"2024-10-07T15:07:48.670576+02:00","level":"INFO","msg":"sender: started","stream_id":{"value":"onabvmb2"}}
+{"time":"2024-10-07T15:07:48.670528+02:00","level":"INFO","msg":"handler: started","stream_id":{"value":"onabvmb2"}}
+{"time":"2024-10-07T15:07:48.883388+02:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-07T15:07:48.884183+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-07T15:07:58.905747+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-07T15:08:08.925063+02:00","level":"ERROR","msg":"monitor: gpu: error sampling metrics: signal: trace/BPT trap"}
+{"time":"2024-10-07T15:08:13.23432+02:00","level":"INFO","msg":"stream: closing","id":"onabvmb2"}
+{"time":"2024-10-07T15:08:13.234499+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-07T15:08:13.234901+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-07T15:08:13.394798+02:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-07T15:08:13.394824+02:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-07T15:08:13.39483+02:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-07T15:08:14.096186+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-07T15:08:14.320601+02:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"onabvmb2"}}
+{"time":"2024-10-07T15:08:14.320626+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"onabvmb2"}}
+{"time":"2024-10-07T15:08:14.320643+02:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"onabvmb2"}}
+{"time":"2024-10-07T15:08:14.320799+02:00","level":"INFO","msg":"stream: closed","id":"onabvmb2"}

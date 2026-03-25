@@ -1,0 +1,92 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+tensor([0, 1, 0, 8, 5, 2, 7, 3, 9, 3])
+%%% pytorch_total_params = 7850
+p in args = 0.01
+In algo 2
+p value = 0.01
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07835409368106916, 'training_loss': 2.328847744089938}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.32873143823605}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 1
+data_trans_norm = 78.0
+Round idx in main = 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.39611716621253407, 'training_loss': 2.169923975636434}
+INFO:root:{'test_acc': 0.3918295331161781, 'test_loss': 2.1701968439109423}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 78.0
+Round idx in main = 2
+INFO:root:################local_test_on_all_clients : 2
+INFO:root:{'training_acc': 0.5283184118333982, 'training_loss': 2.030146626831725}
+INFO:root:{'test_acc': 0.5221226927252985, 'test_loss': 2.029152204366512}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 12)
+round idx in local_test = 2
+data_trans_norm = 78.0
+Round idx in main = 3
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.7068574023614895, 'training_loss': 1.8330820756724515}
+INFO:root:{'test_acc': 0.7029044516829533, 'test_loss': 1.8320511750690842}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 78.0
+Round idx in main = 4
+INFO:root:################local_test_on_all_clients : 4
+INFO:root:{'training_acc': 0.7601368885428831, 'training_loss': 1.7537836230990642}
+INFO:root:{'test_acc': 0.7618078175895765, 'test_loss': 1.7488870944637689}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 12)
+round idx in local_test = 4
+data_trans_norm = 78.0
+Round idx in main = 5
+INFO:root:################local_test_on_all_clients : 5
+INFO:root:{'training_acc': 0.8179739198131569, 'training_loss': 1.6672525553986677}
+INFO:root:{'test_acc': 0.8175895765472313, 'test_loss': 1.664222418452966}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 12)
+round idx in local_test = 5
+data_trans_norm = 78.0
+Round idx in main = 6
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.8254184507590502, 'training_loss': 1.6479537731496465}
+INFO:root:{'test_acc': 0.8241042345276873, 'test_loss': 1.6492072296582656}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 7
+data_trans_norm = 78.0
+Round idx in main = 7
+round idx in local_test = 7
+INFO:root:{'training_acc': 0.8443622680679901, 'training_loss': 1.6179428785996817}
+INFO:root:{'test_acc': 0.8388979370249728, 'test_loss': 1.6206893900188897}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 12)
+INFO:root:################local_test_on_all_clients : 8
+data_trans_norm = 78.0
+Round idx in main = 8
+round idx in local_test = 8
+INFO:root:{'training_acc': 0.8473141300116777, 'training_loss': 1.6090640476029316}
+INFO:root:{'test_acc': 0.8477198697068404, 'test_loss': 1.6133032916164294}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 12)
+data_trans_norm = 78.0
+Round idx in main = 9
+INFO:root:################local_test_on_all_clients : 9
+INFO:root:{'training_acc': 0.8582619696379914, 'training_loss': 1.6038737143116175}
+INFO:root:{'test_acc': 0.8532844733984799, 'test_loss': 1.6095536753422015}
+round idx in local_test = 9
+Averaged commCost = 37908.0
+Averaged normCost = 70.2

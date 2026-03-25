@@ -1,0 +1,115 @@
+
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+INFO:root:################local_test_on_all_clients : 0
+tensor([9, 3, 6, 7, 8, 2, 0, 1, 4, 3])
+%%% pytorch_total_params = 7850
+p in args = 0.01
+In Algo 4
+p value = 0.01
+INFO:root:{'training_acc': 0.07834901070385987, 'training_loss': 2.3288441124033548}
+INFO:root:{'test_acc': 0.07924016282225238, 'test_loss': 2.3287209495275283}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [70]
+nonZerosOfAggregate = [70, 71]
+nonZerosOfAggregate = [70, 71, 71]
+nonZerosOfAggregate = [70, 71, 71, 71]
+nonZerosOfAggregate = [70, 71, 71, 71, 71]
+nonZerosOfAggregate = [70, 71, 71, 71, 71, 71]
+nonZerosOfAggregate = [70, 71, 71, 71, 71, 71, 71]
+nonZerosOfAggregate = [70, 71, 71, 71, 71, 71, 71, 72]
+nonZerosOfAggregate = [70, 71, 71, 71, 71, 71, 71, 72, 72]
+INFO:root:################local_test_on_all_clients : 1
+nonZerosOfAggregate = [70, 71, 71, 71, 71, 71, 71, 72, 72, 72]
+data_trans_norm = 56.0289726414333
+INFO:root:{'training_acc': 0.09914044761595849, 'training_loss': 2.307952779831145}
+INFO:root:{'test_acc': 0.09877883310719132, 'test_loss': 2.3080470079968065}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [77]
+nonZerosOfAggregate = [77, 79]
+nonZerosOfAggregate = [77, 79, 81]
+nonZerosOfAggregate = [77, 79, 81, 81]
+nonZerosOfAggregate = [77, 79, 81, 81, 83]
+nonZerosOfAggregate = [77, 79, 81, 81, 83, 84]
+nonZerosOfAggregate = [77, 79, 81, 81, 83, 84, 84]
+nonZerosOfAggregate = [77, 79, 81, 81, 83, 84, 84, 85]
+nonZerosOfAggregate = [77, 79, 81, 81, 83, 84, 84, 85, 85]
+INFO:root:################local_test_on_all_clients : 2
+nonZerosOfAggregate = [77, 79, 81, 81, 83, 84, 84, 85, 85, 85]
+data_trans_norm = 58.9777950639983
+INFO:root:{'training_acc': 0.1674180992539734, 'training_loss': 2.2646708381744394}
+INFO:root:{'test_acc': 0.16906377204884668, 'test_loss': 2.265396425293776}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [77]
+nonZerosOfAggregate = [77, 81]
+nonZerosOfAggregate = [77, 81, 86]
+nonZerosOfAggregate = [77, 81, 86, 91]
+nonZerosOfAggregate = [77, 81, 86, 91, 92]
+nonZerosOfAggregate = [77, 81, 86, 91, 92, 94]
+nonZerosOfAggregate = [77, 81, 86, 91, 92, 94, 95]
+nonZerosOfAggregate = [77, 81, 86, 91, 92, 94, 95, 95]
+nonZerosOfAggregate = [77, 81, 86, 91, 92, 94, 95, 95, 98]
+INFO:root:################local_test_on_all_clients : 3
+nonZerosOfAggregate = [77, 81, 86, 91, 92, 94, 95, 95, 98, 98]
+data_trans_norm = 65.07708082879569
+INFO:root:{'training_acc': 0.27536490431397986, 'training_loss': 2.224231981473274}
+INFO:root:{'test_acc': 0.2774762550881954, 'test_loss': 2.223248702473686}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [77]
+nonZerosOfAggregate = [77, 84]
+nonZerosOfAggregate = [77, 84, 88]
+nonZerosOfAggregate = [77, 84, 88, 93]
+nonZerosOfAggregate = [77, 84, 88, 93, 96]
+nonZerosOfAggregate = [77, 84, 88, 93, 96, 97]
+nonZerosOfAggregate = [77, 84, 88, 93, 96, 97, 98]
+nonZerosOfAggregate = [77, 84, 88, 93, 96, 97, 98, 99]
+nonZerosOfAggregate = [77, 84, 88, 93, 96, 97, 98, 99, 102]
+nonZerosOfAggregate = [77, 84, 88, 93, 96, 97, 98, 99, 102, 103]
+data_trans_norm = 67.42839968884803
+INFO:root:################local_test_on_all_clients : 4
+INFO:root:{'training_acc': 0.4072980862795978, 'training_loss': 2.1039937180704085}
+INFO:root:{'test_acc': 0.40664857530529175, 'test_loss': 2.1012649888584702}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [77]
+nonZerosOfAggregate = [77, 83]
+nonZerosOfAggregate = [77, 83, 90]
+nonZerosOfAggregate = [77, 83, 90, 96]
+nonZerosOfAggregate = [77, 83, 90, 96, 102]
+nonZerosOfAggregate = [77, 83, 90, 96, 102, 107]
+nonZerosOfAggregate = [77, 83, 90, 96, 102, 107, 110]
+nonZerosOfAggregate = [77, 83, 90, 96, 102, 107, 110, 116]
+nonZerosOfAggregate = [77, 83, 90, 96, 102, 107, 110, 116, 119]
+INFO:root:################local_test_on_all_clients : 5
+nonZerosOfAggregate = [77, 83, 90, 96, 102, 107, 110, 116, 119, 121]
+data_trans_norm = 72.11335831977937
+INFO:root:{'training_acc': 0.5679695102173208, 'training_loss': 1.9068757842934987}
+INFO:root:{'test_acc': 0.5671641791044776, 'test_loss': 1.904688696120455}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 10)
+nonZerosOfAggregate = [77]
+nonZerosOfAggregate = [77, 84]
+nonZerosOfAggregate = [77, 84, 89]
+nonZerosOfAggregate = [77, 84, 89, 95]
+nonZerosOfAggregate = [77, 84, 89, 95, 99]
+nonZerosOfAggregate = [77, 84, 89, 95, 99, 102]
+nonZerosOfAggregate = [77, 84, 89, 95, 99, 102, 106]
+nonZerosOfAggregate = [77, 84, 89, 95, 99, 102, 106, 112]
+nonZerosOfAggregate = [77, 84, 89, 95, 99, 102, 106, 112, 116]
+nonZerosOfAggregate = [77, 84, 89, 95, 99, 102, 106, 112, 116, 122]
+data_trans_norm = 70.66367300756664
+INFO:root:################local_test_on_all_clients : 6
+INFO:root:{'training_acc': 0.673353876094713, 'training_loss': 1.7695016119490186}
+INFO:root:{'test_acc': 0.6719131614654003, 'test_loss': 1.7683891947913202}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 10)

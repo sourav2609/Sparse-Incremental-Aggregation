@@ -1,0 +1,185 @@
+INFO:root:load_data. dataset_name = mnist
+clients = ['0', '1', '2', '3', '4', '5', '6', '7']
+tensor([7, 2, 2, 5, 0, 6, 6, 6, 6, 9])
+INFO:root:create_model. model_name = lr, output_dim = 10
+INFO:root:LogisticRegression + MNIST
+INFO:root:LogisticRegression(
+  (linear): Linear(in_features=784, out_features=10, bias=True)
+)
+INFO:root:############setup_clients (START)#############
+Algo: Majority Voting Masks
+INFO:root:################local_test_on_all_clients : 0
+round idx in local_test = 0
+INFO:root:{'training_acc': 0.07834392838609237, 'training_loss': 2.3288502631545622}
+INFO:root:{'test_acc': 0.07926167209554831, 'test_loss': 2.3287314467787352}
+INFO:root:################Communication round : 1
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  577
+K_Global = [tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 1
+round idx in local_test = 1
+INFO:root:{'training_acc': 0.29389919564089256, 'training_loss': 2.20832956145403}
+INFO:root:{'test_acc': 0.2960097719869707, 'test_loss': 2.2081965454950137}
+INFO:root:################Communication round : 2
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  590
+K_Global = [tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 2
+round idx in local_test = 2
+INFO:root:{'training_acc': 0.4979080176440062, 'training_loss': 2.067499655516858}
+INFO:root:{'test_acc': 0.5, 'test_loss': 2.067483573229771}
+INFO:root:################Communication round : 3
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  627
+K_Global = [tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 3
+round idx in local_test = 3
+INFO:root:{'training_acc': 0.6027828230409964, 'training_loss': 1.8835594329149783}
+INFO:root:{'test_acc': 0.5979913137893594, 'test_loss': 1.8836861200849087}
+INFO:root:################Communication round : 4
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  686
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 4
+round idx in local_test = 4
+INFO:root:{'training_acc': 0.6845647379346134, 'training_loss': 1.7545240481065603}
+INFO:root:{'test_acc': 0.6833604777415853, 'test_loss': 1.7542543716720598}
+INFO:root:################Communication round : 5
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  717
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 5
+round idx in local_test = 5
+INFO:root:{'training_acc': 0.7785742086144266, 'training_loss': 1.6809821725123648}
+INFO:root:{'test_acc': 0.7707654723127035, 'test_loss': 1.6818225457050902}
+INFO:root:################Communication round : 6
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  769
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 6
+round idx in local_test = 6
+INFO:root:{'training_acc': 0.8155325635703166, 'training_loss': 1.6421971771233925}
+INFO:root:{'test_acc': 0.8121606948968513, 'test_loss': 1.6435089207595128}
+INFO:root:################Communication round : 7
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  793
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 7
+round idx in local_test = 7
+INFO:root:{'training_acc': 0.8366307732226258, 'training_loss': 1.620818927018025}
+INFO:root:{'test_acc': 0.8296688382193268, 'test_loss': 1.624193537765942}
+INFO:root:################Communication round : 8
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  809
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 8
+round idx in local_test = 8
+INFO:root:{'training_acc': 0.850609756097561, 'training_loss': 1.6115054497036156}
+INFO:root:{'test_acc': 0.8426981541802389, 'test_loss': 1.6159563054058632}
+INFO:root:################Communication round : 9
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  828
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 9
+round idx in local_test = 9
+INFO:root:{'training_acc': 0.8550369745718733, 'training_loss': 1.6066021985675487}
+INFO:root:{'test_acc': 0.8454125950054289, 'test_loss': 1.6113631058884754}
+INFO:root:################Communication round : 10
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  815
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 10
+round idx in local_test = 10
+INFO:root:{'training_acc': 0.8627562272963155, 'training_loss': 1.6021996396320684}
+INFO:root:{'test_acc': 0.8496199782844734, 'test_loss': 1.6074686808578356}
+INFO:root:################Communication round : 11
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  827
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.)]
+sum off non-zero positions =  78
+INFO:root:################local_test_on_all_clients : 11
+round idx in local_test = 11
+INFO:root:{'training_acc': 0.8604209911779969, 'training_loss': 1.606536449424702}
+INFO:root:{'test_acc': 0.8482627578718784, 'test_loss': 1.6137189245605832}
+INFO:root:################Communication round : 12
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  813
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(77.)]
+sum off non-zero positions =  77
+INFO:root:################local_test_on_all_clients : 12
+round idx in local_test = 12
+INFO:root:{'training_acc': 0.8604047742605085, 'training_loss': 1.6053487501137604}
+INFO:root:{'test_acc': 0.8498914223669924, 'test_loss': 1.6110400854408675}
+INFO:root:################Communication round : 13
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  789
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(77.), tensor(77.)]
+sum off non-zero positions =  77
+INFO:root:################local_test_on_all_clients : 13
+round idx in local_test = 13
+INFO:root:{'training_acc': 0.8599669174883238, 'training_loss': 1.6017778724524785}
+INFO:root:{'test_acc': 0.8515200868621065, 'test_loss': 1.6055933063309822}
+INFO:root:################Communication round : 14
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  775
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(77.), tensor(77.), tensor(76.)]
+sum off non-zero positions =  76
+INFO:root:################local_test_on_all_clients : 14
+round idx in local_test = 14
+INFO:root:{'training_acc': 0.8618967306694344, 'training_loss': 1.5969922874619693}
+INFO:root:{'test_acc': 0.8531487513572205, 'test_loss': 1.602511943616256}
+INFO:root:################Communication round : 15
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  783
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(77.), tensor(77.), tensor(76.), tensor(73.)]
+sum off non-zero positions =  73
+INFO:root:################local_test_on_all_clients : 15
+round idx in local_test = 15
+INFO:root:{'training_acc': 0.8635995070057083, 'training_loss': 1.5949403984973822}
+INFO:root:{'test_acc': 0.8578990228013029, 'test_loss': 1.5988499783343524}
+INFO:root:################Communication round : 16
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  769
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(77.), tensor(77.), tensor(76.), tensor(73.), tensor(72.)]
+sum off non-zero positions =  72
+INFO:root:################local_test_on_all_clients : 16
+round idx in local_test = 16
+INFO:root:{'training_acc': 0.8669564089257914, 'training_loss': 1.590575089205499}
+INFO:root:{'test_acc': 0.8603420195439739, 'test_loss': 1.5950237354840051}
+INFO:root:################Communication round : 17
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  763
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(77.), tensor(77.), tensor(76.), tensor(73.), tensor(72.), tensor(71.)]
+sum off non-zero positions =  71
+INFO:root:################local_test_on_all_clients : 17
+round idx in local_test = 17
+INFO:root:{'training_acc': 0.8599344836533471, 'training_loss': 1.590964940235939}
+INFO:root:{'test_acc': 0.8561346362649295, 'test_loss': 1.5938162050502178}
+INFO:root:################Communication round : 18
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  766
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(77.), tensor(77.), tensor(76.), tensor(73.), tensor(72.), tensor(71.), tensor(71.)]
+sum off non-zero positions =  71
+INFO:root:################local_test_on_all_clients : 18
+round idx in local_test = 18
+INFO:root:{'training_acc': 0.862383238194084, 'training_loss': 1.5906175124905055}
+INFO:root:{'test_acc': 0.8604777415852335, 'test_loss': 1.5964037881806152}
+INFO:root:################Communication round : 19
+INFO:root:client_indexes = range(0, 8)
+sum of votes greater than > t =  746
+K_Global = [tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(78.), tensor(77.), tensor(77.), tensor(76.), tensor(73.), tensor(72.), tensor(71.), tensor(71.), tensor(69.)]
+sum off non-zero positions =  69
+INFO:root:################local_test_on_all_clients : 19
+round idx in local_test = 19
+INFO:root:{'training_acc': 0.8657401401141671, 'training_loss': 1.5891374041324895}
+INFO:root:{'test_acc': 0.8637350705754615, 'test_loss': 1.5947585906934532}
