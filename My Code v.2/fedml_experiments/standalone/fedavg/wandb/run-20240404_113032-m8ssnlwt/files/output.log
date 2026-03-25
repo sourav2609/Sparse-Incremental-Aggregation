@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "/home/mukherjee/Desktop/PhD_Year1/Codes/Code_Nasrin/TCOM_Sourav/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 312, in <module>
-    dataset = load_data(args, args.dataset)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mukherjee/Desktop/PhD_Year1/Codes/Code_Nasrin/TCOM_Sourav/fedml_experiments/standalone/fedavg/./main_fedavg.py", line 186, in load_data
-    data_loader = load_partition_data_cifar10
-                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-NameError: name 'load_partition_data_cifar10' is not defined

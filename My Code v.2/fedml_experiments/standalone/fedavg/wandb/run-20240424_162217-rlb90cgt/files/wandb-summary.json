@@ -1,1 +1,0 @@
-{"Train/Acc": 0.8354955889984432, "round": 17, "_timestamp": 1713970064.0966814, "_runtime": 1526.0959284305573, "_step": 125, "Train/Loss": 1.6250183328514465, "Averaged num of non-zero values per round": 87.25, "Total communication cost (bits)": 12065, "Total communication cost [normalized]": 11.215264187866929, "Test/Acc": 0.8295331161780674, "Test/Loss": 1.6334238701482808}
